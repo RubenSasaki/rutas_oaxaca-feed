@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-22T12:00:00-06:00",
+  "eventos": [
+    {
+      "id": "guelaguetza-2026",
+      "enabled": true,
+      "destacado": true,
+      "prioridad": 1,
+      "tituloES": "Guelaguetza",
+      "tituloEN": "Guelaguetza",
+      "fechaES": "Julio, fechas por confirmar",
+      "fechaEN": "July, dates to confirm",
+      "zonaES": "Auditorio Guelaguetza y Cerro del Fortin",
+      "zonaEN": "Guelaguetza Auditorium and Fortin Hill",
+      "descripcionES": "Aviso comunitario para mostrar rutas utiles hacia el Centro y accesos cercanos.",
+      "descripcionEN": "Community notice for useful routes to Downtown and nearby access points.",
+      "notaES": "No oficial. Confirmar paradas activas el mismo dia.",
+      "notaEN": "Unofficial. Confirm active stops on the event day.",
+      "estado": "proximo",
+      "gratuito": false,
+      "rutas": ["RT01", "RC14", "RA01"],
+      "color": "#7C3AED",
+      "icono": "theater",
+      "visibleDesde": "2026-06-01",
+      "visibleHasta": "2026-08-01"
+    },
+    {
+      "id": "ruta-gratis-centro",
+      "enabled": true,
+      "destacado": false,
+      "prioridad": 5,
+      "tituloES": "Ruta gratuita especial",
+      "tituloEN": "Special free route",
+      "fechaES": "Hoy",
+      "fechaEN": "Today",
+      "zonaES": "Centro historico",
+      "zonaEN": "Historic Downtown",
+      "descripcionES": "Usa este formato cuando haya un aviso verificado de transporte gratuito.",
+      "descripcionEN": "Use this format when there is a verified free transport notice.",
+      "notaES": "Quita enabled o ponlo en false para ocultar este aviso.",
+      "notaEN": "Remove enabled or set it to false to hide this notice.",
+      "estado": "activo",
+      "gratuito": true,
+      "rutas": [],
+      "color": "#10B981",
+      "icono": "free"
+    }
+  ]
+}
