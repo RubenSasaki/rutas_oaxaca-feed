@@ -7,7 +7,7 @@
   "destino": "BASE RUTA 5",
   "destinoEN": "BASE RUTA 5",
   "color": "#3A86FF",
-  "tipo": "citibus",
+  "tipo": "Urbano",
   "esGratuita": false,
   "notaEspecial": "Ruta capturada desde GeoJSON el 2026-06-08. Verificar horarios y nombres en campo.",
   "paradas": [
