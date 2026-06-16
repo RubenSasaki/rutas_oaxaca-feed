@@ -1,0 +1,1288 @@
+{
+  "id": "RT01",
+  "nombre": "KAYAAL",
+  "nombreEN": "Kayaal Line",
+  "origen": "Yuroo Viguera",
+  "origenEN": "Yuroo Viguera",
+  "destino": "Yuroo Xoxocotlán",
+  "destinoEN": "Yuroo Xoxocotlan",
+  "color": "#E63950",
+  "tipo": "citibus",
+  "esGratuita": false,
+  "notaEspecial": "Ruta real capturada con ida y regreso. Horarios aún referenciales, pendientes de validación en campo.",
+  "paradas": [
+    {
+      "id": "RT01_IDA_01",
+      "nombre": "Yuroo Viguera",
+      "nombreEN": "Yuroo Viguera",
+      "lat": 17.12653,
+      "lng": -96.76779,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_02",
+      "nombre": "Rotonda Benito Juárez",
+      "nombreEN": "Benito Juarez Roundabout",
+      "lat": 17.12184,
+      "lng": -96.76401,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_03",
+      "nombre": "COBAO 01",
+      "nombreEN": "COBAO 01",
+      "lat": 17.11844,
+      "lng": -96.76114,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_04",
+      "nombre": "Plutarco Elías Calles",
+      "nombreEN": "Plutarco Elias Calles",
+      "lat": 17.11558,
+      "lng": -96.75879,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_05",
+      "nombre": "Vicente Guerrero",
+      "nombreEN": "Vicente Guerrero",
+      "lat": 17.11226,
+      "lng": -96.75647,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_06",
+      "nombre": "Emiliano Zapata",
+      "nombreEN": "Emiliano Zapata",
+      "lat": 17.10832,
+      "lng": -96.75478,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_07",
+      "nombre": "Brenamiel",
+      "nombreEN": "Brenamiel",
+      "lat": 17.10369,
+      "lng": -96.75283,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_08",
+      "nombre": "Colonia del Maestro",
+      "nombreEN": "Colonia del Maestro",
+      "lat": 17.10157,
+      "lng": -96.7519,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_09",
+      "nombre": "Bugambilias",
+      "nombreEN": "Bugambilias",
+      "lat": 17.09765,
+      "lng": -96.75026,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_10",
+      "nombre": "Zonal Santa Rosa",
+      "nombreEN": "Santa Rosa Zone",
+      "lat": 17.0939,
+      "lng": -96.74862,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_11",
+      "nombre": "Ex Hacienda Santa Rosa",
+      "nombreEN": "Ex Hacienda Santa Rosa",
+      "lat": 17.09121,
+      "lng": -96.74747,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_12",
+      "nombre": "Naga'nda",
+      "nombreEN": "Naga'nda",
+      "lat": 17.08601,
+      "lng": -96.74516,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_13",
+      "nombre": "Cuauhtémoc",
+      "nombreEN": "Cuauhtemoc",
+      "lat": 17.08311,
+      "lng": -96.74395,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_14",
+      "nombre": "Tecnológico",
+      "nombreEN": "Technological Institute",
+      "lat": 17.07929,
+      "lng": -96.7431,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_15",
+      "nombre": "Glorieta de los Niños Héroes",
+      "nombreEN": "Niños Heroes Roundabout",
+      "lat": 17.07561,
+      "lng": -96.74105,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": true
+    },
+    {
+      "id": "RT01_IDA_16",
+      "nombre": "Vicente Suárez",
+      "nombreEN": "Vicente Suarez",
+      "lat": 17.07223,
+      "lng": -96.73848,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_17",
+      "nombre": "Museo del Ferrocarril",
+      "nombreEN": "Railway Museum",
+      "lat": 17.06841,
+      "lng": -96.73666,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": true
+    },
+    {
+      "id": "RT01_IDA_18",
+      "nombre": "Yubez Juana Cata",
+      "nombreEN": "Yubez Juana Cata",
+      "lat": 17.06245,
+      "lng": -96.73474,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_19",
+      "nombre": "Yubez María Sabina",
+      "nombreEN": "Yubez Maria Sabina",
+      "lat": 17.0572,
+      "lng": -96.73092,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_20",
+      "nombre": "Riveras",
+      "nombreEN": "Riveras",
+      "lat": 17.05324,
+      "lng": -96.72956,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_21",
+      "nombre": "Parque del Amor Ladxidó",
+      "nombreEN": "Parque del Amor Ladxido",
+      "lat": 17.05106,
+      "lng": -96.72894,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": true
+    },
+    {
+      "id": "RT01_IDA_22",
+      "nombre": "Parque Primavera Cho'Ndoba",
+      "nombreEN": "Parque Primavera Cho'Ndoba",
+      "lat": 17.04858,
+      "lng": -96.73139,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": true
+    },
+    {
+      "id": "RT01_IDA_23",
+      "nombre": "Santa Anita",
+      "nombreEN": "Santa Anita",
+      "lat": 17.04475,
+      "lng": -96.73056,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_24",
+      "nombre": "Santa Elena",
+      "nombreEN": "Santa Elena",
+      "lat": 17.04031,
+      "lng": -96.72905,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_25",
+      "nombre": "Ex Garita",
+      "nombreEN": "Ex Garita",
+      "lat": 17.03637,
+      "lng": -96.72849,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_26",
+      "nombre": "Rancho Escondido",
+      "nombreEN": "Rancho Escondido",
+      "lat": 17.03475,
+      "lng": -96.72868,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_27",
+      "nombre": "Samaria",
+      "nombreEN": "Samaria",
+      "lat": 17.03178,
+      "lng": -96.72902,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_28",
+      "nombre": "Hornos",
+      "nombreEN": "Hornos",
+      "lat": 17.03012,
+      "lng": -96.72922,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_29",
+      "nombre": "Moctezuma",
+      "nombreEN": "Moctezuma",
+      "lat": 17.02696,
+      "lng": -96.72961,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_30",
+      "nombre": "Mercado de Xoxocotlán",
+      "nombreEN": "Xoxocotlan Market",
+      "lat": 17.02571,
+      "lng": -96.72977,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": true,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_31",
+      "nombre": "Rotonda Xoxocotlán",
+      "nombreEN": "Xoxocotlan Roundabout",
+      "lat": 17.02375,
+      "lng": -96.73001,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_IDA_32",
+      "nombre": "Yuroo Xoxocotlán",
+      "nombreEN": "Yuroo Xoxocotlan",
+      "lat": 17.01638,
+      "lng": -96.73293,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_33",
+      "nombre": "Yuroo Xoxocotlán",
+      "nombreEN": "Yuroo Xoxocotlan",
+      "lat": 17.016158,
+      "lng": -96.732684,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_34",
+      "nombre": "Rotonda Xoxocotlán",
+      "nombreEN": "Xoxocotlan Roundabout",
+      "lat": 17.01768,
+      "lng": -96.73242,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_35",
+      "nombre": "CUBO OAX",
+      "nombreEN": "CUBO OAX",
+      "lat": 17.02256,
+      "lng": -96.730122,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_36",
+      "nombre": "Guadalupe Hinojosa",
+      "nombreEN": "Guadalupe Hinojosa",
+      "lat": 17.023668,
+      "lng": -96.729852,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_37",
+      "nombre": "Chedraui Xoxocotlán",
+      "nombreEN": "Chedraui Xoxocotlan",
+      "lat": 17.025577,
+      "lng": -96.72956,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_38",
+      "nombre": "Boulevard Guadalupe",
+      "nombreEN": "Boulevard Guadalupe",
+      "lat": 17.026491,
+      "lng": -96.729489,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_39",
+      "nombre": "Rinconadas Villas Xoxo",
+      "nombreEN": "Rinconadas Villas Xoxo",
+      "lat": 17.029198,
+      "lng": -96.729171,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_40",
+      "nombre": "Los Laureles",
+      "nombreEN": "Los Laureles",
+      "lat": 17.031554078745938,
+      "lng": -96.72887209850107,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_41",
+      "nombre": "Rancho Escondido",
+      "nombreEN": "Rancho Escondido",
+      "lat": 17.034293538206683,
+      "lng": -96.72849164414811,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_42",
+      "nombre": "Ex Garita",
+      "nombreEN": "Ex Garita",
+      "lat": 17.03627803288611,
+      "lng": -96.72829099356562,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_43",
+      "nombre": "Santa Elena",
+      "nombreEN": "Santa Elena",
+      "lat": 17.04150950234146,
+      "lng": -96.72907625194821,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_44",
+      "nombre": "Meta Nutrition",
+      "nombreEN": "Meta Nutrition",
+      "lat": 17.043292,
+      "lng": -96.72973,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_45",
+      "nombre": "Bodega Aurrera Xoxo",
+      "nombreEN": "Bodega Aurrera Xoxo",
+      "lat": 17.045368526774027,
+      "lng": -96.73059456205192,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_46",
+      "nombre": "Santa Anita",
+      "nombreEN": "Santa Anita",
+      "lat": 17.048402585551617,
+      "lng": -96.73118594329173,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_47",
+      "nombre": "Parque del Amor",
+      "nombreEN": "Parque del Amor",
+      "lat": 17.050585517106978,
+      "lng": -96.72925125297698,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": true
+    },
+    {
+      "id": "RT01_REG_48",
+      "nombre": "Periférico - Nuño del Mercado",
+      "nombreEN": "Periferico - Nuno del Mercado",
+      "lat": 17.055495,
+      "lng": -96.730117,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_49",
+      "nombre": "Central de Abastos",
+      "nombreEN": "Central Market",
+      "lat": 17.060418,
+      "lng": -96.733301,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": true,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_50",
+      "nombre": "Callejón Guadalupe Victoria",
+      "nombreEN": "Guadalupe Victoria Alley",
+      "lat": 17.063908969285936,
+      "lng": -96.73554341534062,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_51",
+      "nombre": "Periférico - Francisco I. Madero",
+      "nombreEN": "Periferico - Francisco I. Madero",
+      "lat": 17.06623261534131,
+      "lng": -96.735393136694,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_52",
+      "nombre": "División Oriente",
+      "nombreEN": "Division Oriente",
+      "lat": 17.068219783042053,
+      "lng": -96.73545549804787,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_53",
+      "nombre": "Niños Héroes",
+      "nombreEN": "Ninos Heroes",
+      "lat": 17.070924,
+      "lng": -96.736576,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_54",
+      "nombre": "Calzada Madero - Niños Héroes 344",
+      "nombreEN": "Madero Avenue - Ninos Heroes 344",
+      "lat": 17.072361,
+      "lng": -96.737336,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_55",
+      "nombre": "Ex Marquesado - Niños Héroes 412",
+      "nombreEN": "Ex Marquesado - Ninos Heroes 412",
+      "lat": 17.073546,
+      "lng": -96.73803,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_56",
+      "nombre": "Panteón del Ex Marquesado",
+      "nombreEN": "Ex Marquesado Cemetery",
+      "lat": 17.075171649807952,
+      "lng": -96.73904229451634,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_57",
+      "nombre": "Monumento a la Madre",
+      "nombreEN": "Mother Monument",
+      "lat": 17.0794,
+      "lng": -96.74129,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_58",
+      "nombre": "Cuauhtémoc",
+      "nombreEN": "Cuauhtemoc",
+      "lat": 17.08306,
+      "lng": -96.74369,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_59",
+      "nombre": "Naga'nda",
+      "nombreEN": "Naga'nda",
+      "lat": 17.0864708,
+      "lng": -96.7452508,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_60",
+      "nombre": "Niidxi",
+      "nombreEN": "Niidxi",
+      "lat": 17.0900134,
+      "lng": -96.746781,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_61",
+      "nombre": "Zonal Santa Rosa",
+      "nombreEN": "Santa Rosa Zone",
+      "lat": 17.09329,
+      "lng": -96.74805,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_62",
+      "nombre": "Bugambilias",
+      "nombreEN": "Bugambilias",
+      "lat": 17.09778,
+      "lng": -96.75001,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_63",
+      "nombre": "Carretera Panamericana - Abraham Castellanos",
+      "nombreEN": "Pan-American Highway - Abraham Castellanos",
+      "lat": 17.099230514928482,
+      "lng": -96.75065341855453,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_64",
+      "nombre": "Colonia del Maestro",
+      "nombreEN": "Colonia del Maestro",
+      "lat": 17.1008405,
+      "lng": -96.7514083,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_65",
+      "nombre": "Jaime Torres Bodet",
+      "nombreEN": "Jaime Torres Bodet",
+      "lat": 17.10498,
+      "lng": -96.75309,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_66",
+      "nombre": "Querétaro",
+      "nombreEN": "Queretaro",
+      "lat": 17.1084425,
+      "lng": -96.7547104,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_67",
+      "nombre": "Vicente Guerrero",
+      "nombreEN": "Vicente Guerrero",
+      "lat": 17.11238,
+      "lng": -96.75631,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_68",
+      "nombre": "Vicente Guerrero",
+      "nombreEN": "Vicente Guerrero",
+      "lat": 17.11238,
+      "lng": -96.75631,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_69",
+      "nombre": "Plutarco Elías Calles",
+      "nombreEN": "Plutarco Elias Calles",
+      "lat": 17.1155529,
+      "lng": -96.758627,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_70",
+      "nombre": "COBAO 01",
+      "nombreEN": "COBAO 01",
+      "lat": 17.1184566,
+      "lng": -96.7609575,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_71",
+      "nombre": "Rotonda Benito Juárez",
+      "nombreEN": "Benito Juarez Roundabout",
+      "lat": 17.12215,
+      "lng": -96.76379,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RT01_REG_72",
+      "nombre": "Yuroo Viguera",
+      "nombreEN": "Yuroo Viguera",
+      "lat": 17.12653,
+      "lng": -96.76779,
+      "rutasQueParanAqui": [
+        "RT01"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    }
+  ],
+  "trayecto": [
+    [
+      17.12653,
+      -96.76779
+    ],
+    [
+      17.12184,
+      -96.76401
+    ],
+    [
+      17.11844,
+      -96.76114
+    ],
+    [
+      17.11558,
+      -96.75879
+    ],
+    [
+      17.11226,
+      -96.75647
+    ],
+    [
+      17.10832,
+      -96.75478
+    ],
+    [
+      17.10369,
+      -96.75283
+    ],
+    [
+      17.10157,
+      -96.7519
+    ],
+    [
+      17.09765,
+      -96.75026
+    ],
+    [
+      17.0939,
+      -96.74862
+    ],
+    [
+      17.09121,
+      -96.74747
+    ],
+    [
+      17.08601,
+      -96.74516
+    ],
+    [
+      17.08311,
+      -96.74395
+    ],
+    [
+      17.07929,
+      -96.7431
+    ],
+    [
+      17.07561,
+      -96.74105
+    ],
+    [
+      17.07223,
+      -96.73848
+    ],
+    [
+      17.06841,
+      -96.73666
+    ],
+    [
+      17.06245,
+      -96.73474
+    ],
+    [
+      17.0572,
+      -96.73092
+    ],
+    [
+      17.05324,
+      -96.72956
+    ],
+    [
+      17.05106,
+      -96.72894
+    ],
+    [
+      17.04858,
+      -96.73139
+    ],
+    [
+      17.04475,
+      -96.73056
+    ],
+    [
+      17.04031,
+      -96.72905
+    ],
+    [
+      17.03637,
+      -96.72849
+    ],
+    [
+      17.03475,
+      -96.72868
+    ],
+    [
+      17.03178,
+      -96.72902
+    ],
+    [
+      17.03012,
+      -96.72922
+    ],
+    [
+      17.02696,
+      -96.72961
+    ],
+    [
+      17.02571,
+      -96.72977
+    ],
+    [
+      17.02375,
+      -96.73001
+    ],
+    [
+      17.01638,
+      -96.73293
+    ],
+    [
+      17.016158,
+      -96.732684
+    ],
+    [
+      17.01768,
+      -96.73242
+    ],
+    [
+      17.02256,
+      -96.730122
+    ],
+    [
+      17.023668,
+      -96.729852
+    ],
+    [
+      17.025577,
+      -96.72956
+    ],
+    [
+      17.026491,
+      -96.729489
+    ],
+    [
+      17.029198,
+      -96.729171
+    ],
+    [
+      17.031554078745938,
+      -96.72887209850107
+    ],
+    [
+      17.034293538206683,
+      -96.72849164414811
+    ],
+    [
+      17.03627803288611,
+      -96.72829099356562
+    ],
+    [
+      17.04150950234146,
+      -96.72907625194821
+    ],
+    [
+      17.043292,
+      -96.72973
+    ],
+    [
+      17.045368526774027,
+      -96.73059456205192
+    ],
+    [
+      17.048402585551617,
+      -96.73118594329173
+    ],
+    [
+      17.050585517106978,
+      -96.72925125297698
+    ],
+    [
+      17.055495,
+      -96.730117
+    ],
+    [
+      17.060418,
+      -96.733301
+    ],
+    [
+      17.063908969285936,
+      -96.73554341534062
+    ],
+    [
+      17.06623261534131,
+      -96.735393136694
+    ],
+    [
+      17.068219783042053,
+      -96.73545549804787
+    ],
+    [
+      17.070924,
+      -96.736576
+    ],
+    [
+      17.072361,
+      -96.737336
+    ],
+    [
+      17.073546,
+      -96.73803
+    ],
+    [
+      17.075171649807952,
+      -96.73904229451634
+    ],
+    [
+      17.0794,
+      -96.74129
+    ],
+    [
+      17.08306,
+      -96.74369
+    ],
+    [
+      17.0864708,
+      -96.7452508
+    ],
+    [
+      17.0900134,
+      -96.746781
+    ],
+    [
+      17.09329,
+      -96.74805
+    ],
+    [
+      17.09778,
+      -96.75001
+    ],
+    [
+      17.099230514928482,
+      -96.75065341855453
+    ],
+    [
+      17.1008405,
+      -96.7514083
+    ],
+    [
+      17.10498,
+      -96.75309
+    ],
+    [
+      17.1084425,
+      -96.7547104
+    ],
+    [
+      17.11238,
+      -96.75631
+    ],
+    [
+      17.11238,
+      -96.75631
+    ],
+    [
+      17.1155529,
+      -96.758627
+    ],
+    [
+      17.1184566,
+      -96.7609575
+    ],
+    [
+      17.12215,
+      -96.76379
+    ],
+    [
+      17.12653,
+      -96.76779
+    ]
+  ],
+  "trayectosPorSegmento": {},
+  "horarios": [
+    {
+      "paradaId": "RT01_IDA_01",
+      "horariosLV": [
+        "05:30",
+        "05:50",
+        "06:10",
+        "06:30",
+        "06:50",
+        "07:10",
+        "07:30",
+        "08:00",
+        "08:30",
+        "09:00",
+        "09:30",
+        "10:00",
+        "10:30",
+        "11:00",
+        "11:30",
+        "12:00",
+        "12:30",
+        "13:00",
+        "13:30",
+        "14:00",
+        "14:30",
+        "15:00",
+        "15:30",
+        "16:00",
+        "16:30",
+        "17:00",
+        "17:30",
+        "18:00",
+        "18:30",
+        "19:00",
+        "19:30",
+        "20:00",
+        "20:30",
+        "21:00",
+        "21:30"
+      ],
+      "horariosSab": [
+        "06:00",
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00"
+      ],
+      "horariosDom": [
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00"
+      ],
+      "servicioGratuito": false
+    },
+    {
+      "paradaId": "RT01_IDA_21",
+      "horariosLV": [
+        "05:42",
+        "06:02",
+        "06:22",
+        "06:42",
+        "07:02",
+        "07:22",
+        "07:42",
+        "08:12",
+        "08:42",
+        "09:12",
+        "09:42",
+        "10:12",
+        "10:42",
+        "11:12",
+        "11:42",
+        "12:12",
+        "12:42",
+        "13:12",
+        "13:42",
+        "14:12",
+        "14:42",
+        "15:12",
+        "15:42",
+        "16:12",
+        "16:42",
+        "17:12",
+        "17:42",
+        "18:12",
+        "18:42",
+        "19:12",
+        "19:42",
+        "20:12",
+        "20:42",
+        "21:12",
+        "21:42"
+      ],
+      "horariosSab": [],
+      "horariosDom": [],
+      "servicioGratuito": false
+    }
+  ]
+}

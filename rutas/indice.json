@@ -1,0 +1,38 @@
+{
+  "version": "2026-06-15",
+  "generatedAt": "2026-06-15T00:00:00.000Z",
+  "rutas": [
+    {
+      "id": "RC01",
+      "version": "2026-06-15-114",
+      "nombre": "DUGUE",
+      "color": "#D946B0",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RC02",
+      "version": "2026-06-15-115",
+      "nombre": "Viguera - Primera Etapa",
+      "color": "#EC6B83",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RT01",
+      "version": "2026-06-15-72",
+      "nombre": "KAYAAL",
+      "color": "#E63950",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RT05",
+      "version": "2026-06-15-124",
+      "nombre": "Los Angeles - Plaza del Valle",
+      "color": "#3A86FF",
+      "activa": true,
+      "temporal": false
+    }
+  ]
+}
