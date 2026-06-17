@@ -13,7 +13,7 @@
     {
       "id": "RC02",
       "version": "2026-06-16-115",
-      "nombre": "Viguera - Primera Etapa",
+      "nombre": "FANE KANTSINI",
       "color": "#EC6B83",
       "activa": true,
       "temporal": false
@@ -21,7 +21,7 @@
     {
       "id": "RC03",
       "version": "2026-06-16-68",
-      "nombre": "NISA San Felipe del Agua - Plaza del Valle",
+      "nombre": "NISA",
       "color": "#BB4639",
       "activa": true,
       "temporal": false
@@ -37,7 +37,7 @@
     {
       "id": "RT05",
       "version": "2026-06-16-124",
-      "nombre": "Los Angeles - Plaza del Valle",
+      "nombre": "Los Angeles",
       "color": "#3A86FF",
       "activa": true,
       "temporal": false
