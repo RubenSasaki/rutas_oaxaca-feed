@@ -882,7 +882,8 @@
       "lat": 17.069362,
       "lng": -96.720011,
       "rutasQueParanAqui": [
-        "RC02"
+        "RC02",
+        "RC03"
       ],
       "esTianguis": false,
       "esEventoCultural": false
@@ -894,7 +895,8 @@
       "lat": 17.067596,
       "lng": -96.720376,
       "rutasQueParanAqui": [
-        "RC02"
+        "RC02",
+        "RC03"
       ],
       "esTianguis": false,
       "esEventoCultural": false
@@ -918,7 +920,8 @@
       "lat": 17.061436,
       "lng": -96.721707,
       "rutasQueParanAqui": [
-        "RC02"
+        "RC02",
+        "RC03"
       ],
       "esTianguis": false,
       "esEventoCultural": false
@@ -930,7 +933,8 @@
       "lat": 17.059558,
       "lng": -96.722148,
       "rutasQueParanAqui": [
-        "RC02"
+        "RC02",
+        "RC03"
       ],
       "esTianguis": false,
       "esEventoCultural": false

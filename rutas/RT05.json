@@ -1,13 +1,13 @@
 {
   "id": "RT05",
-  "nombre": "Los Angeles",
-  "nombreEN": "Los Angeles",
+  "nombre": "Los Angeles - Plaza del Valle",
+  "nombreEN": "Los Angeles - Plaza del Valle",
   "origen": "LAGO VALSEQUILLO",
   "origenEN": "LAGO VALSEQUILLO",
   "destino": "BASE RUTA 5",
   "destinoEN": "BASE RUTA 5",
   "color": "#3A86FF",
-  "tipo": "Urbano",
+  "tipo": "citibus",
   "esGratuita": false,
   "notaEspecial": "Ruta capturada desde GeoJSON el 2026-06-08. Verificar horarios y nombres en campo.",
   "paradas": [
@@ -594,6 +594,7 @@
       "lat": 17.052901,
       "lng": -96.713287,
       "rutasQueParanAqui": [
+        "RC03",
         "RT05"
       ],
       "esTianguis": false,
@@ -606,6 +607,7 @@
       "lat": 17.050332,
       "lng": -96.713605,
       "rutasQueParanAqui": [
+        "RC03",
         "RT05"
       ],
       "esTianguis": false,
@@ -618,6 +620,7 @@
       "lat": 17.048636,
       "lng": -96.713892,
       "rutasQueParanAqui": [
+        "RC03",
         "RT05"
       ],
       "esTianguis": false,
@@ -642,6 +645,7 @@
       "lat": 17.043632,
       "lng": -96.714501,
       "rutasQueParanAqui": [
+        "RC03",
         "RT05"
       ],
       "esTianguis": false,
@@ -654,6 +658,7 @@
       "lat": 17.040303,
       "lng": -96.711995,
       "rutasQueParanAqui": [
+        "RC03",
         "RT05"
       ],
       "esTianguis": false,
@@ -666,6 +671,7 @@
       "lat": 17.037663,
       "lng": -96.710489,
       "rutasQueParanAqui": [
+        "RC03",
         "RT05"
       ],
       "esTianguis": false,
@@ -702,6 +708,7 @@
       "lat": 17.038619,
       "lng": -96.710588,
       "rutasQueParanAqui": [
+        "RC03",
         "RT05"
       ],
       "esTianguis": false,
@@ -714,6 +721,7 @@
       "lat": 17.040122,
       "lng": -96.711477,
       "rutasQueParanAqui": [
+        "RC03",
         "RT05"
       ],
       "esTianguis": false,
@@ -738,6 +746,7 @@
       "lat": 17.043369,
       "lng": -96.71394,
       "rutasQueParanAqui": [
+        "RC03",
         "RT05"
       ],
       "esTianguis": false,
@@ -762,6 +771,7 @@
       "lat": 17.046504,
       "lng": -96.713907,
       "rutasQueParanAqui": [
+        "RC03",
         "RT05"
       ],
       "esTianguis": false,
@@ -774,6 +784,7 @@
       "lat": 17.048617,
       "lng": -96.713624,
       "rutasQueParanAqui": [
+        "RC03",
         "RT05"
       ],
       "esTianguis": false,
@@ -786,6 +797,7 @@
       "lat": 17.050921,
       "lng": -96.713279,
       "rutasQueParanAqui": [
+        "RC03",
         "RT05"
       ],
       "esTianguis": false,
@@ -810,6 +822,7 @@
       "lat": 17.053619,
       "lng": -96.712829,
       "rutasQueParanAqui": [
+        "RC03",
         "RT05"
       ],
       "esTianguis": false,
@@ -822,6 +835,7 @@
       "lat": 17.054316,
       "lng": -96.713881,
       "rutasQueParanAqui": [
+        "RC03",
         "RT05"
       ],
       "esTianguis": false,
@@ -834,6 +848,7 @@
       "lat": 17.054603,
       "lng": -96.715993,
       "rutasQueParanAqui": [
+        "RC03",
         "RT05"
       ],
       "esTianguis": false,
@@ -846,6 +861,7 @@
       "lat": 17.055206,
       "lng": -96.718934,
       "rutasQueParanAqui": [
+        "RC03",
         "RT05"
       ],
       "esTianguis": false,

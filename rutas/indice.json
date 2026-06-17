@@ -1,6 +1,6 @@
 {
-  "version": "2026-06-15",
-  "generatedAt": "2026-06-15T00:00:00.000Z",
+  "version": "2026-06-16",
+  "generatedAt": "2026-06-17T03:10:20.880Z",
   "rutas": [
     {
       "id": "RC01",
@@ -12,9 +12,17 @@
     },
     {
       "id": "RC02",
-      "version": "2026-06-15-115",
+      "version": "2026-06-16-115",
       "nombre": "Viguera - Primera Etapa",
       "color": "#EC6B83",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RC03",
+      "version": "2026-06-16-68",
+      "nombre": "NISA San Felipe del Agua - Plaza del Valle",
+      "color": "#BB4639",
       "activa": true,
       "temporal": false
     },
@@ -28,7 +36,7 @@
     },
     {
       "id": "RT05",
-      "version": "2026-06-15-124",
+      "version": "2026-06-16-124",
       "nombre": "Los Angeles - Plaza del Valle",
       "color": "#3A86FF",
       "activa": true,
