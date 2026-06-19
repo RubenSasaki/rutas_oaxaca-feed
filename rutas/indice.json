@@ -1,6 +1,6 @@
 {
-  "version": "2026-06-16",
-  "generatedAt": "2026-06-17T03:10:20.880Z",
+  "version": "2026-06-18",
+  "generatedAt": "2026-06-19T05:34:19.523Z",
   "rutas": [
     {
       "id": "RC01",
@@ -39,6 +39,22 @@
       "version": "2026-06-16-124",
       "nombre": "Los Angeles",
       "color": "#3A86FF",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RC04",
+      "version": "2026-06-18-103",
+      "nombre": "ATLANTEKOMATL",
+      "color": "#7AA2C1",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RC05",
+      "version": "2026-06-18-64",
+      "nombre": "XUUJX",
+      "color": "#287B71",
       "activa": true,
       "temporal": false
     }
