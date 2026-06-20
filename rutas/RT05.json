@@ -7,7 +7,7 @@
   "destino": "JARDÍN MADERO",
   "destinoEN": "JARDÍN MADERO",
   "color": "#287B71",
-  "tipo": "citibus",
+  "tipo": "Autobus",
   "esGratuita": false,
   "notaEspecial": "Ruta actualizada desde GeoJSON el 2026-06-19. Verificar horarios y nombres en campo.",
   "paradas": [
