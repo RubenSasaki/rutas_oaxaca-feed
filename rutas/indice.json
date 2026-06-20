@@ -1,6 +1,6 @@
 {
-  "version": "2026-06-18",
-  "generatedAt": "2026-06-19T05:34:19.523Z",
+  "version": "2026-06-19",
+  "generatedAt": "2026-06-20T05:40:56.526Z",
   "rutas": [
     {
       "id": "RC01",
@@ -36,9 +36,9 @@
     },
     {
       "id": "RT05",
-      "version": "2026-06-16-124",
+      "version": "2026-06-19-61",
       "nombre": "Los Angeles",
-      "color": "#3A86FF",
+      "color": "#287B71",
       "activa": true,
       "temporal": false
     },
@@ -55,6 +55,22 @@
       "version": "2026-06-18-64",
       "nombre": "XUUJX",
       "color": "#287B71",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RC06",
+      "version": "2026-06-19-96",
+      "nombre": "MONDOK",
+      "color": "#5184C3",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RC07",
+      "version": "2026-06-19-31",
+      "nombre": "VITÚ VIÍ",
+      "color": "#1873A5",
       "activa": true,
       "temporal": false
     }
