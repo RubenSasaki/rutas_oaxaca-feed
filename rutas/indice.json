@@ -1,6 +1,6 @@
 {
-  "version": "2026-06-24",
-  "generatedAt": "2026-06-24T16:56:58.931Z",
+  "version": "2026-06-18",
+  "generatedAt": "2026-06-19T05:34:19.523Z",
   "rutas": [
     {
       "id": "RC01",
@@ -36,7 +36,7 @@
     },
     {
       "id": "RT05",
-      "version": "2026-06-24-124",
+      "version": "2026-06-16-124",
       "nombre": "Los Angeles",
       "color": "#3A86FF",
       "activa": true,
@@ -55,38 +55,6 @@
       "version": "2026-06-18-64",
       "nombre": "XUUJX",
       "color": "#287B71",
-      "activa": true,
-      "temporal": false
-    },
-    {
-      "id": "RC06",
-      "version": "2026-06-24-96",
-      "nombre": "MONDOK",
-      "color": "#5184C3",
-      "activa": true,
-      "temporal": false
-    },
-    {
-      "id": "RC07",
-      "version": "2026-06-24-31",
-      "nombre": "VITÚ VIÍ",
-      "color": "#1873A5",
-      "activa": true,
-      "temporal": false
-    },
-    {
-      "id": "RC08",
-      "version": "2026-06-24-95",
-      "nombre": "RUJA",
-      "color": "#BB5817",
-      "activa": true,
-      "temporal": false
-    },
-    {
-      "id": "RC09",
-      "version": "2026-06-24-99",
-      "nombre": "KÍTSIAN JAN",
-      "color": "#06AFA5",
       "activa": true,
       "temporal": false
     }
