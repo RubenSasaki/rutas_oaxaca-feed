@@ -1,6 +1,6 @@
 {
-  "version": "2026-06-26",
-  "generatedAt": "2026-06-27T00:35:00.000Z",
+  "version": "2026-06-28",
+  "generatedAt": "2026-06-28T15:26:16.381Z",
   "rutas": [
     {
       "id": "RC01",
@@ -103,6 +103,14 @@
       "version": "2026-06-26-85",
       "nombre": "MÁ",
       "color": "#006634",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RC12",
+      "version": "2026-06-28-64",
+      "nombre": "ÑUNDA",
+      "color": "#F3632D",
       "activa": true,
       "temporal": false
     }
