@@ -7,7 +7,7 @@
   "destino": "PLAZA DEL VALLE",
   "destinoEN": "PLAZA DEL VALLE",
   "color": "#3A86FF",
-  "tipo": "citibus",
+  "tipo": "Autobus",
   "esGratuita": false,
   "notaEspecial": "Ruta capturada desde GeoJSON el 2026-06-24. Verificar horarios y nombres en campo.",
   "paradas": [
