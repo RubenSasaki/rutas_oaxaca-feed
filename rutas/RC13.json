@@ -1,0 +1,6976 @@
+{
+  "id": "RC13",
+  "nombre": "YUKU TAY",
+  "nombreEN": "YUKU TAY",
+  "origen": "HOSPITAL ISSSTE",
+  "origenEN": "HOSPITAL ISSSTE",
+  "destino": "BASE CRIT",
+  "destinoEN": "BASE CRIT",
+  "color": "#682B69",
+  "tipo": "citibus",
+  "esGratuita": false,
+  "notaEspecial": "Ruta capturada desde GeoJSON el 2026-06-29. Verificar horarios y nombres en campo.",
+  "paradas": [
+    {
+      "id": "RC13_IDA_01",
+      "nombre": "GERARDO VALERA",
+      "nombreEN": "GERARDO VALERA",
+      "lat": 17.082764,
+      "lng": -96.719531,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_02",
+      "nombre": "BASE ISSSTE",
+      "nombreEN": "BASE ISSSTE",
+      "lat": 17.083051,
+      "lng": -96.721518,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_03",
+      "nombre": "FÉLIX ROMERO",
+      "nombreEN": "FÉLIX ROMERO",
+      "lat": 17.083736,
+      "lng": -96.720432,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_04",
+      "nombre": "FUENTE DE LAS 8 REGIONES",
+      "nombreEN": "FUENTE DE LAS 8 REGIONES",
+      "lat": 17.082204,
+      "lng": -96.719164,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_05",
+      "nombre": "HEROICA ESCUELA NAVAL MILITAR",
+      "nombreEN": "HEROICA ESCUELA NAVAL MILITAR",
+      "lat": 17.079414,
+      "lng": -96.719329,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_06",
+      "nombre": "AV. BELISARIO DOMINGUEZ",
+      "nombreEN": "AV. BELISARIO DOMINGUEZ",
+      "lat": 17.076161,
+      "lng": -96.719707,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_07",
+      "nombre": "CRUCERO DE FONAPAZ",
+      "nombreEN": "CRUCERO DE FONAPAZ",
+      "lat": 17.070934,
+      "lng": -96.719811,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_08",
+      "nombre": "EL LLANO",
+      "nombreEN": "EL LLANO",
+      "lat": 17.069362,
+      "lng": -96.720015,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_09",
+      "nombre": "HUMBOLDT",
+      "nombreEN": "HUMBOLDT",
+      "lat": 17.067598,
+      "lng": -96.720372,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_10",
+      "nombre": "CONSTITUCIÓN",
+      "nombreEN": "CONSTITUCIÓN",
+      "lat": 17.065309,
+      "lng": -96.720834,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_11",
+      "nombre": "MURGUIA",
+      "nombreEN": "MURGUIA",
+      "lat": 17.063316,
+      "lng": -96.721276,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_12",
+      "nombre": "AV. DE LA INDEPENDENCIA",
+      "nombreEN": "AV. DE LA INDEPENDENCIA",
+      "lat": 17.061435,
+      "lng": -96.721699,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_13",
+      "nombre": "VICENTE GUERRERO",
+      "nombreEN": "VICENTE GUERRERO",
+      "lat": 17.059558,
+      "lng": -96.722143,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_14",
+      "nombre": "RAYÓN",
+      "nombreEN": "RAYÓN",
+      "lat": 17.057696,
+      "lng": -96.722534,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_15",
+      "nombre": "BUSTAMANTE",
+      "nombreEN": "BUSTAMANTE",
+      "lat": 17.057295,
+      "lng": -96.72542,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_16",
+      "nombre": "ZARAGOZA",
+      "nombreEN": "ZARAGOZA",
+      "lat": 17.056638,
+      "lng": -96.72672,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_17",
+      "nombre": "MIGUEL CABRERA",
+      "nombreEN": "MIGUEL CABRERA",
+      "lat": 17.054647,
+      "lng": -96.727117,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_18",
+      "nombre": "PREPA 1",
+      "nombreEN": "PREPA 1",
+      "lat": 17.051048,
+      "lng": -96.727912,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_19",
+      "nombre": "AV FERROCARRIL GUILLERMO PRIETO",
+      "nombreEN": "AV FERROCARRIL GUILLERMO PRIETO",
+      "lat": 17.048655,
+      "lng": -96.731496,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_20",
+      "nombre": "SANTA ANITA",
+      "nombreEN": "SANTA ANITA",
+      "lat": 17.044715,
+      "lng": -96.730659,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_21",
+      "nombre": "SANTA ELENA",
+      "nombreEN": "SANTA ELENA",
+      "lat": 17.040294,
+      "lng": -96.729212,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_22",
+      "nombre": "EX GARITA",
+      "nombreEN": "EX GARITA",
+      "lat": 17.036369,
+      "lng": -96.728573,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_23",
+      "nombre": "RANCHO ESCONDIDO",
+      "nombreEN": "RANCHO ESCONDIDO",
+      "lat": 17.034647,
+      "lng": -96.728771,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_24",
+      "nombre": "SAMARIA",
+      "nombreEN": "SAMARIA",
+      "lat": 17.03176,
+      "lng": -96.729099,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_25",
+      "nombre": "HORNOS",
+      "nombreEN": "HORNOS",
+      "lat": 17.029678,
+      "lng": -96.729357,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_26",
+      "nombre": "MOCTEZUMA",
+      "nombreEN": "MOCTEZUMA",
+      "lat": 17.026816,
+      "lng": -96.729768,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_27",
+      "nombre": "MERCADO DE XOXOCOTLÁN",
+      "nombreEN": "MERCADO DE XOXOCOTLÁN",
+      "lat": 17.025621,
+      "lng": -96.729865,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_28",
+      "nombre": "ROTONDA XOXOCOTLÁN",
+      "nombreEN": "ROTONDA XOXOCOTLÁN",
+      "lat": 17.023574,
+      "lng": -96.730157,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_29",
+      "nombre": "PROGRESO",
+      "nombreEN": "PROGRESO",
+      "lat": 17.023978,
+      "lng": -96.733131,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_30",
+      "nombre": "INSURGENTES",
+      "nombreEN": "INSURGENTES",
+      "lat": 17.024721,
+      "lng": -96.735609,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_31",
+      "nombre": "MI RANCHITO",
+      "nombreEN": "MI RANCHITO",
+      "lat": 17.023005,
+      "lng": -96.739943,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_32",
+      "nombre": "DONAJÍ",
+      "nombreEN": "DONAJÍ",
+      "lat": 17.021582,
+      "lng": -96.743583,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_33",
+      "nombre": "ESQUIPULAS",
+      "nombreEN": "ESQUIPULAS",
+      "lat": 17.020226,
+      "lng": -96.747063,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_34",
+      "nombre": "3 DE OCTUBRE",
+      "nombreEN": "3 DE OCTUBRE",
+      "lat": 17.018874,
+      "lng": -96.750126,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_35",
+      "nombre": "ÁLAMOS",
+      "nombreEN": "ÁLAMOS",
+      "lat": 17.016769,
+      "lng": -96.753712,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_36",
+      "nombre": "PUENTE DE NAZARENO XOXO",
+      "nombreEN": "PUENTE DE NAZARENO XOXO",
+      "lat": 17.015145,
+      "lng": -96.756428,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_37",
+      "nombre": "MORELOS",
+      "nombreEN": "MORELOS",
+      "lat": 17.013631,
+      "lng": -96.758974,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_38",
+      "nombre": "CRUZ BLANCA",
+      "nombreEN": "CRUZ BLANCA",
+      "lat": 17.011506,
+      "lng": -96.762504,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_39",
+      "nombre": "EL BAJÍO",
+      "nombreEN": "EL BAJÍO",
+      "lat": 17.009529,
+      "lng": -96.765755,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_40",
+      "nombre": "EL TEPEYAC",
+      "nombreEN": "EL TEPEYAC",
+      "lat": 17.007439,
+      "lng": -96.768113,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_41",
+      "nombre": "MOCTEZUMA",
+      "nombreEN": "MOCTEZUMA",
+      "lat": 17.006809,
+      "lng": -96.765659,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_42",
+      "nombre": "ENRIQUE RÉBSAMEN",
+      "nombreEN": "ENRIQUE RÉBSAMEN",
+      "lat": 17.005759,
+      "lng": -96.762064,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_43",
+      "nombre": "LA SOLEDAD",
+      "nombreEN": "LA SOLEDAD",
+      "lat": 17.00276,
+      "lng": -96.760031,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_44",
+      "nombre": "SABINO CRESPO",
+      "nombreEN": "SABINO CRESPO",
+      "lat": 16.999615,
+      "lng": -96.758603,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_IDA_45",
+      "nombre": "BASE CRIT",
+      "nombreEN": "BASE CRIT",
+      "lat": 16.997031,
+      "lng": -96.75662,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_01",
+      "nombre": "ANAHUAC",
+      "nombreEN": "ANAHUAC",
+      "lat": 16.996926,
+      "lng": -96.753007,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_02",
+      "nombre": "BASE CRIT",
+      "nombreEN": "BASE CRIT",
+      "lat": 16.997035,
+      "lng": -96.756616,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_03",
+      "nombre": "CRIT",
+      "nombreEN": "CRIT",
+      "lat": 16.997191,
+      "lng": -96.755673,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_04",
+      "nombre": "TANQUE ELEVADO",
+      "nombreEN": "TANQUE ELEVADO",
+      "lat": 16.999438,
+      "lng": -96.758473,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_05",
+      "nombre": "LA SOLEDAD",
+      "nombreEN": "LA SOLEDAD",
+      "lat": 17.002694,
+      "lng": -96.75975,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_06",
+      "nombre": "EMRIQUE RÉBSAMEN",
+      "nombreEN": "EMRIQUE RÉBSAMEN",
+      "lat": 17.005747,
+      "lng": -96.761756,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_07",
+      "nombre": "23 DE ABRIL",
+      "nombreEN": "23 DE ABRIL",
+      "lat": 17.006955,
+      "lng": -96.766387,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_08",
+      "nombre": "CARRETERA A CUILAPAM",
+      "nombreEN": "CARRETERA A CUILAPAM",
+      "lat": 17.007913,
+      "lng": -96.768052,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_09",
+      "nombre": "EL BAJÍO",
+      "nombreEN": "EL BAJÍO",
+      "lat": 17.009599,
+      "lng": -96.765231,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_10",
+      "nombre": "CRUZ BLANCA",
+      "nombreEN": "CRUZ BLANCA",
+      "lat": 17.011309,
+      "lng": -96.762413,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_11",
+      "nombre": "RÍO GRIJALVA",
+      "nombreEN": "RÍO GRIJALVA",
+      "lat": 17.012564,
+      "lng": -96.760316,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_12",
+      "nombre": "EMILIANO ZAPATA",
+      "nombreEN": "EMILIANO ZAPATA",
+      "lat": 17.014953,
+      "lng": -96.756354,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_13",
+      "nombre": "ÁLAMOS",
+      "nombreEN": "ÁLAMOS",
+      "lat": 17.016464,
+      "lng": -96.753781,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_14",
+      "nombre": "CRUCERO DE ARRAZOLA",
+      "nombreEN": "CRUCERO DE ARRAZOLA",
+      "lat": 17.018852,
+      "lng": -96.749795,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_15",
+      "nombre": "ESQUIPULAS",
+      "nombreEN": "ESQUIPULAS",
+      "lat": 17.020075,
+      "lng": -96.747007,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_16",
+      "nombre": "DONAJÍ",
+      "nombreEN": "DONAJÍ",
+      "lat": 17.021295,
+      "lng": -96.743917,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_17",
+      "nombre": "MI RANCHITO",
+      "nombreEN": "MI RANCHITO",
+      "lat": 17.022913,
+      "lng": -96.739757,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_18",
+      "nombre": "INSURGENTES",
+      "nombreEN": "INSURGENTES",
+      "lat": 17.024475,
+      "lng": -96.735801,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_19",
+      "nombre": "PROGRESO",
+      "nombreEN": "PROGRESO",
+      "lat": 17.023887,
+      "lng": -96.733163,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_20",
+      "nombre": "PORFIRIO DIAZ",
+      "nombreEN": "PORFIRIO DIAZ",
+      "lat": 17.023054,
+      "lng": -96.730255,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_21",
+      "nombre": "ROTONDA XOXOCOTLÁN",
+      "nombreEN": "ROTONDA XOXOCOTLÁN",
+      "lat": 17.023412,
+      "lng": -96.729875,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_22",
+      "nombre": "MOCTEZUMA",
+      "nombreEN": "MOCTEZUMA",
+      "lat": 17.026557,
+      "lng": -96.729475,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_23",
+      "nombre": "HORNOS",
+      "nombreEN": "HORNOS",
+      "lat": 17.029446,
+      "lng": -96.729132,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_24",
+      "nombre": "SAMARIA",
+      "nombreEN": "SAMARIA",
+      "lat": 17.031574,
+      "lng": -96.728877,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_25",
+      "nombre": "RANCHO ESCONDIDO",
+      "nombreEN": "RANCHO ESCONDIDO",
+      "lat": 17.034301,
+      "lng": -96.728489,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_26",
+      "nombre": "EX GARITA",
+      "nombreEN": "EX GARITA",
+      "lat": 17.036253,
+      "lng": -96.728296,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_27",
+      "nombre": "SANTA ELENA",
+      "nombreEN": "SANTA ELENA",
+      "lat": 17.041477,
+      "lng": -96.729077,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_28",
+      "nombre": "SANTA ANITA",
+      "nombreEN": "SANTA ANITA",
+      "lat": 17.045357,
+      "lng": -96.730571,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_29",
+      "nombre": "AV. FERROCARRIL GUILLERMO PRIETO",
+      "nombreEN": "AV. FERROCARRIL GUILLERMO PRIETO",
+      "lat": 17.048394,
+      "lng": -96.731208,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_30",
+      "nombre": "YUROO PARQUYE DEL AMOR \"LADXIDÓ\"",
+      "nombreEN": "YUROO PARQUYE DEL AMOR \"LADXIDÓ\"",
+      "lat": 17.050568,
+      "lng": -96.728857,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_31",
+      "nombre": "PREPARATORIA 7",
+      "nombreEN": "PREPARATORIA 7",
+      "lat": 17.053346,
+      "lng": -96.728411,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_32",
+      "nombre": "NUÑO DEL MERCADO",
+      "nombreEN": "NUÑO DEL MERCADO",
+      "lat": 17.054676,
+      "lng": -96.728068,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_33",
+      "nombre": "IGNACIO ZARAGOZA",
+      "nombreEN": "IGNACIO ZARAGOZA",
+      "lat": 17.056655,
+      "lng": -96.727645,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_34",
+      "nombre": "MERCADO 20 DE NOVIEMBRE",
+      "nombreEN": "MERCADO 20 DE NOVIEMBRE",
+      "lat": 17.058405,
+      "lng": -96.727284,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_35",
+      "nombre": "MIGUEL HIDALGO",
+      "nombreEN": "MIGUEL HIDALGO",
+      "lat": 17.061292,
+      "lng": -96.726681,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_36",
+      "nombre": "MORELOS",
+      "nombreEN": "MORELOS",
+      "lat": 17.063047,
+      "lng": -96.726315,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_37",
+      "nombre": "ALLENDE",
+      "nombreEN": "ALLENDE",
+      "lat": 17.065915,
+      "lng": -96.725759,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_38",
+      "nombre": "QUETZALCÓATL",
+      "nombreEN": "QUETZALCÓATL",
+      "lat": 17.067839,
+      "lng": -96.725359,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_39",
+      "nombre": "MARCOS PÉREZ",
+      "nombreEN": "MARCOS PÉREZ",
+      "lat": 17.069709,
+      "lng": -96.724981,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_40",
+      "nombre": "PORFIRIO DÍAZ",
+      "nombreEN": "PORFIRIO DÍAZ",
+      "lat": 17.072312,
+      "lng": -96.724395,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_41",
+      "nombre": "IMSS",
+      "nombreEN": "IMSS",
+      "lat": 17.071871,
+      "lng": -96.721344,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_42",
+      "nombre": "PRIV. DE LOS ALMENDROS",
+      "nombreEN": "PRIV. DE LOS ALMENDROS",
+      "lat": 17.072685,
+      "lng": -96.717711,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_43",
+      "nombre": "AV. BELISARIO DOMINGUEZ",
+      "nombreEN": "AV. BELISARIO DOMINGUEZ",
+      "lat": 17.075359,
+      "lng": -96.717185,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_44",
+      "nombre": "HEROICA ESCUELA NAVAL MILITAR",
+      "nombreEN": "HEROICA ESCUELA NAVAL MILITAR",
+      "lat": 17.078613,
+      "lng": -96.716787,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_45",
+      "nombre": "AV. FUERZA AEREA MEXICANA",
+      "nombreEN": "AV. FUERZA AEREA MEXICANA",
+      "lat": 17.080913,
+      "lng": -96.716446,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_46",
+      "nombre": "HOSPITAL CIVIL",
+      "nombreEN": "HOSPITAL CIVIL",
+      "lat": 17.082713,
+      "lng": -96.718279,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_47",
+      "nombre": "ROCIO",
+      "nombreEN": "ROCIO",
+      "lat": 17.084092,
+      "lng": -96.720776,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_48",
+      "nombre": "HOSPITAL ISSSTE",
+      "nombreEN": "HOSPITAL ISSSTE",
+      "lat": 17.084419,
+      "lng": -96.722074,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_49",
+      "nombre": "MARCOS PEREZ",
+      "nombreEN": "MARCOS PEREZ",
+      "lat": 17.083451,
+      "lng": -96.723498,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_50",
+      "nombre": "IGNACIO MARISCAL",
+      "nombreEN": "IGNACIO MARISCAL",
+      "lat": 17.082849,
+      "lng": -96.723763,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC13_REG_51",
+      "nombre": "BASE ISSSTE",
+      "nombreEN": "BASE ISSSTE",
+      "lat": 17.083048,
+      "lng": -96.721519,
+      "rutasQueParanAqui": [
+        "RC13"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    }
+  ],
+  "trayecto": [
+    [
+      17.083109,
+      -96.721508
+    ],
+    [
+      17.083097,
+      -96.721429
+    ],
+    [
+      17.083086,
+      -96.72133
+    ],
+    [
+      17.083083,
+      -96.721251
+    ],
+    [
+      17.083083,
+      -96.721176
+    ],
+    [
+      17.083103,
+      -96.721129
+    ],
+    [
+      17.083119,
+      -96.721104
+    ],
+    [
+      17.083129,
+      -96.721068
+    ],
+    [
+      17.083123,
+      -96.721022
+    ],
+    [
+      17.083199,
+      -96.720939
+    ],
+    [
+      17.08337,
+      -96.720784
+    ],
+    [
+      17.083629,
+      -96.720568
+    ],
+    [
+      17.083759,
+      -96.720455
+    ],
+    [
+      17.083795,
+      -96.720417
+    ],
+    [
+      17.083805,
+      -96.720404
+    ],
+    [
+      17.083802,
+      -96.720387
+    ],
+    [
+      17.083739,
+      -96.720351
+    ],
+    [
+      17.083396,
+      -96.720172
+    ],
+    [
+      17.08317,
+      -96.72006
+    ],
+    [
+      17.08301,
+      -96.719947
+    ],
+    [
+      17.082957,
+      -96.719896
+    ],
+    [
+      17.082931,
+      -96.719856
+    ],
+    [
+      17.082866,
+      -96.719768
+    ],
+    [
+      17.08284,
+      -96.719682
+    ],
+    [
+      17.082811,
+      -96.719536
+    ],
+    [
+      17.082797,
+      -96.719414
+    ],
+    [
+      17.082777,
+      -96.719223
+    ],
+    [
+      17.082771,
+      -96.719183
+    ],
+    [
+      17.082767,
+      -96.719161
+    ],
+    [
+      17.082754,
+      -96.719154
+    ],
+    [
+      17.082579,
+      -96.719133
+    ],
+    [
+      17.082157,
+      -96.719091
+    ],
+    [
+      17.082043,
+      -96.719063
+    ],
+    [
+      17.082,
+      -96.719025
+    ],
+    [
+      17.081959,
+      -96.718996
+    ],
+    [
+      17.081927,
+      -96.718973
+    ],
+    [
+      17.081793,
+      -96.718962
+    ],
+    [
+      17.081537,
+      -96.718988
+    ],
+    [
+      17.080955,
+      -96.719097
+    ],
+    [
+      17.080366,
+      -96.719159
+    ],
+    [
+      17.079636,
+      -96.719233
+    ],
+    [
+      17.079208,
+      -96.719294
+    ],
+    [
+      17.079187,
+      -96.7193
+    ],
+    [
+      17.07917,
+      -96.719309
+    ],
+    [
+      17.079149,
+      -96.719338
+    ],
+    [
+      17.079128,
+      -96.719368
+    ],
+    [
+      17.079089,
+      -96.719397
+    ],
+    [
+      17.07905,
+      -96.719406
+    ],
+    [
+      17.079018,
+      -96.719402
+    ],
+    [
+      17.078968,
+      -96.719399
+    ],
+    [
+      17.078925,
+      -96.719379
+    ],
+    [
+      17.078887,
+      -96.719355
+    ],
+    [
+      17.078865,
+      -96.719348
+    ],
+    [
+      17.078834,
+      -96.719346
+    ],
+    [
+      17.078297,
+      -96.719403
+    ],
+    [
+      17.077779,
+      -96.719481
+    ],
+    [
+      17.077409,
+      -96.719529
+    ],
+    [
+      17.076942,
+      -96.719584
+    ],
+    [
+      17.076284,
+      -96.719657
+    ],
+    [
+      17.075644,
+      -96.719712
+    ],
+    [
+      17.075503,
+      -96.719723
+    ],
+    [
+      17.075456,
+      -96.719717
+    ],
+    [
+      17.075354,
+      -96.719704
+    ],
+    [
+      17.075138,
+      -96.719672
+    ],
+    [
+      17.074664,
+      -96.719518
+    ],
+    [
+      17.074617,
+      -96.719516
+    ],
+    [
+      17.074576,
+      -96.719528
+    ],
+    [
+      17.074545,
+      -96.719531
+    ],
+    [
+      17.074473,
+      -96.719524
+    ],
+    [
+      17.07434,
+      -96.719482
+    ],
+    [
+      17.074315,
+      -96.719472
+    ],
+    [
+      17.074307,
+      -96.719465
+    ],
+    [
+      17.074292,
+      -96.719453
+    ],
+    [
+      17.073857,
+      -96.719481
+    ],
+    [
+      17.072892,
+      -96.719553
+    ],
+    [
+      17.071924,
+      -96.719626
+    ],
+    [
+      17.071493,
+      -96.719675
+    ],
+    [
+      17.070794,
+      -96.719776
+    ],
+    [
+      17.069945,
+      -96.719888
+    ],
+    [
+      17.069321,
+      -96.71997
+    ],
+    [
+      17.069149,
+      -96.719994
+    ],
+    [
+      17.068768,
+      -96.720076
+    ],
+    [
+      17.068246,
+      -96.72017
+    ],
+    [
+      17.067569,
+      -96.720318
+    ],
+    [
+      17.066293,
+      -96.72058
+    ],
+    [
+      17.065339,
+      -96.720776
+    ],
+    [
+      17.064668,
+      -96.72094
+    ],
+    [
+      17.063857,
+      -96.721114
+    ],
+    [
+      17.06296,
+      -96.721294
+    ],
+    [
+      17.062962,
+      -96.721294
+    ],
+    [
+      17.062652,
+      -96.721364
+    ],
+    [
+      17.062315,
+      -96.72143
+    ],
+    [
+      17.062185,
+      -96.721474
+    ],
+    [
+      17.061774,
+      -96.72158
+    ],
+    [
+      17.061217,
+      -96.721716
+    ],
+    [
+      17.060596,
+      -96.721832
+    ],
+    [
+      17.060049,
+      -96.721952
+    ],
+    [
+      17.059567,
+      -96.722074
+    ],
+    [
+      17.058934,
+      -96.72221
+    ],
+    [
+      17.058431,
+      -96.72232
+    ],
+    [
+      17.05792,
+      -96.722431
+    ],
+    [
+      17.057516,
+      -96.722511
+    ],
+    [
+      17.056996,
+      -96.722601
+    ],
+    [
+      17.056751,
+      -96.722632
+    ],
+    [
+      17.056711,
+      -96.722636
+    ],
+    [
+      17.05669,
+      -96.722643
+    ],
+    [
+      17.05668,
+      -96.722675
+    ],
+    [
+      17.056822,
+      -96.723417
+    ],
+    [
+      17.057009,
+      -96.724241
+    ],
+    [
+      17.057116,
+      -96.724719
+    ],
+    [
+      17.057217,
+      -96.725259
+    ],
+    [
+      17.057297,
+      -96.72572
+    ],
+    [
+      17.057397,
+      -96.726221
+    ],
+    [
+      17.057411,
+      -96.726286
+    ],
+    [
+      17.057426,
+      -96.726369
+    ],
+    [
+      17.05744,
+      -96.726437
+    ],
+    [
+      17.05743,
+      -96.726492
+    ],
+    [
+      17.057367,
+      -96.726513
+    ],
+    [
+      17.056878,
+      -96.726608
+    ],
+    [
+      17.056256,
+      -96.726747
+    ],
+    [
+      17.055464,
+      -96.726915
+    ],
+    [
+      17.054778,
+      -96.727061
+    ],
+    [
+      17.054153,
+      -96.727174
+    ],
+    [
+      17.053425,
+      -96.727333
+    ],
+    [
+      17.052695,
+      -96.727493
+    ],
+    [
+      17.052217,
+      -96.727604
+    ],
+    [
+      17.051577,
+      -96.727749
+    ],
+    [
+      17.051222,
+      -96.727821
+    ],
+    [
+      17.050741,
+      -96.727926
+    ],
+    [
+      17.050677,
+      -96.727948
+    ],
+    [
+      17.050662,
+      -96.727959
+    ],
+    [
+      17.050571,
+      -96.728016
+    ],
+    [
+      17.050466,
+      -96.728112
+    ],
+    [
+      17.05027,
+      -96.728399
+    ],
+    [
+      17.050225,
+      -96.72851
+    ],
+    [
+      17.050041,
+      -96.72916
+    ],
+    [
+      17.04985,
+      -96.729836
+    ],
+    [
+      17.049576,
+      -96.730781
+    ],
+    [
+      17.049509,
+      -96.731064
+    ],
+    [
+      17.049477,
+      -96.731107
+    ],
+    [
+      17.049432,
+      -96.731165
+    ],
+    [
+      17.049385,
+      -96.73121
+    ],
+    [
+      17.049242,
+      -96.731292
+    ],
+    [
+      17.049074,
+      -96.731374
+    ],
+    [
+      17.048902,
+      -96.731406
+    ],
+    [
+      17.048825,
+      -96.731421
+    ],
+    [
+      17.048631,
+      -96.731419
+    ],
+    [
+      17.048396,
+      -96.731413
+    ],
+    [
+      17.047901,
+      -96.731308
+    ],
+    [
+      17.046759,
+      -96.731113
+    ],
+    [
+      17.046109,
+      -96.731017
+    ],
+    [
+      17.045738,
+      -96.73096
+    ],
+    [
+      17.045447,
+      -96.73088
+    ],
+    [
+      17.044943,
+      -96.730675
+    ],
+    [
+      17.044119,
+      -96.730322
+    ],
+    [
+      17.043033,
+      -96.729842
+    ],
+    [
+      17.042294,
+      -96.729543
+    ],
+    [
+      17.042096,
+      -96.729453
+    ],
+    [
+      17.041786,
+      -96.729354
+    ],
+    [
+      17.041571,
+      -96.729297
+    ],
+    [
+      17.040959,
+      -96.72919
+    ],
+    [
+      17.039984,
+      -96.729016
+    ],
+    [
+      17.039125,
+      -96.728869
+    ],
+    [
+      17.038429,
+      -96.72875
+    ],
+    [
+      17.03777,
+      -96.728631
+    ],
+    [
+      17.037436,
+      -96.728576
+    ],
+    [
+      17.036837,
+      -96.7285
+    ],
+    [
+      17.036516,
+      -96.728502
+    ],
+    [
+      17.036161,
+      -96.728508
+    ],
+    [
+      17.035767,
+      -96.728539
+    ],
+    [
+      17.035196,
+      -96.728614
+    ],
+    [
+      17.03457,
+      -96.728694
+    ],
+    [
+      17.034029,
+      -96.72875
+    ],
+    [
+      17.033183,
+      -96.728858
+    ],
+    [
+      17.032444,
+      -96.728938
+    ],
+    [
+      17.031619,
+      -96.729049
+    ],
+    [
+      17.030719,
+      -96.729168
+    ],
+    [
+      17.029882,
+      -96.72926
+    ],
+    [
+      17.029179,
+      -96.72935
+    ],
+    [
+      17.028146,
+      -96.729478
+    ],
+    [
+      17.027452,
+      -96.729578
+    ],
+    [
+      17.026673,
+      -96.729683
+    ],
+    [
+      17.026178,
+      -96.729734
+    ],
+    [
+      17.025924,
+      -96.729754
+    ],
+    [
+      17.025437,
+      -96.729828
+    ],
+    [
+      17.024655,
+      -96.729924
+    ],
+    [
+      17.023863,
+      -96.730031
+    ],
+    [
+      17.02357,
+      -96.73008
+    ],
+    [
+      17.023352,
+      -96.730127
+    ],
+    [
+      17.023322,
+      -96.730131
+    ],
+    [
+      17.023314,
+      -96.730148
+    ],
+    [
+      17.023309,
+      -96.730177
+    ],
+    [
+      17.023225,
+      -96.730523
+    ],
+    [
+      17.023191,
+      -96.730666
+    ],
+    [
+      17.023189,
+      -96.730705
+    ],
+    [
+      17.023193,
+      -96.730765
+    ],
+    [
+      17.023329,
+      -96.731253
+    ],
+    [
+      17.023535,
+      -96.731954
+    ],
+    [
+      17.02379,
+      -96.732743
+    ],
+    [
+      17.024056,
+      -96.733501
+    ],
+    [
+      17.024485,
+      -96.734754
+    ],
+    [
+      17.02467,
+      -96.735338
+    ],
+    [
+      17.024688,
+      -96.735383
+    ],
+    [
+      17.024698,
+      -96.735455
+    ],
+    [
+      17.024687,
+      -96.735529
+    ],
+    [
+      17.02444,
+      -96.736127
+    ],
+    [
+      17.02402,
+      -96.73725
+    ],
+    [
+      17.023482,
+      -96.738611
+    ],
+    [
+      17.022907,
+      -96.740081
+    ],
+    [
+      17.022422,
+      -96.741319
+    ],
+    [
+      17.022011,
+      -96.742377
+    ],
+    [
+      17.021619,
+      -96.743375
+    ],
+    [
+      17.021139,
+      -96.744587
+    ],
+    [
+      17.020652,
+      -96.745818
+    ],
+    [
+      17.020245,
+      -96.746886
+    ],
+    [
+      17.019776,
+      -96.748034
+    ],
+    [
+      17.019472,
+      -96.748823
+    ],
+    [
+      17.019315,
+      -96.749236
+    ],
+    [
+      17.019289,
+      -96.74932
+    ],
+    [
+      17.01911,
+      -96.749607
+    ],
+    [
+      17.018365,
+      -96.750892
+    ],
+    [
+      17.018081,
+      -96.75139
+    ],
+    [
+      17.017956,
+      -96.751585
+    ],
+    [
+      17.017747,
+      -96.751952
+    ],
+    [
+      17.017431,
+      -96.75246
+    ],
+    [
+      17.016944,
+      -96.753304
+    ],
+    [
+      17.01624,
+      -96.75445
+    ],
+    [
+      17.015458,
+      -96.755764
+    ],
+    [
+      17.015064,
+      -96.756438
+    ],
+    [
+      17.014562,
+      -96.757254
+    ],
+    [
+      17.013917,
+      -96.758355
+    ],
+    [
+      17.013256,
+      -96.759485
+    ],
+    [
+      17.012442,
+      -96.760801
+    ],
+    [
+      17.011732,
+      -96.761999
+    ],
+    [
+      17.010921,
+      -96.763332
+    ],
+    [
+      17.010464,
+      -96.764101
+    ],
+    [
+      17.009915,
+      -96.765015
+    ],
+    [
+      17.009271,
+      -96.766051
+    ],
+    [
+      17.00878,
+      -96.766864
+    ],
+    [
+      17.008448,
+      -96.767417
+    ],
+    [
+      17.008118,
+      -96.767977
+    ],
+    [
+      17.008043,
+      -96.768083
+    ],
+    [
+      17.007953,
+      -96.768267
+    ],
+    [
+      17.007917,
+      -96.768295
+    ],
+    [
+      17.007872,
+      -96.768293
+    ],
+    [
+      17.00786,
+      -96.76829
+    ],
+    [
+      17.007824,
+      -96.768279
+    ],
+    [
+      17.007793,
+      -96.768279
+    ],
+    [
+      17.007762,
+      -96.768279
+    ],
+    [
+      17.007691,
+      -96.768266
+    ],
+    [
+      17.007593,
+      -96.768223
+    ],
+    [
+      17.007441,
+      -96.768019
+    ],
+    [
+      17.007272,
+      -96.767633
+    ],
+    [
+      17.007021,
+      -96.76714
+    ],
+    [
+      17.006937,
+      -96.766723
+    ],
+    [
+      17.006881,
+      -96.766087
+    ],
+    [
+      17.006861,
+      -96.765627
+    ],
+    [
+      17.006838,
+      -96.765385
+    ],
+    [
+      17.006805,
+      -96.765251
+    ],
+    [
+      17.006706,
+      -96.765033
+    ],
+    [
+      17.006588,
+      -96.764655
+    ],
+    [
+      17.006386,
+      -96.764078
+    ],
+    [
+      17.006115,
+      -96.763337
+    ],
+    [
+      17.005949,
+      -96.762879
+    ],
+    [
+      17.005862,
+      -96.7623
+    ],
+    [
+      17.005806,
+      -96.761978
+    ],
+    [
+      17.005774,
+      -96.761846
+    ],
+    [
+      17.005746,
+      -96.761815
+    ],
+    [
+      17.005695,
+      -96.761768
+    ],
+    [
+      17.005671,
+      -96.761747
+    ],
+    [
+      17.005244,
+      -96.76156
+    ],
+    [
+      17.004578,
+      -96.761226
+    ],
+    [
+      17.004058,
+      -96.7609
+    ],
+    [
+      17.003593,
+      -96.760612
+    ],
+    [
+      17.003193,
+      -96.760337
+    ],
+    [
+      17.003113,
+      -96.760277
+    ],
+    [
+      17.002764,
+      -96.759933
+    ],
+    [
+      17.002579,
+      -96.759733
+    ],
+    [
+      17.002464,
+      -96.759655
+    ],
+    [
+      17.002382,
+      -96.759624
+    ],
+    [
+      17.002246,
+      -96.759608
+    ],
+    [
+      17.001984,
+      -96.759593
+    ],
+    [
+      17.001867,
+      -96.759581
+    ],
+    [
+      17.001398,
+      -96.759399
+    ],
+    [
+      17.000756,
+      -96.759059
+    ],
+    [
+      17.00039,
+      -96.758859
+    ],
+    [
+      17.000387,
+      -96.758859
+    ],
+    [
+      17.000023,
+      -96.758691
+    ],
+    [
+      16.999792,
+      -96.758581
+    ],
+    [
+      16.999595,
+      -96.758509
+    ],
+    [
+      16.999397,
+      -96.75853
+    ],
+    [
+      16.99917,
+      -96.758584
+    ],
+    [
+      16.998992,
+      -96.75863
+    ],
+    [
+      16.998954,
+      -96.758635
+    ],
+    [
+      16.998819,
+      -96.758602
+    ],
+    [
+      16.998071,
+      -96.758367
+    ],
+    [
+      16.997487,
+      -96.758191
+    ],
+    [
+      16.997382,
+      -96.758155
+    ],
+    [
+      16.99733,
+      -96.758125
+    ],
+    [
+      16.997297,
+      -96.758087
+    ],
+    [
+      16.99724,
+      -96.757987
+    ],
+    [
+      16.997173,
+      -96.757714
+    ],
+    [
+      16.997122,
+      -96.75736
+    ],
+    [
+      16.997106,
+      -96.756919
+    ],
+    [
+      16.997097,
+      -96.75666
+    ],
+    [
+      16.997095,
+      -96.756606
+    ],
+    [
+      16.997094,
+      -96.756625
+    ],
+    [
+      16.997073,
+      -96.755963
+    ],
+    [
+      16.997053,
+      -96.755462
+    ],
+    [
+      16.997038,
+      -96.754854
+    ],
+    [
+      16.99701,
+      -96.754186
+    ],
+    [
+      16.996988,
+      -96.753563
+    ],
+    [
+      16.996969,
+      -96.753008
+    ],
+    [
+      16.996972,
+      -96.752927
+    ],
+    [
+      16.996989,
+      -96.752906
+    ],
+    [
+      16.99701,
+      -96.752909
+    ],
+    [
+      16.99704,
+      -96.752934
+    ],
+    [
+      16.99706,
+      -96.753543
+    ],
+    [
+      16.997069,
+      -96.754123
+    ],
+    [
+      16.997093,
+      -96.754689
+    ],
+    [
+      16.99712,
+      -96.755354
+    ],
+    [
+      16.997145,
+      -96.755931
+    ],
+    [
+      16.997169,
+      -96.756444
+    ],
+    [
+      16.997188,
+      -96.756947
+    ],
+    [
+      16.997205,
+      -96.757315
+    ],
+    [
+      16.997212,
+      -96.75767
+    ],
+    [
+      16.997229,
+      -96.757871
+    ],
+    [
+      16.997244,
+      -96.757964
+    ],
+    [
+      16.997283,
+      -96.758052
+    ],
+    [
+      16.997355,
+      -96.758139
+    ],
+    [
+      16.997552,
+      -96.75822
+    ],
+    [
+      16.997953,
+      -96.75833
+    ],
+    [
+      16.998287,
+      -96.758434
+    ],
+    [
+      16.998695,
+      -96.758547
+    ],
+    [
+      16.998927,
+      -96.758621
+    ],
+    [
+      16.998994,
+      -96.758635
+    ],
+    [
+      16.99924,
+      -96.758572
+    ],
+    [
+      16.999389,
+      -96.758522
+    ],
+    [
+      16.999573,
+      -96.758503
+    ],
+    [
+      16.999643,
+      -96.758515
+    ],
+    [
+      16.999827,
+      -96.758579
+    ],
+    [
+      17.000199,
+      -96.758766
+    ],
+    [
+      17.000428,
+      -96.758877
+    ],
+    [
+      17.000651,
+      -96.758991
+    ],
+    [
+      17.000808,
+      -96.759074
+    ],
+    [
+      17.001116,
+      -96.75924
+    ],
+    [
+      17.001428,
+      -96.759407
+    ],
+    [
+      17.001683,
+      -96.759517
+    ],
+    [
+      17.001831,
+      -96.75957
+    ],
+    [
+      17.001964,
+      -96.75961
+    ],
+    [
+      17.002157,
+      -96.759606
+    ],
+    [
+      17.002377,
+      -96.759626
+    ],
+    [
+      17.002441,
+      -96.759637
+    ],
+    [
+      17.002515,
+      -96.759678
+    ],
+    [
+      17.002637,
+      -96.759773
+    ],
+    [
+      17.002728,
+      -96.759875
+    ],
+    [
+      17.003055,
+      -96.760193
+    ],
+    [
+      17.003147,
+      -96.760301
+    ],
+    [
+      17.003383,
+      -96.760453
+    ],
+    [
+      17.003744,
+      -96.760686
+    ],
+    [
+      17.004166,
+      -96.760957
+    ],
+    [
+      17.004622,
+      -96.761225
+    ],
+    [
+      17.004916,
+      -96.761407
+    ],
+    [
+      17.005314,
+      -96.761584
+    ],
+    [
+      17.005618,
+      -96.761728
+    ],
+    [
+      17.005686,
+      -96.76176
+    ],
+    [
+      17.005711,
+      -96.761787
+    ],
+    [
+      17.005748,
+      -96.761805
+    ],
+    [
+      17.005767,
+      -96.761833
+    ],
+    [
+      17.005816,
+      -96.761958
+    ],
+    [
+      17.005888,
+      -96.76243
+    ],
+    [
+      17.005952,
+      -96.762887
+    ],
+    [
+      17.006108,
+      -96.763294
+    ],
+    [
+      17.006351,
+      -96.763969
+    ],
+    [
+      17.006505,
+      -96.764388
+    ],
+    [
+      17.006642,
+      -96.764835
+    ],
+    [
+      17.006724,
+      -96.765064
+    ],
+    [
+      17.006739,
+      -96.765124
+    ],
+    [
+      17.006821,
+      -96.765308
+    ],
+    [
+      17.006877,
+      -96.765708
+    ],
+    [
+      17.006905,
+      -96.766402
+    ],
+    [
+      17.006954,
+      -96.766835
+    ],
+    [
+      17.006992,
+      -96.766968
+    ],
+    [
+      17.00702,
+      -96.767071
+    ],
+    [
+      17.00704,
+      -96.767129
+    ],
+    [
+      17.007209,
+      -96.767502
+    ],
+    [
+      17.007441,
+      -96.767997
+    ],
+    [
+      17.007521,
+      -96.768114
+    ],
+    [
+      17.007562,
+      -96.768181
+    ],
+    [
+      17.007634,
+      -96.768231
+    ],
+    [
+      17.007667,
+      -96.768251
+    ],
+    [
+      17.007789,
+      -96.768279
+    ],
+    [
+      17.00782,
+      -96.768265
+    ],
+    [
+      17.007853,
+      -96.768219
+    ],
+    [
+      17.00796,
+      -96.768049
+    ],
+    [
+      17.008143,
+      -96.767778
+    ],
+    [
+      17.008414,
+      -96.767324
+    ],
+    [
+      17.008702,
+      -96.76685
+    ],
+    [
+      17.009006,
+      -96.766347
+    ],
+    [
+      17.009274,
+      -96.765906
+    ],
+    [
+      17.009456,
+      -96.765608
+    ],
+    [
+      17.009658,
+      -96.76526
+    ],
+    [
+      17.009919,
+      -96.7648
+    ],
+    [
+      17.010236,
+      -96.764299
+    ],
+    [
+      17.010462,
+      -96.763922
+    ],
+    [
+      17.010666,
+      -96.763582
+    ],
+    [
+      17.010912,
+      -96.763174
+    ],
+    [
+      17.011094,
+      -96.762867
+    ],
+    [
+      17.011301,
+      -96.762535
+    ],
+    [
+      17.011511,
+      -96.762186
+    ],
+    [
+      17.011747,
+      -96.761809
+    ],
+    [
+      17.011941,
+      -96.761479
+    ],
+    [
+      17.012132,
+      -96.761173
+    ],
+    [
+      17.012391,
+      -96.760733
+    ],
+    [
+      17.012576,
+      -96.760426
+    ],
+    [
+      17.012718,
+      -96.7602
+    ],
+    [
+      17.012934,
+      -96.759822
+    ],
+    [
+      17.013225,
+      -96.75936
+    ],
+    [
+      17.013448,
+      -96.758979
+    ],
+    [
+      17.013597,
+      -96.758723
+    ],
+    [
+      17.013878,
+      -96.758265
+    ],
+    [
+      17.014078,
+      -96.757924
+    ],
+    [
+      17.014315,
+      -96.757512
+    ],
+    [
+      17.014604,
+      -96.757043
+    ],
+    [
+      17.014796,
+      -96.756724
+    ],
+    [
+      17.015062,
+      -96.75626
+    ],
+    [
+      17.015308,
+      -96.755845
+    ],
+    [
+      17.015602,
+      -96.755352
+    ],
+    [
+      17.015914,
+      -96.754825
+    ],
+    [
+      17.016141,
+      -96.75445
+    ],
+    [
+      17.016436,
+      -96.753977
+    ],
+    [
+      17.016657,
+      -96.753615
+    ],
+    [
+      17.016899,
+      -96.753225
+    ],
+    [
+      17.017162,
+      -96.752797
+    ],
+    [
+      17.017394,
+      -96.75242
+    ],
+    [
+      17.0176,
+      -96.752069
+    ],
+    [
+      17.017741,
+      -96.75182
+    ],
+    [
+      17.01792,
+      -96.751521
+    ],
+    [
+      17.017977,
+      -96.751421
+    ],
+    [
+      17.018075,
+      -96.751258
+    ],
+    [
+      17.018467,
+      -96.750608
+    ],
+    [
+      17.018787,
+      -96.750063
+    ],
+    [
+      17.018976,
+      -96.749709
+    ],
+    [
+      17.019252,
+      -96.749181
+    ],
+    [
+      17.019493,
+      -96.748574
+    ],
+    [
+      17.019702,
+      -96.748037
+    ],
+    [
+      17.019907,
+      -96.747516
+    ],
+    [
+      17.020136,
+      -96.746904
+    ],
+    [
+      17.020409,
+      -96.746238
+    ],
+    [
+      17.020642,
+      -96.74565
+    ],
+    [
+      17.020861,
+      -96.745116
+    ],
+    [
+      17.021016,
+      -96.744723
+    ],
+    [
+      17.021177,
+      -96.744311
+    ],
+    [
+      17.021377,
+      -96.743835
+    ],
+    [
+      17.021519,
+      -96.743425
+    ],
+    [
+      17.021678,
+      -96.743014
+    ],
+    [
+      17.021851,
+      -96.742609
+    ],
+    [
+      17.022027,
+      -96.742143
+    ],
+    [
+      17.022203,
+      -96.741717
+    ],
+    [
+      17.022429,
+      -96.741111
+    ],
+    [
+      17.022649,
+      -96.74057
+    ],
+    [
+      17.02288,
+      -96.739933
+    ],
+    [
+      17.022991,
+      -96.739677
+    ],
+    [
+      17.023118,
+      -96.739327
+    ],
+    [
+      17.023254,
+      -96.738964
+    ],
+    [
+      17.023515,
+      -96.738317
+    ],
+    [
+      17.02373,
+      -96.737777
+    ],
+    [
+      17.023876,
+      -96.737417
+    ],
+    [
+      17.023999,
+      -96.7371
+    ],
+    [
+      17.024175,
+      -96.736671
+    ],
+    [
+      17.024357,
+      -96.736205
+    ],
+    [
+      17.024559,
+      -96.735723
+    ],
+    [
+      17.024636,
+      -96.735509
+    ],
+    [
+      17.02467,
+      -96.735439
+    ],
+    [
+      17.024685,
+      -96.735393
+    ],
+    [
+      17.024667,
+      -96.735319
+    ],
+    [
+      17.02443,
+      -96.734564
+    ],
+    [
+      17.024115,
+      -96.733656
+    ],
+    [
+      17.023735,
+      -96.732597
+    ],
+    [
+      17.023628,
+      -96.732307
+    ],
+    [
+      17.023603,
+      -96.732215
+    ],
+    [
+      17.023578,
+      -96.732134
+    ],
+    [
+      17.023537,
+      -96.731976
+    ],
+    [
+      17.023458,
+      -96.731727
+    ],
+    [
+      17.023226,
+      -96.730894
+    ],
+    [
+      17.023163,
+      -96.730601
+    ],
+    [
+      17.023116,
+      -96.73031
+    ],
+    [
+      17.023078,
+      -96.730121
+    ],
+    [
+      17.023068,
+      -96.730058
+    ],
+    [
+      17.023068,
+      -96.730017
+    ],
+    [
+      17.023089,
+      -96.729994
+    ],
+    [
+      17.023148,
+      -96.729971
+    ],
+    [
+      17.023296,
+      -96.729966
+    ],
+    [
+      17.02347,
+      -96.72993
+    ],
+    [
+      17.023976,
+      -96.729853
+    ],
+    [
+      17.024528,
+      -96.729786
+    ],
+    [
+      17.025031,
+      -96.729725
+    ],
+    [
+      17.025677,
+      -96.729656
+    ],
+    [
+      17.026295,
+      -96.729587
+    ],
+    [
+      17.026805,
+      -96.729519
+    ],
+    [
+      17.027475,
+      -96.729441
+    ],
+    [
+      17.028084,
+      -96.729369
+    ],
+    [
+      17.0286,
+      -96.729298
+    ],
+    [
+      17.029177,
+      -96.729231
+    ],
+    [
+      17.029616,
+      -96.729162
+    ],
+    [
+      17.030075,
+      -96.729115
+    ],
+    [
+      17.030756,
+      -96.729029
+    ],
+    [
+      17.031399,
+      -96.728948
+    ],
+    [
+      17.03197,
+      -96.728877
+    ],
+    [
+      17.032418,
+      -96.728815
+    ],
+    [
+      17.033112,
+      -96.728731
+    ],
+    [
+      17.033664,
+      -96.728666
+    ],
+    [
+      17.034237,
+      -96.728594
+    ],
+    [
+      17.034759,
+      -96.72853
+    ],
+    [
+      17.035263,
+      -96.728476
+    ],
+    [
+      17.035735,
+      -96.72842
+    ],
+    [
+      17.036133,
+      -96.728371
+    ],
+    [
+      17.036213,
+      -96.728358
+    ],
+    [
+      17.036694,
+      -96.728352
+    ],
+    [
+      17.037243,
+      -96.728382
+    ],
+    [
+      17.037732,
+      -96.72847
+    ],
+    [
+      17.038243,
+      -96.728558
+    ],
+    [
+      17.038751,
+      -96.728631
+    ],
+    [
+      17.039023,
+      -96.728682
+    ],
+    [
+      17.039521,
+      -96.728773
+    ],
+    [
+      17.040037,
+      -96.728873
+    ],
+    [
+      17.040759,
+      -96.728998
+    ],
+    [
+      17.041292,
+      -96.729096
+    ],
+    [
+      17.041639,
+      -96.729168
+    ],
+    [
+      17.042102,
+      -96.729295
+    ],
+    [
+      17.042573,
+      -96.729483
+    ],
+    [
+      17.043204,
+      -96.729741
+    ],
+    [
+      17.043865,
+      -96.730017
+    ],
+    [
+      17.04444,
+      -96.730276
+    ],
+    [
+      17.045192,
+      -96.730572
+    ],
+    [
+      17.045587,
+      -96.73074
+    ],
+    [
+      17.045641,
+      -96.73076
+    ],
+    [
+      17.045758,
+      -96.730787
+    ],
+    [
+      17.046393,
+      -96.730906
+    ],
+    [
+      17.04713,
+      -96.731034
+    ],
+    [
+      17.04779,
+      -96.731149
+    ],
+    [
+      17.0483,
+      -96.731245
+    ],
+    [
+      17.048464,
+      -96.731279
+    ],
+    [
+      17.048546,
+      -96.731294
+    ],
+    [
+      17.048773,
+      -96.731307
+    ],
+    [
+      17.048847,
+      -96.7313
+    ],
+    [
+      17.049018,
+      -96.731282
+    ],
+    [
+      17.049103,
+      -96.731249
+    ],
+    [
+      17.049289,
+      -96.731136
+    ],
+    [
+      17.04937,
+      -96.73109
+    ],
+    [
+      17.049426,
+      -96.731075
+    ],
+    [
+      17.049463,
+      -96.73107
+    ],
+    [
+      17.049546,
+      -96.731046
+    ],
+    [
+      17.049609,
+      -96.731007
+    ],
+    [
+      17.049639,
+      -96.730969
+    ],
+    [
+      17.0497,
+      -96.730849
+    ],
+    [
+      17.049763,
+      -96.73068
+    ],
+    [
+      17.049817,
+      -96.730493
+    ],
+    [
+      17.049913,
+      -96.730154
+    ],
+    [
+      17.049997,
+      -96.729859
+    ],
+    [
+      17.050097,
+      -96.729507
+    ],
+    [
+      17.050143,
+      -96.729339
+    ],
+    [
+      17.050172,
+      -96.729158
+    ],
+    [
+      17.050288,
+      -96.729039
+    ],
+    [
+      17.050476,
+      -96.728936
+    ],
+    [
+      17.050645,
+      -96.728857
+    ],
+    [
+      17.050873,
+      -96.728744
+    ],
+    [
+      17.051011,
+      -96.728679
+    ],
+    [
+      17.051079,
+      -96.728637
+    ],
+    [
+      17.051147,
+      -96.728621
+    ],
+    [
+      17.051211,
+      -96.728664
+    ],
+    [
+      17.051323,
+      -96.72874
+    ],
+    [
+      17.051452,
+      -96.728816
+    ],
+    [
+      17.05153,
+      -96.728863
+    ],
+    [
+      17.051663,
+      -96.728904
+    ],
+    [
+      17.051776,
+      -96.728952
+    ],
+    [
+      17.051826,
+      -96.728974
+    ],
+    [
+      17.051886,
+      -96.728937
+    ],
+    [
+      17.052165,
+      -96.728836
+    ],
+    [
+      17.052767,
+      -96.728652
+    ],
+    [
+      17.053214,
+      -96.728516
+    ],
+    [
+      17.053879,
+      -96.728303
+    ],
+    [
+      17.0544,
+      -96.728183
+    ],
+    [
+      17.054788,
+      -96.728082
+    ],
+    [
+      17.055292,
+      -96.727961
+    ],
+    [
+      17.055737,
+      -96.727845
+    ],
+    [
+      17.056239,
+      -96.727754
+    ],
+    [
+      17.056713,
+      -96.727661
+    ],
+    [
+      17.056932,
+      -96.72763
+    ],
+    [
+      17.057221,
+      -96.727564
+    ],
+    [
+      17.0577,
+      -96.727474
+    ],
+    [
+      17.058454,
+      -96.72731
+    ],
+    [
+      17.059068,
+      -96.727191
+    ],
+    [
+      17.059721,
+      -96.727062
+    ],
+    [
+      17.060353,
+      -96.726932
+    ],
+    [
+      17.060589,
+      -96.726878
+    ],
+    [
+      17.060917,
+      -96.726808
+    ],
+    [
+      17.061604,
+      -96.726661
+    ],
+    [
+      17.061954,
+      -96.726584
+    ],
+    [
+      17.062293,
+      -96.726527
+    ],
+    [
+      17.06268,
+      -96.726439
+    ],
+    [
+      17.063126,
+      -96.726352
+    ],
+    [
+      17.063282,
+      -96.726318
+    ],
+    [
+      17.06376,
+      -96.726226
+    ],
+    [
+      17.06425,
+      -96.726135
+    ],
+    [
+      17.064851,
+      -96.726015
+    ],
+    [
+      17.06528,
+      -96.725934
+    ],
+    [
+      17.06579,
+      -96.725835
+    ],
+    [
+      17.066197,
+      -96.725758
+    ],
+    [
+      17.066707,
+      -96.725649
+    ],
+    [
+      17.066835,
+      -96.725619
+    ],
+    [
+      17.06705,
+      -96.725575
+    ],
+    [
+      17.067309,
+      -96.725515
+    ],
+    [
+      17.067773,
+      -96.725413
+    ],
+    [
+      17.068066,
+      -96.72536
+    ],
+    [
+      17.068553,
+      -96.725277
+    ],
+    [
+      17.068661,
+      -96.725255
+    ],
+    [
+      17.06878,
+      -96.72523
+    ],
+    [
+      17.06887,
+      -96.725202
+    ],
+    [
+      17.069422,
+      -96.725104
+    ],
+    [
+      17.07002,
+      -96.724989
+    ],
+    [
+      17.070669,
+      -96.724844
+    ],
+    [
+      17.071342,
+      -96.72468
+    ],
+    [
+      17.071817,
+      -96.724574
+    ],
+    [
+      17.072373,
+      -96.724457
+    ],
+    [
+      17.072448,
+      -96.724441
+    ],
+    [
+      17.072467,
+      -96.724436
+    ],
+    [
+      17.072474,
+      -96.724421
+    ],
+    [
+      17.072381,
+      -96.723808
+    ],
+    [
+      17.072285,
+      -96.72318
+    ],
+    [
+      17.072147,
+      -96.722322
+    ],
+    [
+      17.071998,
+      -96.721671
+    ],
+    [
+      17.071912,
+      -96.721204
+    ],
+    [
+      17.071807,
+      -96.720718
+    ],
+    [
+      17.071776,
+      -96.720453
+    ],
+    [
+      17.071674,
+      -96.719918
+    ],
+    [
+      17.071607,
+      -96.719612
+    ],
+    [
+      17.071494,
+      -96.719071
+    ],
+    [
+      17.071423,
+      -96.718785
+    ],
+    [
+      17.071406,
+      -96.718703
+    ],
+    [
+      17.0714,
+      -96.71867
+    ],
+    [
+      17.071396,
+      -96.718638
+    ],
+    [
+      17.071406,
+      -96.718619
+    ],
+    [
+      17.071436,
+      -96.71861
+    ],
+    [
+      17.071617,
+      -96.718559
+    ],
+    [
+      17.071632,
+      -96.718555
+    ],
+    [
+      17.071759,
+      -96.71849
+    ],
+    [
+      17.071864,
+      -96.718419
+    ],
+    [
+      17.072021,
+      -96.718245
+    ],
+    [
+      17.072135,
+      -96.718128
+    ],
+    [
+      17.072476,
+      -96.717939
+    ],
+    [
+      17.072948,
+      -96.717651
+    ],
+    [
+      17.073124,
+      -96.717543
+    ],
+    [
+      17.073285,
+      -96.717492
+    ],
+    [
+      17.073723,
+      -96.717448
+    ],
+    [
+      17.074197,
+      -96.717394
+    ],
+    [
+      17.074816,
+      -96.71733
+    ],
+    [
+      17.07553,
+      -96.717258
+    ],
+    [
+      17.076568,
+      -96.717118
+    ],
+    [
+      17.077315,
+      -96.717029
+    ],
+    [
+      17.077993,
+      -96.716927
+    ],
+    [
+      17.078705,
+      -96.716829
+    ],
+    [
+      17.079259,
+      -96.716756
+    ],
+    [
+      17.079651,
+      -96.716701
+    ],
+    [
+      17.079886,
+      -96.716681
+    ],
+    [
+      17.079978,
+      -96.716665
+    ],
+    [
+      17.080191,
+      -96.716633
+    ],
+    [
+      17.080396,
+      -96.716599
+    ],
+    [
+      17.08091,
+      -96.716503
+    ],
+    [
+      17.081056,
+      -96.716476
+    ],
+    [
+      17.081156,
+      -96.716455
+    ],
+    [
+      17.081208,
+      -96.716455
+    ],
+    [
+      17.081237,
+      -96.716484
+    ],
+    [
+      17.08125,
+      -96.71655
+    ],
+    [
+      17.081301,
+      -96.716898
+    ],
+    [
+      17.081342,
+      -96.717242
+    ],
+    [
+      17.081363,
+      -96.717431
+    ],
+    [
+      17.081374,
+      -96.717499
+    ],
+    [
+      17.081395,
+      -96.71752
+    ],
+    [
+      17.081451,
+      -96.717509
+    ],
+    [
+      17.081964,
+      -96.717424
+    ],
+    [
+      17.082454,
+      -96.717338
+    ],
+    [
+      17.082515,
+      -96.717346
+    ],
+    [
+      17.082531,
+      -96.717414
+    ],
+    [
+      17.082634,
+      -96.718216
+    ],
+    [
+      17.082769,
+      -96.719129
+    ],
+    [
+      17.082839,
+      -96.719655
+    ],
+    [
+      17.082868,
+      -96.719771
+    ],
+    [
+      17.082895,
+      -96.719814
+    ],
+    [
+      17.08293,
+      -96.719875
+    ],
+    [
+      17.082973,
+      -96.719915
+    ],
+    [
+      17.083081,
+      -96.720006
+    ],
+    [
+      17.083635,
+      -96.720274
+    ],
+    [
+      17.083892,
+      -96.720441
+    ],
+    [
+      17.083943,
+      -96.720516
+    ],
+    [
+      17.084172,
+      -96.721065
+    ],
+    [
+      17.084424,
+      -96.721739
+    ],
+    [
+      17.084491,
+      -96.721931
+    ],
+    [
+      17.084516,
+      -96.721991
+    ],
+    [
+      17.084519,
+      -96.72202
+    ],
+    [
+      17.084489,
+      -96.72203
+    ],
+    [
+      17.084426,
+      -96.722045
+    ],
+    [
+      17.084184,
+      -96.722078
+    ],
+    [
+      17.083841,
+      -96.722132
+    ],
+    [
+      17.08351,
+      -96.722188
+    ],
+    [
+      17.083254,
+      -96.722235
+    ],
+    [
+      17.08323,
+      -96.72224
+    ],
+    [
+      17.083295,
+      -96.722689
+    ],
+    [
+      17.083375,
+      -96.723359
+    ],
+    [
+      17.083417,
+      -96.723617
+    ],
+    [
+      17.083417,
+      -96.723636
+    ],
+    [
+      17.083412,
+      -96.723661
+    ],
+    [
+      17.083365,
+      -96.723669
+    ],
+    [
+      17.083015,
+      -96.723716
+    ],
+    [
+      17.082828,
+      -96.723737
+    ],
+    [
+      17.082805,
+      -96.723733
+    ],
+    [
+      17.082789,
+      -96.723711
+    ],
+    [
+      17.08269,
+      -96.722996
+    ],
+    [
+      17.082608,
+      -96.722435
+    ],
+    [
+      17.082555,
+      -96.721947
+    ],
+    [
+      17.082543,
+      -96.721831
+    ],
+    [
+      17.082541,
+      -96.721798
+    ],
+    [
+      17.082555,
+      -96.721782
+    ],
+    [
+      17.082925,
+      -96.72173
+    ],
+    [
+      17.083096,
+      -96.721707
+    ]
+  ],
+  "trayectosPorSegmento": {
+    "ida": [
+      [
+        17.083109,
+        -96.721508
+      ],
+      [
+        17.083097,
+        -96.721429
+      ],
+      [
+        17.083086,
+        -96.72133
+      ],
+      [
+        17.083083,
+        -96.721251
+      ],
+      [
+        17.083083,
+        -96.721176
+      ],
+      [
+        17.083103,
+        -96.721129
+      ],
+      [
+        17.083119,
+        -96.721104
+      ],
+      [
+        17.083129,
+        -96.721068
+      ],
+      [
+        17.083123,
+        -96.721022
+      ],
+      [
+        17.083199,
+        -96.720939
+      ],
+      [
+        17.08337,
+        -96.720784
+      ],
+      [
+        17.083629,
+        -96.720568
+      ],
+      [
+        17.083759,
+        -96.720455
+      ],
+      [
+        17.083795,
+        -96.720417
+      ],
+      [
+        17.083805,
+        -96.720404
+      ],
+      [
+        17.083802,
+        -96.720387
+      ],
+      [
+        17.083739,
+        -96.720351
+      ],
+      [
+        17.083396,
+        -96.720172
+      ],
+      [
+        17.08317,
+        -96.72006
+      ],
+      [
+        17.08301,
+        -96.719947
+      ],
+      [
+        17.082957,
+        -96.719896
+      ],
+      [
+        17.082931,
+        -96.719856
+      ],
+      [
+        17.082866,
+        -96.719768
+      ],
+      [
+        17.08284,
+        -96.719682
+      ],
+      [
+        17.082811,
+        -96.719536
+      ],
+      [
+        17.082797,
+        -96.719414
+      ],
+      [
+        17.082777,
+        -96.719223
+      ],
+      [
+        17.082771,
+        -96.719183
+      ],
+      [
+        17.082767,
+        -96.719161
+      ],
+      [
+        17.082754,
+        -96.719154
+      ],
+      [
+        17.082579,
+        -96.719133
+      ],
+      [
+        17.082157,
+        -96.719091
+      ],
+      [
+        17.082043,
+        -96.719063
+      ],
+      [
+        17.082,
+        -96.719025
+      ],
+      [
+        17.081959,
+        -96.718996
+      ],
+      [
+        17.081927,
+        -96.718973
+      ],
+      [
+        17.081793,
+        -96.718962
+      ],
+      [
+        17.081537,
+        -96.718988
+      ],
+      [
+        17.080955,
+        -96.719097
+      ],
+      [
+        17.080366,
+        -96.719159
+      ],
+      [
+        17.079636,
+        -96.719233
+      ],
+      [
+        17.079208,
+        -96.719294
+      ],
+      [
+        17.079187,
+        -96.7193
+      ],
+      [
+        17.07917,
+        -96.719309
+      ],
+      [
+        17.079149,
+        -96.719338
+      ],
+      [
+        17.079128,
+        -96.719368
+      ],
+      [
+        17.079089,
+        -96.719397
+      ],
+      [
+        17.07905,
+        -96.719406
+      ],
+      [
+        17.079018,
+        -96.719402
+      ],
+      [
+        17.078968,
+        -96.719399
+      ],
+      [
+        17.078925,
+        -96.719379
+      ],
+      [
+        17.078887,
+        -96.719355
+      ],
+      [
+        17.078865,
+        -96.719348
+      ],
+      [
+        17.078834,
+        -96.719346
+      ],
+      [
+        17.078297,
+        -96.719403
+      ],
+      [
+        17.077779,
+        -96.719481
+      ],
+      [
+        17.077409,
+        -96.719529
+      ],
+      [
+        17.076942,
+        -96.719584
+      ],
+      [
+        17.076284,
+        -96.719657
+      ],
+      [
+        17.075644,
+        -96.719712
+      ],
+      [
+        17.075503,
+        -96.719723
+      ],
+      [
+        17.075456,
+        -96.719717
+      ],
+      [
+        17.075354,
+        -96.719704
+      ],
+      [
+        17.075138,
+        -96.719672
+      ],
+      [
+        17.074664,
+        -96.719518
+      ],
+      [
+        17.074617,
+        -96.719516
+      ],
+      [
+        17.074576,
+        -96.719528
+      ],
+      [
+        17.074545,
+        -96.719531
+      ],
+      [
+        17.074473,
+        -96.719524
+      ],
+      [
+        17.07434,
+        -96.719482
+      ],
+      [
+        17.074315,
+        -96.719472
+      ],
+      [
+        17.074307,
+        -96.719465
+      ],
+      [
+        17.074292,
+        -96.719453
+      ],
+      [
+        17.073857,
+        -96.719481
+      ],
+      [
+        17.072892,
+        -96.719553
+      ],
+      [
+        17.071924,
+        -96.719626
+      ],
+      [
+        17.071493,
+        -96.719675
+      ],
+      [
+        17.070794,
+        -96.719776
+      ],
+      [
+        17.069945,
+        -96.719888
+      ],
+      [
+        17.069321,
+        -96.71997
+      ],
+      [
+        17.069149,
+        -96.719994
+      ],
+      [
+        17.068768,
+        -96.720076
+      ],
+      [
+        17.068246,
+        -96.72017
+      ],
+      [
+        17.067569,
+        -96.720318
+      ],
+      [
+        17.066293,
+        -96.72058
+      ],
+      [
+        17.065339,
+        -96.720776
+      ],
+      [
+        17.064668,
+        -96.72094
+      ],
+      [
+        17.063857,
+        -96.721114
+      ],
+      [
+        17.06296,
+        -96.721294
+      ],
+      [
+        17.062962,
+        -96.721294
+      ],
+      [
+        17.062652,
+        -96.721364
+      ],
+      [
+        17.062315,
+        -96.72143
+      ],
+      [
+        17.062185,
+        -96.721474
+      ],
+      [
+        17.061774,
+        -96.72158
+      ],
+      [
+        17.061217,
+        -96.721716
+      ],
+      [
+        17.060596,
+        -96.721832
+      ],
+      [
+        17.060049,
+        -96.721952
+      ],
+      [
+        17.059567,
+        -96.722074
+      ],
+      [
+        17.058934,
+        -96.72221
+      ],
+      [
+        17.058431,
+        -96.72232
+      ],
+      [
+        17.05792,
+        -96.722431
+      ],
+      [
+        17.057516,
+        -96.722511
+      ],
+      [
+        17.056996,
+        -96.722601
+      ],
+      [
+        17.056751,
+        -96.722632
+      ],
+      [
+        17.056711,
+        -96.722636
+      ],
+      [
+        17.05669,
+        -96.722643
+      ],
+      [
+        17.05668,
+        -96.722675
+      ],
+      [
+        17.056822,
+        -96.723417
+      ],
+      [
+        17.057009,
+        -96.724241
+      ],
+      [
+        17.057116,
+        -96.724719
+      ],
+      [
+        17.057217,
+        -96.725259
+      ],
+      [
+        17.057297,
+        -96.72572
+      ],
+      [
+        17.057397,
+        -96.726221
+      ],
+      [
+        17.057411,
+        -96.726286
+      ],
+      [
+        17.057426,
+        -96.726369
+      ],
+      [
+        17.05744,
+        -96.726437
+      ],
+      [
+        17.05743,
+        -96.726492
+      ],
+      [
+        17.057367,
+        -96.726513
+      ],
+      [
+        17.056878,
+        -96.726608
+      ],
+      [
+        17.056256,
+        -96.726747
+      ],
+      [
+        17.055464,
+        -96.726915
+      ],
+      [
+        17.054778,
+        -96.727061
+      ],
+      [
+        17.054153,
+        -96.727174
+      ],
+      [
+        17.053425,
+        -96.727333
+      ],
+      [
+        17.052695,
+        -96.727493
+      ],
+      [
+        17.052217,
+        -96.727604
+      ],
+      [
+        17.051577,
+        -96.727749
+      ],
+      [
+        17.051222,
+        -96.727821
+      ],
+      [
+        17.050741,
+        -96.727926
+      ],
+      [
+        17.050677,
+        -96.727948
+      ],
+      [
+        17.050662,
+        -96.727959
+      ],
+      [
+        17.050571,
+        -96.728016
+      ],
+      [
+        17.050466,
+        -96.728112
+      ],
+      [
+        17.05027,
+        -96.728399
+      ],
+      [
+        17.050225,
+        -96.72851
+      ],
+      [
+        17.050041,
+        -96.72916
+      ],
+      [
+        17.04985,
+        -96.729836
+      ],
+      [
+        17.049576,
+        -96.730781
+      ],
+      [
+        17.049509,
+        -96.731064
+      ],
+      [
+        17.049477,
+        -96.731107
+      ],
+      [
+        17.049432,
+        -96.731165
+      ],
+      [
+        17.049385,
+        -96.73121
+      ],
+      [
+        17.049242,
+        -96.731292
+      ],
+      [
+        17.049074,
+        -96.731374
+      ],
+      [
+        17.048902,
+        -96.731406
+      ],
+      [
+        17.048825,
+        -96.731421
+      ],
+      [
+        17.048631,
+        -96.731419
+      ],
+      [
+        17.048396,
+        -96.731413
+      ],
+      [
+        17.047901,
+        -96.731308
+      ],
+      [
+        17.046759,
+        -96.731113
+      ],
+      [
+        17.046109,
+        -96.731017
+      ],
+      [
+        17.045738,
+        -96.73096
+      ],
+      [
+        17.045447,
+        -96.73088
+      ],
+      [
+        17.044943,
+        -96.730675
+      ],
+      [
+        17.044119,
+        -96.730322
+      ],
+      [
+        17.043033,
+        -96.729842
+      ],
+      [
+        17.042294,
+        -96.729543
+      ],
+      [
+        17.042096,
+        -96.729453
+      ],
+      [
+        17.041786,
+        -96.729354
+      ],
+      [
+        17.041571,
+        -96.729297
+      ],
+      [
+        17.040959,
+        -96.72919
+      ],
+      [
+        17.039984,
+        -96.729016
+      ],
+      [
+        17.039125,
+        -96.728869
+      ],
+      [
+        17.038429,
+        -96.72875
+      ],
+      [
+        17.03777,
+        -96.728631
+      ],
+      [
+        17.037436,
+        -96.728576
+      ],
+      [
+        17.036837,
+        -96.7285
+      ],
+      [
+        17.036516,
+        -96.728502
+      ],
+      [
+        17.036161,
+        -96.728508
+      ],
+      [
+        17.035767,
+        -96.728539
+      ],
+      [
+        17.035196,
+        -96.728614
+      ],
+      [
+        17.03457,
+        -96.728694
+      ],
+      [
+        17.034029,
+        -96.72875
+      ],
+      [
+        17.033183,
+        -96.728858
+      ],
+      [
+        17.032444,
+        -96.728938
+      ],
+      [
+        17.031619,
+        -96.729049
+      ],
+      [
+        17.030719,
+        -96.729168
+      ],
+      [
+        17.029882,
+        -96.72926
+      ],
+      [
+        17.029179,
+        -96.72935
+      ],
+      [
+        17.028146,
+        -96.729478
+      ],
+      [
+        17.027452,
+        -96.729578
+      ],
+      [
+        17.026673,
+        -96.729683
+      ],
+      [
+        17.026178,
+        -96.729734
+      ],
+      [
+        17.025924,
+        -96.729754
+      ],
+      [
+        17.025437,
+        -96.729828
+      ],
+      [
+        17.024655,
+        -96.729924
+      ],
+      [
+        17.023863,
+        -96.730031
+      ],
+      [
+        17.02357,
+        -96.73008
+      ],
+      [
+        17.023352,
+        -96.730127
+      ],
+      [
+        17.023322,
+        -96.730131
+      ],
+      [
+        17.023314,
+        -96.730148
+      ],
+      [
+        17.023309,
+        -96.730177
+      ],
+      [
+        17.023225,
+        -96.730523
+      ],
+      [
+        17.023191,
+        -96.730666
+      ],
+      [
+        17.023189,
+        -96.730705
+      ],
+      [
+        17.023193,
+        -96.730765
+      ],
+      [
+        17.023329,
+        -96.731253
+      ],
+      [
+        17.023535,
+        -96.731954
+      ],
+      [
+        17.02379,
+        -96.732743
+      ],
+      [
+        17.024056,
+        -96.733501
+      ],
+      [
+        17.024485,
+        -96.734754
+      ],
+      [
+        17.02467,
+        -96.735338
+      ],
+      [
+        17.024688,
+        -96.735383
+      ],
+      [
+        17.024698,
+        -96.735455
+      ],
+      [
+        17.024687,
+        -96.735529
+      ],
+      [
+        17.02444,
+        -96.736127
+      ],
+      [
+        17.02402,
+        -96.73725
+      ],
+      [
+        17.023482,
+        -96.738611
+      ],
+      [
+        17.022907,
+        -96.740081
+      ],
+      [
+        17.022422,
+        -96.741319
+      ],
+      [
+        17.022011,
+        -96.742377
+      ],
+      [
+        17.021619,
+        -96.743375
+      ],
+      [
+        17.021139,
+        -96.744587
+      ],
+      [
+        17.020652,
+        -96.745818
+      ],
+      [
+        17.020245,
+        -96.746886
+      ],
+      [
+        17.019776,
+        -96.748034
+      ],
+      [
+        17.019472,
+        -96.748823
+      ],
+      [
+        17.019315,
+        -96.749236
+      ],
+      [
+        17.019289,
+        -96.74932
+      ],
+      [
+        17.01911,
+        -96.749607
+      ],
+      [
+        17.018365,
+        -96.750892
+      ],
+      [
+        17.018081,
+        -96.75139
+      ],
+      [
+        17.017956,
+        -96.751585
+      ],
+      [
+        17.017747,
+        -96.751952
+      ],
+      [
+        17.017431,
+        -96.75246
+      ],
+      [
+        17.016944,
+        -96.753304
+      ],
+      [
+        17.01624,
+        -96.75445
+      ],
+      [
+        17.015458,
+        -96.755764
+      ],
+      [
+        17.015064,
+        -96.756438
+      ],
+      [
+        17.014562,
+        -96.757254
+      ],
+      [
+        17.013917,
+        -96.758355
+      ],
+      [
+        17.013256,
+        -96.759485
+      ],
+      [
+        17.012442,
+        -96.760801
+      ],
+      [
+        17.011732,
+        -96.761999
+      ],
+      [
+        17.010921,
+        -96.763332
+      ],
+      [
+        17.010464,
+        -96.764101
+      ],
+      [
+        17.009915,
+        -96.765015
+      ],
+      [
+        17.009271,
+        -96.766051
+      ],
+      [
+        17.00878,
+        -96.766864
+      ],
+      [
+        17.008448,
+        -96.767417
+      ],
+      [
+        17.008118,
+        -96.767977
+      ],
+      [
+        17.008043,
+        -96.768083
+      ],
+      [
+        17.007953,
+        -96.768267
+      ],
+      [
+        17.007917,
+        -96.768295
+      ],
+      [
+        17.007872,
+        -96.768293
+      ],
+      [
+        17.00786,
+        -96.76829
+      ],
+      [
+        17.007824,
+        -96.768279
+      ],
+      [
+        17.007793,
+        -96.768279
+      ],
+      [
+        17.007762,
+        -96.768279
+      ],
+      [
+        17.007691,
+        -96.768266
+      ],
+      [
+        17.007593,
+        -96.768223
+      ],
+      [
+        17.007441,
+        -96.768019
+      ],
+      [
+        17.007272,
+        -96.767633
+      ],
+      [
+        17.007021,
+        -96.76714
+      ],
+      [
+        17.006937,
+        -96.766723
+      ],
+      [
+        17.006881,
+        -96.766087
+      ],
+      [
+        17.006861,
+        -96.765627
+      ],
+      [
+        17.006838,
+        -96.765385
+      ],
+      [
+        17.006805,
+        -96.765251
+      ],
+      [
+        17.006706,
+        -96.765033
+      ],
+      [
+        17.006588,
+        -96.764655
+      ],
+      [
+        17.006386,
+        -96.764078
+      ],
+      [
+        17.006115,
+        -96.763337
+      ],
+      [
+        17.005949,
+        -96.762879
+      ],
+      [
+        17.005862,
+        -96.7623
+      ],
+      [
+        17.005806,
+        -96.761978
+      ],
+      [
+        17.005774,
+        -96.761846
+      ],
+      [
+        17.005746,
+        -96.761815
+      ],
+      [
+        17.005695,
+        -96.761768
+      ],
+      [
+        17.005671,
+        -96.761747
+      ],
+      [
+        17.005244,
+        -96.76156
+      ],
+      [
+        17.004578,
+        -96.761226
+      ],
+      [
+        17.004058,
+        -96.7609
+      ],
+      [
+        17.003593,
+        -96.760612
+      ],
+      [
+        17.003193,
+        -96.760337
+      ],
+      [
+        17.003113,
+        -96.760277
+      ],
+      [
+        17.002764,
+        -96.759933
+      ],
+      [
+        17.002579,
+        -96.759733
+      ],
+      [
+        17.002464,
+        -96.759655
+      ],
+      [
+        17.002382,
+        -96.759624
+      ],
+      [
+        17.002246,
+        -96.759608
+      ],
+      [
+        17.001984,
+        -96.759593
+      ],
+      [
+        17.001867,
+        -96.759581
+      ],
+      [
+        17.001398,
+        -96.759399
+      ],
+      [
+        17.000756,
+        -96.759059
+      ],
+      [
+        17.00039,
+        -96.758859
+      ],
+      [
+        17.000387,
+        -96.758859
+      ],
+      [
+        17.000023,
+        -96.758691
+      ],
+      [
+        16.999792,
+        -96.758581
+      ],
+      [
+        16.999595,
+        -96.758509
+      ],
+      [
+        16.999397,
+        -96.75853
+      ],
+      [
+        16.99917,
+        -96.758584
+      ],
+      [
+        16.998992,
+        -96.75863
+      ],
+      [
+        16.998954,
+        -96.758635
+      ],
+      [
+        16.998819,
+        -96.758602
+      ],
+      [
+        16.998071,
+        -96.758367
+      ],
+      [
+        16.997487,
+        -96.758191
+      ],
+      [
+        16.997382,
+        -96.758155
+      ],
+      [
+        16.99733,
+        -96.758125
+      ],
+      [
+        16.997297,
+        -96.758087
+      ],
+      [
+        16.99724,
+        -96.757987
+      ],
+      [
+        16.997173,
+        -96.757714
+      ],
+      [
+        16.997122,
+        -96.75736
+      ],
+      [
+        16.997106,
+        -96.756919
+      ],
+      [
+        16.997097,
+        -96.75666
+      ],
+      [
+        16.997095,
+        -96.756606
+      ]
+    ],
+    "regreso": [
+      [
+        16.997094,
+        -96.756625
+      ],
+      [
+        16.997073,
+        -96.755963
+      ],
+      [
+        16.997053,
+        -96.755462
+      ],
+      [
+        16.997038,
+        -96.754854
+      ],
+      [
+        16.99701,
+        -96.754186
+      ],
+      [
+        16.996988,
+        -96.753563
+      ],
+      [
+        16.996969,
+        -96.753008
+      ],
+      [
+        16.996972,
+        -96.752927
+      ],
+      [
+        16.996989,
+        -96.752906
+      ],
+      [
+        16.99701,
+        -96.752909
+      ],
+      [
+        16.99704,
+        -96.752934
+      ],
+      [
+        16.99706,
+        -96.753543
+      ],
+      [
+        16.997069,
+        -96.754123
+      ],
+      [
+        16.997093,
+        -96.754689
+      ],
+      [
+        16.99712,
+        -96.755354
+      ],
+      [
+        16.997145,
+        -96.755931
+      ],
+      [
+        16.997169,
+        -96.756444
+      ],
+      [
+        16.997188,
+        -96.756947
+      ],
+      [
+        16.997205,
+        -96.757315
+      ],
+      [
+        16.997212,
+        -96.75767
+      ],
+      [
+        16.997229,
+        -96.757871
+      ],
+      [
+        16.997244,
+        -96.757964
+      ],
+      [
+        16.997283,
+        -96.758052
+      ],
+      [
+        16.997355,
+        -96.758139
+      ],
+      [
+        16.997552,
+        -96.75822
+      ],
+      [
+        16.997953,
+        -96.75833
+      ],
+      [
+        16.998287,
+        -96.758434
+      ],
+      [
+        16.998695,
+        -96.758547
+      ],
+      [
+        16.998927,
+        -96.758621
+      ],
+      [
+        16.998994,
+        -96.758635
+      ],
+      [
+        16.99924,
+        -96.758572
+      ],
+      [
+        16.999389,
+        -96.758522
+      ],
+      [
+        16.999573,
+        -96.758503
+      ],
+      [
+        16.999643,
+        -96.758515
+      ],
+      [
+        16.999827,
+        -96.758579
+      ],
+      [
+        17.000199,
+        -96.758766
+      ],
+      [
+        17.000428,
+        -96.758877
+      ],
+      [
+        17.000651,
+        -96.758991
+      ],
+      [
+        17.000808,
+        -96.759074
+      ],
+      [
+        17.001116,
+        -96.75924
+      ],
+      [
+        17.001428,
+        -96.759407
+      ],
+      [
+        17.001683,
+        -96.759517
+      ],
+      [
+        17.001831,
+        -96.75957
+      ],
+      [
+        17.001964,
+        -96.75961
+      ],
+      [
+        17.002157,
+        -96.759606
+      ],
+      [
+        17.002377,
+        -96.759626
+      ],
+      [
+        17.002441,
+        -96.759637
+      ],
+      [
+        17.002515,
+        -96.759678
+      ],
+      [
+        17.002637,
+        -96.759773
+      ],
+      [
+        17.002728,
+        -96.759875
+      ],
+      [
+        17.003055,
+        -96.760193
+      ],
+      [
+        17.003147,
+        -96.760301
+      ],
+      [
+        17.003383,
+        -96.760453
+      ],
+      [
+        17.003744,
+        -96.760686
+      ],
+      [
+        17.004166,
+        -96.760957
+      ],
+      [
+        17.004622,
+        -96.761225
+      ],
+      [
+        17.004916,
+        -96.761407
+      ],
+      [
+        17.005314,
+        -96.761584
+      ],
+      [
+        17.005618,
+        -96.761728
+      ],
+      [
+        17.005686,
+        -96.76176
+      ],
+      [
+        17.005711,
+        -96.761787
+      ],
+      [
+        17.005748,
+        -96.761805
+      ],
+      [
+        17.005767,
+        -96.761833
+      ],
+      [
+        17.005816,
+        -96.761958
+      ],
+      [
+        17.005888,
+        -96.76243
+      ],
+      [
+        17.005952,
+        -96.762887
+      ],
+      [
+        17.006108,
+        -96.763294
+      ],
+      [
+        17.006351,
+        -96.763969
+      ],
+      [
+        17.006505,
+        -96.764388
+      ],
+      [
+        17.006642,
+        -96.764835
+      ],
+      [
+        17.006724,
+        -96.765064
+      ],
+      [
+        17.006739,
+        -96.765124
+      ],
+      [
+        17.006821,
+        -96.765308
+      ],
+      [
+        17.006877,
+        -96.765708
+      ],
+      [
+        17.006905,
+        -96.766402
+      ],
+      [
+        17.006954,
+        -96.766835
+      ],
+      [
+        17.006992,
+        -96.766968
+      ],
+      [
+        17.00702,
+        -96.767071
+      ],
+      [
+        17.00704,
+        -96.767129
+      ],
+      [
+        17.007209,
+        -96.767502
+      ],
+      [
+        17.007441,
+        -96.767997
+      ],
+      [
+        17.007521,
+        -96.768114
+      ],
+      [
+        17.007562,
+        -96.768181
+      ],
+      [
+        17.007634,
+        -96.768231
+      ],
+      [
+        17.007667,
+        -96.768251
+      ],
+      [
+        17.007789,
+        -96.768279
+      ],
+      [
+        17.00782,
+        -96.768265
+      ],
+      [
+        17.007853,
+        -96.768219
+      ],
+      [
+        17.00796,
+        -96.768049
+      ],
+      [
+        17.008143,
+        -96.767778
+      ],
+      [
+        17.008414,
+        -96.767324
+      ],
+      [
+        17.008702,
+        -96.76685
+      ],
+      [
+        17.009006,
+        -96.766347
+      ],
+      [
+        17.009274,
+        -96.765906
+      ],
+      [
+        17.009456,
+        -96.765608
+      ],
+      [
+        17.009658,
+        -96.76526
+      ],
+      [
+        17.009919,
+        -96.7648
+      ],
+      [
+        17.010236,
+        -96.764299
+      ],
+      [
+        17.010462,
+        -96.763922
+      ],
+      [
+        17.010666,
+        -96.763582
+      ],
+      [
+        17.010912,
+        -96.763174
+      ],
+      [
+        17.011094,
+        -96.762867
+      ],
+      [
+        17.011301,
+        -96.762535
+      ],
+      [
+        17.011511,
+        -96.762186
+      ],
+      [
+        17.011747,
+        -96.761809
+      ],
+      [
+        17.011941,
+        -96.761479
+      ],
+      [
+        17.012132,
+        -96.761173
+      ],
+      [
+        17.012391,
+        -96.760733
+      ],
+      [
+        17.012576,
+        -96.760426
+      ],
+      [
+        17.012718,
+        -96.7602
+      ],
+      [
+        17.012934,
+        -96.759822
+      ],
+      [
+        17.013225,
+        -96.75936
+      ],
+      [
+        17.013448,
+        -96.758979
+      ],
+      [
+        17.013597,
+        -96.758723
+      ],
+      [
+        17.013878,
+        -96.758265
+      ],
+      [
+        17.014078,
+        -96.757924
+      ],
+      [
+        17.014315,
+        -96.757512
+      ],
+      [
+        17.014604,
+        -96.757043
+      ],
+      [
+        17.014796,
+        -96.756724
+      ],
+      [
+        17.015062,
+        -96.75626
+      ],
+      [
+        17.015308,
+        -96.755845
+      ],
+      [
+        17.015602,
+        -96.755352
+      ],
+      [
+        17.015914,
+        -96.754825
+      ],
+      [
+        17.016141,
+        -96.75445
+      ],
+      [
+        17.016436,
+        -96.753977
+      ],
+      [
+        17.016657,
+        -96.753615
+      ],
+      [
+        17.016899,
+        -96.753225
+      ],
+      [
+        17.017162,
+        -96.752797
+      ],
+      [
+        17.017394,
+        -96.75242
+      ],
+      [
+        17.0176,
+        -96.752069
+      ],
+      [
+        17.017741,
+        -96.75182
+      ],
+      [
+        17.01792,
+        -96.751521
+      ],
+      [
+        17.017977,
+        -96.751421
+      ],
+      [
+        17.018075,
+        -96.751258
+      ],
+      [
+        17.018467,
+        -96.750608
+      ],
+      [
+        17.018787,
+        -96.750063
+      ],
+      [
+        17.018976,
+        -96.749709
+      ],
+      [
+        17.019252,
+        -96.749181
+      ],
+      [
+        17.019493,
+        -96.748574
+      ],
+      [
+        17.019702,
+        -96.748037
+      ],
+      [
+        17.019907,
+        -96.747516
+      ],
+      [
+        17.020136,
+        -96.746904
+      ],
+      [
+        17.020409,
+        -96.746238
+      ],
+      [
+        17.020642,
+        -96.74565
+      ],
+      [
+        17.020861,
+        -96.745116
+      ],
+      [
+        17.021016,
+        -96.744723
+      ],
+      [
+        17.021177,
+        -96.744311
+      ],
+      [
+        17.021377,
+        -96.743835
+      ],
+      [
+        17.021519,
+        -96.743425
+      ],
+      [
+        17.021678,
+        -96.743014
+      ],
+      [
+        17.021851,
+        -96.742609
+      ],
+      [
+        17.022027,
+        -96.742143
+      ],
+      [
+        17.022203,
+        -96.741717
+      ],
+      [
+        17.022429,
+        -96.741111
+      ],
+      [
+        17.022649,
+        -96.74057
+      ],
+      [
+        17.02288,
+        -96.739933
+      ],
+      [
+        17.022991,
+        -96.739677
+      ],
+      [
+        17.023118,
+        -96.739327
+      ],
+      [
+        17.023254,
+        -96.738964
+      ],
+      [
+        17.023515,
+        -96.738317
+      ],
+      [
+        17.02373,
+        -96.737777
+      ],
+      [
+        17.023876,
+        -96.737417
+      ],
+      [
+        17.023999,
+        -96.7371
+      ],
+      [
+        17.024175,
+        -96.736671
+      ],
+      [
+        17.024357,
+        -96.736205
+      ],
+      [
+        17.024559,
+        -96.735723
+      ],
+      [
+        17.024636,
+        -96.735509
+      ],
+      [
+        17.02467,
+        -96.735439
+      ],
+      [
+        17.024685,
+        -96.735393
+      ],
+      [
+        17.024667,
+        -96.735319
+      ],
+      [
+        17.02443,
+        -96.734564
+      ],
+      [
+        17.024115,
+        -96.733656
+      ],
+      [
+        17.023735,
+        -96.732597
+      ],
+      [
+        17.023628,
+        -96.732307
+      ],
+      [
+        17.023603,
+        -96.732215
+      ],
+      [
+        17.023578,
+        -96.732134
+      ],
+      [
+        17.023537,
+        -96.731976
+      ],
+      [
+        17.023458,
+        -96.731727
+      ],
+      [
+        17.023226,
+        -96.730894
+      ],
+      [
+        17.023163,
+        -96.730601
+      ],
+      [
+        17.023116,
+        -96.73031
+      ],
+      [
+        17.023078,
+        -96.730121
+      ],
+      [
+        17.023068,
+        -96.730058
+      ],
+      [
+        17.023068,
+        -96.730017
+      ],
+      [
+        17.023089,
+        -96.729994
+      ],
+      [
+        17.023148,
+        -96.729971
+      ],
+      [
+        17.023296,
+        -96.729966
+      ],
+      [
+        17.02347,
+        -96.72993
+      ],
+      [
+        17.023976,
+        -96.729853
+      ],
+      [
+        17.024528,
+        -96.729786
+      ],
+      [
+        17.025031,
+        -96.729725
+      ],
+      [
+        17.025677,
+        -96.729656
+      ],
+      [
+        17.026295,
+        -96.729587
+      ],
+      [
+        17.026805,
+        -96.729519
+      ],
+      [
+        17.027475,
+        -96.729441
+      ],
+      [
+        17.028084,
+        -96.729369
+      ],
+      [
+        17.0286,
+        -96.729298
+      ],
+      [
+        17.029177,
+        -96.729231
+      ],
+      [
+        17.029616,
+        -96.729162
+      ],
+      [
+        17.030075,
+        -96.729115
+      ],
+      [
+        17.030756,
+        -96.729029
+      ],
+      [
+        17.031399,
+        -96.728948
+      ],
+      [
+        17.03197,
+        -96.728877
+      ],
+      [
+        17.032418,
+        -96.728815
+      ],
+      [
+        17.033112,
+        -96.728731
+      ],
+      [
+        17.033664,
+        -96.728666
+      ],
+      [
+        17.034237,
+        -96.728594
+      ],
+      [
+        17.034759,
+        -96.72853
+      ],
+      [
+        17.035263,
+        -96.728476
+      ],
+      [
+        17.035735,
+        -96.72842
+      ],
+      [
+        17.036133,
+        -96.728371
+      ],
+      [
+        17.036213,
+        -96.728358
+      ],
+      [
+        17.036694,
+        -96.728352
+      ],
+      [
+        17.037243,
+        -96.728382
+      ],
+      [
+        17.037732,
+        -96.72847
+      ],
+      [
+        17.038243,
+        -96.728558
+      ],
+      [
+        17.038751,
+        -96.728631
+      ],
+      [
+        17.039023,
+        -96.728682
+      ],
+      [
+        17.039521,
+        -96.728773
+      ],
+      [
+        17.040037,
+        -96.728873
+      ],
+      [
+        17.040759,
+        -96.728998
+      ],
+      [
+        17.041292,
+        -96.729096
+      ],
+      [
+        17.041639,
+        -96.729168
+      ],
+      [
+        17.042102,
+        -96.729295
+      ],
+      [
+        17.042573,
+        -96.729483
+      ],
+      [
+        17.043204,
+        -96.729741
+      ],
+      [
+        17.043865,
+        -96.730017
+      ],
+      [
+        17.04444,
+        -96.730276
+      ],
+      [
+        17.045192,
+        -96.730572
+      ],
+      [
+        17.045587,
+        -96.73074
+      ],
+      [
+        17.045641,
+        -96.73076
+      ],
+      [
+        17.045758,
+        -96.730787
+      ],
+      [
+        17.046393,
+        -96.730906
+      ],
+      [
+        17.04713,
+        -96.731034
+      ],
+      [
+        17.04779,
+        -96.731149
+      ],
+      [
+        17.0483,
+        -96.731245
+      ],
+      [
+        17.048464,
+        -96.731279
+      ],
+      [
+        17.048546,
+        -96.731294
+      ],
+      [
+        17.048773,
+        -96.731307
+      ],
+      [
+        17.048847,
+        -96.7313
+      ],
+      [
+        17.049018,
+        -96.731282
+      ],
+      [
+        17.049103,
+        -96.731249
+      ],
+      [
+        17.049289,
+        -96.731136
+      ],
+      [
+        17.04937,
+        -96.73109
+      ],
+      [
+        17.049426,
+        -96.731075
+      ],
+      [
+        17.049463,
+        -96.73107
+      ],
+      [
+        17.049546,
+        -96.731046
+      ],
+      [
+        17.049609,
+        -96.731007
+      ],
+      [
+        17.049639,
+        -96.730969
+      ],
+      [
+        17.0497,
+        -96.730849
+      ],
+      [
+        17.049763,
+        -96.73068
+      ],
+      [
+        17.049817,
+        -96.730493
+      ],
+      [
+        17.049913,
+        -96.730154
+      ],
+      [
+        17.049997,
+        -96.729859
+      ],
+      [
+        17.050097,
+        -96.729507
+      ],
+      [
+        17.050143,
+        -96.729339
+      ],
+      [
+        17.050172,
+        -96.729158
+      ],
+      [
+        17.050288,
+        -96.729039
+      ],
+      [
+        17.050476,
+        -96.728936
+      ],
+      [
+        17.050645,
+        -96.728857
+      ],
+      [
+        17.050873,
+        -96.728744
+      ],
+      [
+        17.051011,
+        -96.728679
+      ],
+      [
+        17.051079,
+        -96.728637
+      ],
+      [
+        17.051147,
+        -96.728621
+      ],
+      [
+        17.051211,
+        -96.728664
+      ],
+      [
+        17.051323,
+        -96.72874
+      ],
+      [
+        17.051452,
+        -96.728816
+      ],
+      [
+        17.05153,
+        -96.728863
+      ],
+      [
+        17.051663,
+        -96.728904
+      ],
+      [
+        17.051776,
+        -96.728952
+      ],
+      [
+        17.051826,
+        -96.728974
+      ],
+      [
+        17.051886,
+        -96.728937
+      ],
+      [
+        17.052165,
+        -96.728836
+      ],
+      [
+        17.052767,
+        -96.728652
+      ],
+      [
+        17.053214,
+        -96.728516
+      ],
+      [
+        17.053879,
+        -96.728303
+      ],
+      [
+        17.0544,
+        -96.728183
+      ],
+      [
+        17.054788,
+        -96.728082
+      ],
+      [
+        17.055292,
+        -96.727961
+      ],
+      [
+        17.055737,
+        -96.727845
+      ],
+      [
+        17.056239,
+        -96.727754
+      ],
+      [
+        17.056713,
+        -96.727661
+      ],
+      [
+        17.056932,
+        -96.72763
+      ],
+      [
+        17.057221,
+        -96.727564
+      ],
+      [
+        17.0577,
+        -96.727474
+      ],
+      [
+        17.058454,
+        -96.72731
+      ],
+      [
+        17.059068,
+        -96.727191
+      ],
+      [
+        17.059721,
+        -96.727062
+      ],
+      [
+        17.060353,
+        -96.726932
+      ],
+      [
+        17.060589,
+        -96.726878
+      ],
+      [
+        17.060917,
+        -96.726808
+      ],
+      [
+        17.061604,
+        -96.726661
+      ],
+      [
+        17.061954,
+        -96.726584
+      ],
+      [
+        17.062293,
+        -96.726527
+      ],
+      [
+        17.06268,
+        -96.726439
+      ],
+      [
+        17.063126,
+        -96.726352
+      ],
+      [
+        17.063282,
+        -96.726318
+      ],
+      [
+        17.06376,
+        -96.726226
+      ],
+      [
+        17.06425,
+        -96.726135
+      ],
+      [
+        17.064851,
+        -96.726015
+      ],
+      [
+        17.06528,
+        -96.725934
+      ],
+      [
+        17.06579,
+        -96.725835
+      ],
+      [
+        17.066197,
+        -96.725758
+      ],
+      [
+        17.066707,
+        -96.725649
+      ],
+      [
+        17.066835,
+        -96.725619
+      ],
+      [
+        17.06705,
+        -96.725575
+      ],
+      [
+        17.067309,
+        -96.725515
+      ],
+      [
+        17.067773,
+        -96.725413
+      ],
+      [
+        17.068066,
+        -96.72536
+      ],
+      [
+        17.068553,
+        -96.725277
+      ],
+      [
+        17.068661,
+        -96.725255
+      ],
+      [
+        17.06878,
+        -96.72523
+      ],
+      [
+        17.06887,
+        -96.725202
+      ],
+      [
+        17.069422,
+        -96.725104
+      ],
+      [
+        17.07002,
+        -96.724989
+      ],
+      [
+        17.070669,
+        -96.724844
+      ],
+      [
+        17.071342,
+        -96.72468
+      ],
+      [
+        17.071817,
+        -96.724574
+      ],
+      [
+        17.072373,
+        -96.724457
+      ],
+      [
+        17.072448,
+        -96.724441
+      ],
+      [
+        17.072467,
+        -96.724436
+      ],
+      [
+        17.072474,
+        -96.724421
+      ],
+      [
+        17.072381,
+        -96.723808
+      ],
+      [
+        17.072285,
+        -96.72318
+      ],
+      [
+        17.072147,
+        -96.722322
+      ],
+      [
+        17.071998,
+        -96.721671
+      ],
+      [
+        17.071912,
+        -96.721204
+      ],
+      [
+        17.071807,
+        -96.720718
+      ],
+      [
+        17.071776,
+        -96.720453
+      ],
+      [
+        17.071674,
+        -96.719918
+      ],
+      [
+        17.071607,
+        -96.719612
+      ],
+      [
+        17.071494,
+        -96.719071
+      ],
+      [
+        17.071423,
+        -96.718785
+      ],
+      [
+        17.071406,
+        -96.718703
+      ],
+      [
+        17.0714,
+        -96.71867
+      ],
+      [
+        17.071396,
+        -96.718638
+      ],
+      [
+        17.071406,
+        -96.718619
+      ],
+      [
+        17.071436,
+        -96.71861
+      ],
+      [
+        17.071617,
+        -96.718559
+      ],
+      [
+        17.071632,
+        -96.718555
+      ],
+      [
+        17.071759,
+        -96.71849
+      ],
+      [
+        17.071864,
+        -96.718419
+      ],
+      [
+        17.072021,
+        -96.718245
+      ],
+      [
+        17.072135,
+        -96.718128
+      ],
+      [
+        17.072476,
+        -96.717939
+      ],
+      [
+        17.072948,
+        -96.717651
+      ],
+      [
+        17.073124,
+        -96.717543
+      ],
+      [
+        17.073285,
+        -96.717492
+      ],
+      [
+        17.073723,
+        -96.717448
+      ],
+      [
+        17.074197,
+        -96.717394
+      ],
+      [
+        17.074816,
+        -96.71733
+      ],
+      [
+        17.07553,
+        -96.717258
+      ],
+      [
+        17.076568,
+        -96.717118
+      ],
+      [
+        17.077315,
+        -96.717029
+      ],
+      [
+        17.077993,
+        -96.716927
+      ],
+      [
+        17.078705,
+        -96.716829
+      ],
+      [
+        17.079259,
+        -96.716756
+      ],
+      [
+        17.079651,
+        -96.716701
+      ],
+      [
+        17.079886,
+        -96.716681
+      ],
+      [
+        17.079978,
+        -96.716665
+      ],
+      [
+        17.080191,
+        -96.716633
+      ],
+      [
+        17.080396,
+        -96.716599
+      ],
+      [
+        17.08091,
+        -96.716503
+      ],
+      [
+        17.081056,
+        -96.716476
+      ],
+      [
+        17.081156,
+        -96.716455
+      ],
+      [
+        17.081208,
+        -96.716455
+      ],
+      [
+        17.081237,
+        -96.716484
+      ],
+      [
+        17.08125,
+        -96.71655
+      ],
+      [
+        17.081301,
+        -96.716898
+      ],
+      [
+        17.081342,
+        -96.717242
+      ],
+      [
+        17.081363,
+        -96.717431
+      ],
+      [
+        17.081374,
+        -96.717499
+      ],
+      [
+        17.081395,
+        -96.71752
+      ],
+      [
+        17.081451,
+        -96.717509
+      ],
+      [
+        17.081964,
+        -96.717424
+      ],
+      [
+        17.082454,
+        -96.717338
+      ],
+      [
+        17.082515,
+        -96.717346
+      ],
+      [
+        17.082531,
+        -96.717414
+      ],
+      [
+        17.082634,
+        -96.718216
+      ],
+      [
+        17.082769,
+        -96.719129
+      ],
+      [
+        17.082839,
+        -96.719655
+      ],
+      [
+        17.082868,
+        -96.719771
+      ],
+      [
+        17.082895,
+        -96.719814
+      ],
+      [
+        17.08293,
+        -96.719875
+      ],
+      [
+        17.082973,
+        -96.719915
+      ],
+      [
+        17.083081,
+        -96.720006
+      ],
+      [
+        17.083635,
+        -96.720274
+      ],
+      [
+        17.083892,
+        -96.720441
+      ],
+      [
+        17.083943,
+        -96.720516
+      ],
+      [
+        17.084172,
+        -96.721065
+      ],
+      [
+        17.084424,
+        -96.721739
+      ],
+      [
+        17.084491,
+        -96.721931
+      ],
+      [
+        17.084516,
+        -96.721991
+      ],
+      [
+        17.084519,
+        -96.72202
+      ],
+      [
+        17.084489,
+        -96.72203
+      ],
+      [
+        17.084426,
+        -96.722045
+      ],
+      [
+        17.084184,
+        -96.722078
+      ],
+      [
+        17.083841,
+        -96.722132
+      ],
+      [
+        17.08351,
+        -96.722188
+      ],
+      [
+        17.083254,
+        -96.722235
+      ],
+      [
+        17.08323,
+        -96.72224
+      ],
+      [
+        17.083295,
+        -96.722689
+      ],
+      [
+        17.083375,
+        -96.723359
+      ],
+      [
+        17.083417,
+        -96.723617
+      ],
+      [
+        17.083417,
+        -96.723636
+      ],
+      [
+        17.083412,
+        -96.723661
+      ],
+      [
+        17.083365,
+        -96.723669
+      ],
+      [
+        17.083015,
+        -96.723716
+      ],
+      [
+        17.082828,
+        -96.723737
+      ],
+      [
+        17.082805,
+        -96.723733
+      ],
+      [
+        17.082789,
+        -96.723711
+      ],
+      [
+        17.08269,
+        -96.722996
+      ],
+      [
+        17.082608,
+        -96.722435
+      ],
+      [
+        17.082555,
+        -96.721947
+      ],
+      [
+        17.082543,
+        -96.721831
+      ],
+      [
+        17.082541,
+        -96.721798
+      ],
+      [
+        17.082555,
+        -96.721782
+      ],
+      [
+        17.082925,
+        -96.72173
+      ],
+      [
+        17.083096,
+        -96.721707
+      ]
+    ]
+  },
+  "horarios": []
+}
