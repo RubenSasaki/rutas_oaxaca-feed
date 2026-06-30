@@ -1,6 +1,6 @@
 {
-  "version": "2026-06-28",
-  "generatedAt": "2026-06-28T15:26:16.381Z",
+  "version": "2026-06-29",
+  "generatedAt": "2026-06-30T05:28:56.532Z",
   "rutas": [
     {
       "id": "RC01",
@@ -111,6 +111,22 @@
       "version": "2026-06-28-64",
       "nombre": "ÑUNDA",
       "color": "#F3632D",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RC13",
+      "version": "2026-06-29-96",
+      "nombre": "YUKU TAY",
+      "color": "#682B69",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RC14",
+      "version": "2026-06-29-111",
+      "nombre": "LABA’ YUROO",
+      "color": "#F44C63",
       "activa": true,
       "temporal": false
     }
