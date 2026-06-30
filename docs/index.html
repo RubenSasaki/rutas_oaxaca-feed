@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yuu Bus: Rutas Oaxaca — Transporte en Oaxaca</title>
+  <meta name="description" content="Descarga Yuu Bus: Rutas Oaxaca para consultar rutas, paradas cercanas y eventos de transporte público en Oaxaca de Juárez." />
+  <meta property="og:title" content="Yuu Bus: Rutas Oaxaca — Transporte en Oaxaca" />
+  <meta property="og:description" content="Consulta rutas, paradas cercanas y eventos de transporte público en Oaxaca de Juárez. Disponible para Android." />
+  <meta name="theme-color" content="#8B1A1A" />
+
+  <!-- Google Fonts: Space Grotesk + Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --grana:     #8B1A1A;
+      --grana-d:   #6B1212;
+      --xoconoxtle:#C4501A;
+      --copal:     #D4891A;
+      --maguey:    #1D4B3A;
+      --cantera:   #F5E6C8;
+      --cantera-d: #EDD8A8;
+      --blanco:    #FFFFFF;
+      --fondo:     #FAF6EF;
+      --texto:     #111827;
+      --medio:     #4B5563;
+      --borde:     #E5D9C4;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--fondo);
+      color: var(--texto);
+      min-height: 100vh;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      background: var(--grana);
+      position: relative;
+      overflow: hidden;
+      padding: 0 20px 32px;
+    }
+
+    /* Greca decorativa SVG en header */
+    .hero::before {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 14px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='14'%3E%3Crect x='0' y='1' width='12' height='12' fill='%23F5E6C8' opacity='0.45'/%3E%3Crect x='14' y='1' width='8' height='8' fill='none' stroke='%23F5E6C8' stroke-width='1.5' opacity='0.3'/%3E%3C/svg%3E");
+      background-repeat: repeat-x;
+      background-size: 24px 14px;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 0 24px;
+    }
+
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+    }
+
+    .nav-logo-icon {
+      width: 36px;
+      height: 36px;
+      background: rgba(245,230,200,0.18);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+    }
+
+    .nav-logo-text {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      color: var(--blanco);
+      letter-spacing: 0;
+    }
+
+    .nav-tag {
+      font-size: 11px;
+      font-weight: 600;
+      color: rgba(245,230,200,0.75);
+      background: rgba(255,255,255,0.12);
+      padding: 5px 10px;
+      border-radius: 999px;
+    }
+
+    .hero-content {
+      max-width: 560px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--copal);
+      background: rgba(212,137,26,0.18);
+      border: 1px solid rgba(212,137,26,0.30);
+      border-radius: 999px;
+      padding: 5px 12px;
+      margin-bottom: 18px;
+      letter-spacing: 0.3px;
+    }
+
+    .hero-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: clamp(32px, 5.4vw, 48px);
+      color: var(--blanco);
+      line-height: 1.05;
+      letter-spacing: 0;
+      margin-bottom: 16px;
+    }
+
+    .hero-title span {
+      color: var(--cantera);
+    }
+
+    .hero-sub {
+      font-size: 16px;
+      font-weight: 500;
+      color: rgba(245,230,200,0.82);
+      line-height: 1.6;
+      margin-bottom: 28px;
+      max-width: 420px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* ── BOTONES DE DESCARGA ── */
+    .btns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+      margin-bottom: 28px;
+    }
+
+    .btn-download {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 22px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-family: inherit;
+      font-weight: 700;
+      font-size: 14px;
+      transition: transform 0.15s, opacity 0.15s;
+      cursor: pointer;
+      border: none;
+      appearance: none;
+    }
+
+    .btn-download:hover { transform: translateY(-2px); }
+    .btn-download:active { transform: scale(0.97); }
+    .btn-download[disabled] {
+      opacity: 0.58;
+      cursor: not-allowed;
+    }
+    .btn-download[disabled]:hover,
+    .btn-download[disabled]:active {
+      transform: none;
+    }
+
+    .btn-android {
+      background: var(--blanco);
+      color: var(--grana);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+    }
+
+    .btn-ios {
+      background: rgba(255,255,255,0.14);
+      color: var(--cantera);
+      border: 1.5px solid rgba(245,230,200,0.30);
+      -webkit-text-fill-color: currentColor;
+    }
+
+    .btn-icon {
+      width: 28px;
+      height: 28px;
+      flex-shrink: 0;
+    }
+
+    .btn-label { text-align: left; }
+    .btn-label small { display: block; font-size: 10px; font-weight: 500; opacity: 0.7; margin-bottom: 1px; }
+    .btn-label strong { display: block; font-size: 14px; }
+
+    /* ── QR ── */
+    .qr-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      background: rgba(255,255,255,0.10);
+      border: 1px solid rgba(245,230,200,0.20);
+      border-radius: 8px;
+      padding: 12px 18px;
+      max-width: 320px;
+      margin: 0 auto;
+    }
+
+    .qr-image {
+      width: 104px;
+      height: 104px;
+      border-radius: 8px;
+      display: block;
+    }
+
+    .qr-label {
+      text-align: left;
+    }
+    .qr-label p {
+      font-size: 12px;
+      font-weight: 600;
+      color: rgba(245,230,200,0.80);
+      line-height: 1.45;
+    }
+    .qr-label strong {
+      display: block;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--cantera);
+      margin-bottom: 3px;
+    }
+
+    /* ── STATS ── */
+    .stats {
+      display: flex;
+      gap: 0;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 40px 20px 36px;
+      max-width: 680px;
+      margin: 0 auto;
+      border-bottom: 1px solid var(--borde);
+    }
+
+    .stat {
+      flex: 1;
+      min-width: 120px;
+      text-align: center;
+      padding: 16px 12px;
+    }
+
+    .stat-num {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: 32px;
+      color: var(--grana);
+      letter-spacing: 0;
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+
+    .stat-label {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--medio);
+    }
+
+    /* ── FEATURES ── */
+    .section {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 48px 20px;
+    }
+
+    .section-tag {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      color: var(--grana);
+      margin-bottom: 8px;
+    }
+
+    .section-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: clamp(22px, 4vw, 30px);
+      color: var(--texto);
+      letter-spacing: 0;
+      margin-bottom: 32px;
+      line-height: 1.15;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+    }
+
+    .feature-card {
+      background: var(--blanco);
+      border: 1px solid var(--borde);
+      border-radius: 8px;
+      padding: 20px;
+    }
+
+    .feature-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      margin-bottom: 14px;
+    }
+
+    .feature-card h3 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      color: var(--texto);
+      margin-bottom: 6px;
+    }
+
+    .feature-card p {
+      font-size: 13px;
+      color: var(--medio);
+      line-height: 1.55;
+    }
+
+    /* ── GUELAGUETZA BANNER ── */
+    .event-banner {
+      max-width: 680px;
+      margin: 0 auto 48px;
+      padding: 0 20px;
+    }
+
+    .event-card {
+      background: linear-gradient(135deg, var(--grana), #A82020);
+      border-radius: 8px;
+      padding: 24px;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .event-card::after {
+      content: '🎭';
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 52px;
+      opacity: 0.18;
+    }
+
+    .event-icon {
+      width: 52px;
+      height: 52px;
+      background: rgba(245,230,200,0.18);
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      flex-shrink: 0;
+    }
+
+    .event-text { flex: 1; }
+
+    .event-text small {
+      display: block;
+      font-size: 11px;
+      font-weight: 600;
+      color: rgba(245,230,200,0.72);
+      margin-bottom: 4px;
+      letter-spacing: 0.3px;
+    }
+
+    .event-text h3 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      color: var(--blanco);
+      margin-bottom: 4px;
+    }
+
+    .event-text p {
+      font-size: 13px;
+      color: rgba(245,230,200,0.80);
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--grana-d);
+      padding: 32px 20px;
+      text-align: center;
+    }
+
+    footer p {
+      font-size: 12px;
+      color: rgba(245,230,200,0.65);
+      line-height: 1.7;
+    }
+
+    footer a {
+      color: var(--cantera);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    footer strong {
+      display: block;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--cantera);
+      margin-bottom: 8px;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 480px) {
+      .btns { flex-direction: column; align-items: center; }
+      .btn-download { width: 100%; max-width: 280px; justify-content: center; }
+      .qr-section { max-width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══ HERO ═══ -->
+<section class="hero">
+  <nav class="nav">
+    <div class="nav-logo" aria-label="Yuu Bus: Rutas Oaxaca">
+      <div class="nav-logo-icon">🚌</div>
+      <span class="nav-logo-text">Yuu Bus</span>
+    </div>
+    <span class="nav-tag">Rutas Oaxaca</span>
+  </nav>
+
+  <div class="hero-content">
+    <div class="hero-badge">🎉 Disponible para Android</div>
+
+    <h1 class="hero-title">
+      El transporte<br/>de <span>Oaxaca</span>,<br/>en tu mano.
+    </h1>
+
+    <p class="hero-sub">
+      Consulta rutas de Citibús, microbuses y colectivos en Oaxaca de Juárez.
+      Encuentra paradas cercanas, planea tu viaje y muévete con más claridad.
+    </p>
+
+    <div class="btns">
+      <a class="btn-download btn-android"
+         href="https://play.google.com/store/apps/details?id=mx.oaxaca.rutasoaxaca"
+         id="android-btn"
+         target="_blank"
+         rel="noopener noreferrer">
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M3.18 23c-.36 0-.68-.1-.93-.32A1.4 1.4 0 0 1 2 21.6V2.4C2 1.9 2.18 1.5 2.53 1.2L13.06 12 2.53 22.8c-.1.1-.22.17-.35.2H3.18z" fill="#EA4335"/>
+          <path d="M16.9 15.3l-3.04-3.04 1.9-1.9 3.38 1.9c.97.55.97 1.44 0 1.98l-2.24 1.06z" fill="#FBBC04"/>
+          <path d="M2.53 22.8C2.85 23.1 3.3 23.1 3.72 22.86l11.14-6.26-3.04-3.04L2.53 22.8z" fill="#34A853"/>
+          <path d="M2.53 1.2C2.85.9 3.3.9 3.72 1.14L14.86 7.4 11.82 10.44 2.53 1.2z" fill="#4285F4"/>
+        </svg>
+        <div class="btn-label">
+          <small>Descargar en</small>
+          <strong>Google Play</strong>
+        </div>
+      </a>
+
+      <button class="btn-download btn-ios"
+         type="button"
+         disabled
+         aria-disabled="true">
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="rgba(245,230,200,0.85)" aria-hidden="true">
+          <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+        </svg>
+        <div class="btn-label">
+          <small>Próximamente en</small>
+          <strong>App Store</strong>
+        </div>
+      </button>
+    </div>
+
+    <div class="qr-section">
+      <a href="https://play.google.com/store/apps/details?id=mx.oaxaca.rutasoaxaca"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="Abrir Yuu Bus: Rutas Oaxaca en Google Play">
+        <img class="qr-image" src="qr-code.png" alt="QR para descargar Yuu Bus: Rutas Oaxaca en Google Play" />
+      </a>
+      <div class="qr-label">
+        <strong>Escanea para descargar</strong>
+        <p>Apunta la cámara de tu teléfono y descarga Yuu Bus directo desde Google Play.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ STATS ═══ -->
+<div class="stats">
+  <div class="stat">
+    <div class="stat-num">16+</div>
+    <div class="stat-label">Rutas capturadas</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num">1,400+</div>
+    <div class="stat-label">Paradas mapeadas</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num">OAX</div>
+    <div class="stat-label">Oaxaca de Juárez</div>
+  </div>
+</div>
+
+<!-- ═══ FEATURES ═══ -->
+<section class="section">
+  <p class="section-tag">¿Qué es Yuu Bus?</p>
+  <h2 class="section-title">Una app hecha por<br/>Oaxaca, para Oaxaca.</h2>
+
+  <div class="features">
+    <div class="feature-card">
+      <div class="feature-icon" style="background: rgba(139,26,26,0.10);">🗺️</div>
+      <h3>Rutas con trabajo de campo</h3>
+      <p>Cada parada fue capturada a pie, verificando el recorrido real del camión.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon" style="background: rgba(29,75,58,0.10);">🔄</div>
+      <h3>Directa, transbordo o caminando</h3>
+      <p>"Planea tu viaje" compara todas las opciones para llegar a tu destino.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon" style="background: rgba(212,137,26,0.10);">📍</div>
+      <h3>Paradas cerca de ti</h3>
+      <p>Ve qué rutas pasan a tu alrededor en tiempo real, con su dirección y sentido.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon" style="background: rgba(196,80,26,0.10);">🎭</div>
+      <h3>Eventos y cultura</h3>
+      <p>Calendas, Guelaguetza, tianguis — con las rutas para llegar a cada uno.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon" style="background: rgba(139,26,26,0.10);">📶</div>
+      <h3>Funciona sin internet</h3>
+      <p>Consulta rutas y paradas aunque no tengas señal. Los datos viven en tu teléfono.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ GUELAGUETZA BANNER ═══ -->
+<div class="event-banner">
+  <div class="event-card">
+    <div class="event-icon">🎭</div>
+    <div class="event-text">
+      <small>TEMPORADA DE EVENTOS</small>
+      <h3>Muévete por Oaxaca</h3>
+      <p>Descarga la app y encuentra rutas para llegar a mercados, fiestas y puntos clave.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <strong>Yuu Bus: Rutas Oaxaca</strong>
+  <p>
+    Hecha por Equipo Yuu Bus ·
+    Oaxaca de Juárez, México<br/>
+    App no oficial. Datos capturados por la comunidad.
+  </p>
+</footer>
+
+</body>
+</html>
