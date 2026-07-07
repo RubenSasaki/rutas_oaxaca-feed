@@ -1,6 +1,6 @@
 {
-  "version": "2026-07-01",
-  "generatedAt": "2026-07-01T16:57:10.368Z",
+  "version": "2026-07-06",
+  "generatedAt": "2026-07-07T01:25:56.289Z",
   "rutas": [
     {
       "id": "RC01",
@@ -124,7 +124,7 @@
     },
     {
       "id": "RC14",
-      "version": "2026-06-29-111",
+      "version": "2026-07-06-111",
       "nombre": "LABA’ YUROO",
       "color": "#F44C63",
       "activa": true,
@@ -132,9 +132,17 @@
     },
     {
       "id": "RC15",
-      "version": "2026-07-01-138",
+      "version": "2026-07-06-138",
       "nombre": "YU NGTA’",
       "color": "#8E418D",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RA02",
+      "version": "2026-07-06-108",
+      "nombre": "MO’",
+      "color": "#0C495B",
       "activa": true,
       "temporal": false
     }
