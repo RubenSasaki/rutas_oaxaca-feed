@@ -9,7 +9,7 @@
   "color": "#BB4639",
   "tipo": "citibus",
   "esGratuita": false,
-  "notaEspecial": "Ruta capturada desde GeoJSON el 2026-06-16. Paradas verificadas en campo; horarios pendientes de captura.",
+  "notaEspecial": "Ruta capturada desde GeoJSON el 2026-06-16. Paradas verificadas en campo. Horario de servicio de lunes a domingo de 06:00 a 22:00. Horarios referenciales sujetos a validación en campo.",
   "paradas": [
     {
       "id": "RC03_IDA_01",
@@ -13899,478 +13899,310 @@
   "horarios": [
     {
       "paradaId": "RC03_IDA_01",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_02",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_03",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_04",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_05",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_06",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_07",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_08",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_09",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_10",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_11",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_12",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_13",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_14",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_15",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_16",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_17",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_18",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_19",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_20",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_21",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_22",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_23",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_24",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_25",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_26",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_27",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_28",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_29",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_30",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_31",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_IDA_32",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
+      "horariosLV": [
+        "06:00",
+        "06:30",
+        "07:00",
+        "07:30",
+        "08:00",
+        "08:30",
+        "09:00",
+        "09:30",
+        "10:00",
+        "10:30",
+        "11:00",
+        "11:30",
+        "12:00",
+        "12:30",
+        "13:00",
+        "13:30",
+        "14:00",
+        "14:30",
+        "15:00",
+        "15:30",
+        "16:00",
+        "16:30",
+        "17:00",
+        "17:30",
+        "18:00",
+        "18:30",
+        "19:00",
+        "19:30",
+        "20:00",
+        "20:30",
+        "21:00",
+        "21:30",
+        "22:00"
+      ],
+      "horariosSab": [
+        "06:00",
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00"
+      ],
+      "horariosDom": [
+        "06:00",
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00"
+      ],
       "servicioGratuito": false
     },
     {
       "paradaId": "RC03_IDA_33",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
+      "horariosLV": [
+        "06:00",
+        "06:30",
+        "07:00",
+        "07:30",
+        "08:00",
+        "08:30",
+        "09:00",
+        "09:30",
+        "10:00",
+        "10:30",
+        "11:00",
+        "11:30",
+        "12:00",
+        "12:30",
+        "13:00",
+        "13:30",
+        "14:00",
+        "14:30",
+        "15:00",
+        "15:30",
+        "16:00",
+        "16:30",
+        "17:00",
+        "17:30",
+        "18:00",
+        "18:30",
+        "19:00",
+        "19:30",
+        "20:00",
+        "20:30",
+        "21:00",
+        "21:30",
+        "22:00"
+      ],
+      "horariosSab": [
+        "06:00",
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00"
+      ],
+      "horariosDom": [
+        "06:00",
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00"
+      ],
       "servicioGratuito": false
     },
     {
       "paradaId": "RC03_REG_01",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_02",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_03",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_04",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_05",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_06",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_07",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_08",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_09",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_10",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_11",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_12",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_13",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_14",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_15",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_16",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_17",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_18",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_19",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_20",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_21",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_22",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_23",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_24",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_25",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_26",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_27",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_28",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_29",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_30",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_31",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_32",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_33",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
-      "servicioGratuito": false
-    },
-    {
-      "paradaId": "RC03_REG_34",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
+      "horariosLV": [
+        "06:00",
+        "06:30",
+        "07:00",
+        "07:30",
+        "08:00",
+        "08:30",
+        "09:00",
+        "09:30",
+        "10:00",
+        "10:30",
+        "11:00",
+        "11:30",
+        "12:00",
+        "12:30",
+        "13:00",
+        "13:30",
+        "14:00",
+        "14:30",
+        "15:00",
+        "15:30",
+        "16:00",
+        "16:30",
+        "17:00",
+        "17:30",
+        "18:00",
+        "18:30",
+        "19:00",
+        "19:30",
+        "20:00",
+        "20:30",
+        "21:00",
+        "21:30",
+        "22:00"
+      ],
+      "horariosSab": [
+        "06:00",
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00"
+      ],
+      "horariosDom": [
+        "06:00",
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00"
+      ],
       "servicioGratuito": false
     },
     {
       "paradaId": "RC03_REG_35",
-      "horariosLV": [],
-      "horariosSab": [],
-      "horariosDom": [],
+      "horariosLV": [
+        "06:00",
+        "06:30",
+        "07:00",
+        "07:30",
+        "08:00",
+        "08:30",
+        "09:00",
+        "09:30",
+        "10:00",
+        "10:30",
+        "11:00",
+        "11:30",
+        "12:00",
+        "12:30",
+        "13:00",
+        "13:30",
+        "14:00",
+        "14:30",
+        "15:00",
+        "15:30",
+        "16:00",
+        "16:30",
+        "17:00",
+        "17:30",
+        "18:00",
+        "18:30",
+        "19:00",
+        "19:30",
+        "20:00",
+        "20:30",
+        "21:00",
+        "21:30",
+        "22:00"
+      ],
+      "horariosSab": [
+        "06:00",
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00"
+      ],
+      "horariosDom": [
+        "06:00",
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00"
+      ],
       "servicioGratuito": false
     }
   ]
