@@ -9,736 +9,772 @@
   "color": "#287B71",
   "tipo": "citibus",
   "esGratuita": false,
-  "notaEspecial": "Ruta capturada desde GeoJSON el 2026-06-18. Verificar horarios y nombres en campo.",
+  "notaEspecial": "Ruta con horario de servicio de lunes a domingo de 06:00 a 22:00. Horarios referenciales sujetos a validación en campo.",
   "paradas": [
     {
-      "id": "RT05_IDA_01",
+      "id": "RC05_IDA_01",
+      "nombre": "ROTONDA BENITO JUÁREZ",
+      "nombreEN": "ROTONDA BENITO JUÁREZ",
+      "lat": 17.121817,
+      "lng": -96.764042,
+      "rutasQueParanAqui": [
+        "RC05"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC05_IDA_02",
+      "nombre": "COBAO 01",
+      "nombreEN": "COBAO 01",
+      "lat": 17.118419,
+      "lng": -96.761194,
+      "rutasQueParanAqui": [
+        "RC05"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC05_IDA_03",
       "nombre": "PLUTARCO ELÍAS CALLES",
       "nombreEN": "PLUTARCO ELÍAS CALLES",
       "lat": 17.115361,
       "lng": -96.758766,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_02",
+      "id": "RC05_IDA_04",
       "nombre": "VICENTE GUERRERO",
       "nombreEN": "VICENTE GUERRERO",
       "lat": 17.112252,
       "lng": -96.756537,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_03",
+      "id": "RC05_IDA_05",
       "nombre": "EMILIANO ZAPATA",
       "nombreEN": "EMILIANO ZAPATA",
       "lat": 17.108315,
       "lng": -96.754822,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_04",
+      "id": "RC05_IDA_06",
       "nombre": "BRENAMIEL",
       "nombreEN": "BRENAMIEL",
       "lat": 17.103555,
       "lng": -96.752821,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_05",
+      "id": "RC05_IDA_07",
       "nombre": "COL. DEL MAESTRO",
       "nombreEN": "COL. DEL MAESTRO",
       "lat": 17.101437,
       "lng": -96.751902,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_06",
+      "id": "RC05_IDA_08",
       "nombre": "BUGAMBILIAS",
       "nombreEN": "BUGAMBILIAS",
       "lat": 17.097699,
       "lng": -96.750287,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_07",
+      "id": "RC05_IDA_09",
       "nombre": "MERCADO ZONAL",
       "nombreEN": "MERCADO ZONAL",
       "lat": 17.093766,
       "lng": -96.748577,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_08",
+      "id": "RC05_IDA_10",
       "nombre": "EX HACIENDA SANTA ROSA",
       "nombreEN": "EX HACIENDA SANTA ROSA",
       "lat": 17.090939,
       "lng": -96.747384,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_09",
+      "id": "RC05_IDA_11",
       "nombre": "8 NORTE",
       "nombreEN": "8 NORTE",
       "lat": 17.087419,
       "lng": -96.745848,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_10",
+      "id": "RC05_IDA_12",
       "nombre": "LA PEPSI",
       "nombreEN": "LA PEPSI",
       "lat": 17.086054,
       "lng": -96.745275,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_11",
+      "id": "RC05_IDA_13",
       "nombre": "CUAUHTÉMOC",
       "nombreEN": "CUAUHTÉMOC",
       "lat": 17.082975,
       "lng": -96.743945,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_12",
+      "id": "RC05_IDA_14",
       "nombre": "TECNOLÓGICO",
       "nombreEN": "TECNOLÓGICO",
       "lat": 17.079287,
       "lng": -96.743101,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_13",
+      "id": "RC05_IDA_15",
       "nombre": "GLORIETA DE LOS NIÑOS HÉROES",
       "nombreEN": "GLORIETA DE LOS NIÑOS HÉROES",
       "lat": 17.075611,
       "lng": -96.741052,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_14",
+      "id": "RC05_IDA_16",
       "nombre": "VICENTE SUÁREZ",
       "nombreEN": "VICENTE SUÁREZ",
       "lat": 17.072201,
       "lng": -96.738566,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_15",
+      "id": "RC05_IDA_17",
       "nombre": "MUSEO DEL FERROCARRIL",
       "nombreEN": "MUSEO DEL FERROCARRIL",
       "lat": 17.068474,
       "lng": -96.736741,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_16",
+      "id": "RC05_IDA_18",
       "nombre": "BASE LIBRAMIENTO",
       "nombreEN": "BASE LIBRAMIENTO",
       "lat": 17.126884,
       "lng": -96.749045,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_17",
+      "id": "RC05_IDA_19",
       "nombre": "PRETILES",
       "nombreEN": "PRETILES",
       "lat": 17.127758,
       "lng": -96.753119,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_18",
+      "id": "RC05_IDA_20",
       "nombre": "LIBRAMIENTO NORTE",
       "nombreEN": "LIBRAMIENTO NORTE",
       "lat": 17.127545,
       "lng": -96.758095,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_19",
+      "id": "RC05_IDA_21",
+      "nombre": "FRANCISCO I. MADERO",
+      "nombreEN": "FRANCISCO I. MADERO",
+      "lat": 17.124596,
+      "lng": -96.761816,
+      "rutasQueParanAqui": [
+        "RC05"
+      ],
+      "esTianguis": false,
+      "esEventoCultural": false
+    },
+    {
+      "id": "RC05_IDA_22",
       "nombre": "LAURELES",
       "nombreEN": "LAURELES",
       "lat": 17.126379,
       "lng": -96.759676,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_20",
+      "id": "RC05_IDA_23",
       "nombre": "CAMINO NACIONAL",
       "nombreEN": "CAMINO NACIONAL",
       "lat": 17.124739,
       "lng": -96.760885,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_21",
+      "id": "RC05_IDA_24",
       "nombre": "XOCHIMILCO",
       "nombreEN": "XOCHIMILCO",
       "lat": 17.122667,
       "lng": -96.759112,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_22",
+      "id": "RC05_IDA_25",
       "nombre": "LAGO VALSEQUILLO",
       "nombreEN": "LAGO VALSEQUILLO",
       "lat": 17.1224,
       "lng": -96.75548,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_23",
+      "id": "RC05_IDA_26",
       "nombre": "TLAXIACO",
       "nombreEN": "TLAXIACO",
       "lat": 17.120673,
       "lng": -96.755127,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_24",
+      "id": "RC05_IDA_27",
       "nombre": "SAN ANGEL",
       "nombreEN": "SAN ANGEL",
       "lat": 17.120342,
       "lng": -96.753016,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_25",
+      "id": "RC05_IDA_28",
       "nombre": "Nuevo México",
       "nombreEN": "Nuevo México",
       "lat": 17.119817,
       "lng": -96.751895,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_26",
+      "id": "RC05_IDA_29",
       "nombre": "PORFIRIO DÍAZ",
       "nombreEN": "PORFIRIO DÍAZ",
       "lat": 17.118431,
       "lng": -96.752966,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_27",
+      "id": "RC05_IDA_30",
       "nombre": "LÁZARO CÁRDENAS",
       "nombreEN": "LÁZARO CÁRDENAS",
       "lat": 17.117329,
       "lng": -96.755689,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_28",
+      "id": "RC05_IDA_31",
       "nombre": "CAMINO NACIONAL",
       "nombreEN": "CAMINO NACIONAL",
       "lat": 17.116181,
       "lng": -96.758684,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_IDA_29",
+      "id": "RC05_IDA_32",
       "nombre": "PARQUE FRANCISCO I. MADERO",
       "nombreEN": "PARQUE FRANCISCO I. MADERO",
       "lat": 17.066226,
       "lng": -96.735403,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_01",
+      "id": "RC05_REG_01",
       "nombre": "PARQUE FRANCISCO I. MADERO",
       "nombreEN": "PARQUE FRANCISCO I. MADERO",
       "lat": 17.066232,
       "lng": -96.735412,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_02",
+      "id": "RC05_REG_02",
       "nombre": "IGNACIO RAYÓN",
       "nombreEN": "IGNACIO RAYÓN",
       "lat": 17.06815,
       "lng": -96.735457,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_03",
+      "id": "RC05_REG_03",
       "nombre": "ALFONSO PÉREZ GASGA",
       "nombreEN": "ALFONSO PÉREZ GASGA",
       "lat": 17.07091,
       "lng": -96.736608,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_04",
+      "id": "RC05_REG_04",
       "nombre": "MONTES DE OCA",
       "nombreEN": "MONTES DE OCA",
       "lat": 17.073695,
       "lng": -96.7381,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_05",
+      "id": "RC05_REG_05",
       "nombre": "PANTEÓN DEL EX MARQUESADO",
       "nombreEN": "PANTEÓN DEL EX MARQUESADO",
       "lat": 17.075167,
       "lng": -96.739058,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_06",
+      "id": "RC05_REG_06",
       "nombre": "PRIV. DE MARGARITAS",
       "nombreEN": "PRIV. DE MARGARITAS",
       "lat": 17.078074,
       "lng": -96.740563,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_07",
+      "id": "RC05_REG_07",
       "nombre": "MONUMENTO ALA MADRE",
       "nombreEN": "MONUMENTO ALA MADRE",
       "lat": 17.07953,
       "lng": -96.741328,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_08",
+      "id": "RC05_REG_08",
       "nombre": "CUAUHTÉMOC",
       "nombreEN": "CUAUHTÉMOC",
       "lat": 17.083119,
       "lng": -96.743678,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_09",
+      "id": "RC05_REG_09",
       "nombre": "LA PEPSI",
       "nombreEN": "LA PEPSI",
       "lat": 17.086299,
       "lng": -96.745043,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_10",
+      "id": "RC05_REG_10",
       "nombre": "8 NORTE",
       "nombreEN": "8 NORTE",
       "lat": 17.087597,
       "lng": -96.74562,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_11",
+      "id": "RC05_REG_11",
       "nombre": "EX HACIENDA SANTA ROSA",
       "nombreEN": "EX HACIENDA SANTA ROSA",
       "lat": 17.09056,
       "lng": -96.746838,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_12",
+      "id": "RC05_REG_12",
       "nombre": "MERCADO ZONAL",
       "nombreEN": "MERCADO ZONAL",
       "lat": 17.093295,
       "lng": -96.748057,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_13",
+      "id": "RC05_REG_13",
       "nombre": "BUGAMBILIAS",
       "nombreEN": "BUGAMBILIAS",
       "lat": 17.097781,
       "lng": -96.750013,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_14",
+      "id": "RC05_REG_14",
       "nombre": "ABRAHAM CASTELLANOS",
       "nombreEN": "ABRAHAM CASTELLANOS",
       "lat": 17.099216,
       "lng": -96.75065,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_15",
+      "id": "RC05_REG_15",
       "nombre": "COL DEL MAESTRO",
       "nombreEN": "COL DEL MAESTRO",
       "lat": 17.100904,
       "lng": -96.751403,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_16",
+      "id": "RC05_REG_16",
       "nombre": "JAIME TORRES BODET",
       "nombreEN": "JAIME TORRES BODET",
       "lat": 17.104861,
       "lng": -96.75305,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_17",
+      "id": "RC05_REG_17",
       "nombre": "QUERÉTARO",
       "nombreEN": "QUERÉTARO",
       "lat": 17.108456,
       "lng": -96.754648,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_18",
+      "id": "RC05_REG_18",
       "nombre": "VICENTE GUERRERO",
       "nombreEN": "VICENTE GUERRERO",
       "lat": 17.11241,
       "lng": -96.756364,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_19",
+      "id": "RC05_REG_19",
       "nombre": "PLUTARCO ELÍAS CALLES",
       "nombreEN": "PLUTARCO ELÍAS CALLES",
       "lat": 17.115512,
       "lng": -96.758451,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_20",
+      "id": "RC05_REG_20",
       "nombre": "PINO SUÁREZ",
       "nombreEN": "PINO SUÁREZ",
       "lat": 17.116059,
       "lng": -96.758644,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_21",
+      "id": "RC05_REG_21",
       "nombre": "LÁZARO CÁRDENAS",
       "nombreEN": "LÁZARO CÁRDENAS",
       "lat": 17.117184,
       "lng": -96.755775,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_22",
+      "id": "RC05_REG_22",
       "nombre": "PORFIRIO DÍAZ",
       "nombreEN": "PORFIRIO DÍAZ",
       "lat": 17.118505,
       "lng": -96.752876,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_23",
+      "id": "RC05_REG_23",
       "nombre": "NUEVO MÉXICO",
       "nombreEN": "NUEVO MÉXICO",
       "lat": 17.120224,
       "lng": -96.751675,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_24",
+      "id": "RC05_REG_24",
       "nombre": "CALIFORNIA",
       "nombreEN": "CALIFORNIA",
       "lat": 17.120445,
       "lng": -96.753042,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_25",
+      "id": "RC05_REG_25",
       "nombre": "SAN ÁNGEL",
       "nombreEN": "SAN ÁNGEL",
       "lat": 17.120572,
       "lng": -96.75496,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_26",
+      "id": "RC05_REG_26",
       "nombre": "LAGO VALSEQUILLO",
       "nombreEN": "LAGO VALSEQUILLO",
       "lat": 17.122519,
       "lng": -96.755382,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_27",
+      "id": "RC05_REG_27",
       "nombre": "XOCHIMILCO",
       "nombreEN": "XOCHIMILCO",
       "lat": 17.122753,
       "lng": -96.759139,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_28",
-      "nombre": "SIN NOMBRE",
-      "nombreEN": "SIN NOMBRE",
+      "id": "RC05_REG_28",
+      "nombre": "PARADA",
+      "nombreEN": "PARADA",
       "lat": 17.12493,
       "lng": -96.760951,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_29",
+      "id": "RC05_REG_29",
       "nombre": "ÉBANOS",
       "nombreEN": "ÉBANOS",
       "lat": 17.126327,
       "lng": -96.759527,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_30",
+      "id": "RC05_REG_30",
       "nombre": "LIBRAMIENTO NORTE",
       "nombreEN": "LIBRAMIENTO NORTE",
       "lat": 17.127404,
       "lng": -96.758284,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_31",
+      "id": "RC05_REG_31",
       "nombre": "PRETILES",
       "nombreEN": "PRETILES",
       "lat": 17.127577,
       "lng": -96.752874,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
     },
     {
-      "id": "RT05_REG_32",
+      "id": "RC05_REG_32",
       "nombre": "BASE LIBRAMIENTO",
       "nombreEN": "BASE LIBRAMIENTO",
       "lat": 17.126884,
       "lng": -96.749047,
       "rutasQueParanAqui": [
-        "RT05"
+        "RC05"
       ],
       "esTianguis": false,
       "esEventoCultural": false
@@ -7856,5 +7892,314 @@
       ]
     ]
   },
-  "horarios": []
+  "horarios": [
+    {
+      "paradaId": "RC05_IDA_01",
+      "horariosLV": [
+        "06:00",
+        "06:30",
+        "07:00",
+        "07:30",
+        "08:00",
+        "08:30",
+        "09:00",
+        "09:30",
+        "10:00",
+        "10:30",
+        "11:00",
+        "11:30",
+        "12:00",
+        "12:30",
+        "13:00",
+        "13:30",
+        "14:00",
+        "14:30",
+        "15:00",
+        "15:30",
+        "16:00",
+        "16:30",
+        "17:00",
+        "17:30",
+        "18:00",
+        "18:30",
+        "19:00",
+        "19:30",
+        "20:00",
+        "20:30",
+        "21:00",
+        "21:30",
+        "22:00"
+      ],
+      "horariosSab": [
+        "06:00",
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00"
+      ],
+      "horariosDom": [
+        "06:00",
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00"
+      ],
+      "servicioGratuito": false
+    },
+    {
+      "paradaId": "RC05_IDA_32",
+      "horariosLV": [
+        "06:00",
+        "06:30",
+        "07:00",
+        "07:30",
+        "08:00",
+        "08:30",
+        "09:00",
+        "09:30",
+        "10:00",
+        "10:30",
+        "11:00",
+        "11:30",
+        "12:00",
+        "12:30",
+        "13:00",
+        "13:30",
+        "14:00",
+        "14:30",
+        "15:00",
+        "15:30",
+        "16:00",
+        "16:30",
+        "17:00",
+        "17:30",
+        "18:00",
+        "18:30",
+        "19:00",
+        "19:30",
+        "20:00",
+        "20:30",
+        "21:00",
+        "21:30",
+        "22:00"
+      ],
+      "horariosSab": [
+        "06:00",
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00"
+      ],
+      "horariosDom": [
+        "06:00",
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00"
+      ],
+      "servicioGratuito": false
+    },
+    {
+      "paradaId": "RC05_REG_01",
+      "horariosLV": [
+        "06:00",
+        "06:30",
+        "07:00",
+        "07:30",
+        "08:00",
+        "08:30",
+        "09:00",
+        "09:30",
+        "10:00",
+        "10:30",
+        "11:00",
+        "11:30",
+        "12:00",
+        "12:30",
+        "13:00",
+        "13:30",
+        "14:00",
+        "14:30",
+        "15:00",
+        "15:30",
+        "16:00",
+        "16:30",
+        "17:00",
+        "17:30",
+        "18:00",
+        "18:30",
+        "19:00",
+        "19:30",
+        "20:00",
+        "20:30",
+        "21:00",
+        "21:30",
+        "22:00"
+      ],
+      "horariosSab": [
+        "06:00",
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00"
+      ],
+      "horariosDom": [
+        "06:00",
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00"
+      ],
+      "servicioGratuito": false
+    },
+    {
+      "paradaId": "RC05_REG_32",
+      "horariosLV": [
+        "06:00",
+        "06:30",
+        "07:00",
+        "07:30",
+        "08:00",
+        "08:30",
+        "09:00",
+        "09:30",
+        "10:00",
+        "10:30",
+        "11:00",
+        "11:30",
+        "12:00",
+        "12:30",
+        "13:00",
+        "13:30",
+        "14:00",
+        "14:30",
+        "15:00",
+        "15:30",
+        "16:00",
+        "16:30",
+        "17:00",
+        "17:30",
+        "18:00",
+        "18:30",
+        "19:00",
+        "19:30",
+        "20:00",
+        "20:30",
+        "21:00",
+        "21:30",
+        "22:00"
+      ],
+      "horariosSab": [
+        "06:00",
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00"
+      ],
+      "horariosDom": [
+        "06:00",
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00"
+      ],
+      "servicioGratuito": false
+    }
+  ]
 }
