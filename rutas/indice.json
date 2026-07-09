@@ -1,10 +1,10 @@
 {
-  "version": "2026-07-06",
-  "generatedAt": "2026-07-07T01:25:56.289Z",
+  "version": "2026-07-08",
+  "generatedAt": "2026-07-09T01:17:24Z",
   "rutas": [
     {
       "id": "RC01",
-      "version": "2026-06-15-114",
+      "version": "2026-07-07-114",
       "nombre": "DUGUE",
       "color": "#D946B0",
       "activa": true,
@@ -12,7 +12,7 @@
     },
     {
       "id": "RC02",
-      "version": "2026-06-16-115",
+      "version": "2026-07-07-115",
       "nombre": "FANE KANTSINI",
       "color": "#EC6B83",
       "activa": true,
@@ -20,7 +20,7 @@
     },
     {
       "id": "RC03",
-      "version": "2026-06-16-68",
+      "version": "2026-07-07-68",
       "nombre": "NISA",
       "color": "#BB4639",
       "activa": true,
@@ -36,7 +36,7 @@
     },
     {
       "id": "RT05",
-      "version": "2026-06-24-124",
+      "version": "2026-07-08-124",
       "nombre": "Los Angeles",
       "color": "#3A86FF",
       "activa": true,
@@ -44,7 +44,7 @@
     },
     {
       "id": "RC04",
-      "version": "2026-06-18-103",
+      "version": "2026-07-07-103",
       "nombre": "ATLANTEKOMATL",
       "color": "#7AA2C1",
       "activa": true,
@@ -52,7 +52,7 @@
     },
     {
       "id": "RC05",
-      "version": "2026-06-18-64",
+      "version": "2026-07-07-64",
       "nombre": "XUUJX",
       "color": "#287B71",
       "activa": true,
@@ -60,7 +60,7 @@
     },
     {
       "id": "RC06",
-      "version": "2026-06-24-96",
+      "version": "2026-07-07-96",
       "nombre": "MONDOK",
       "color": "#5184C3",
       "activa": true,
@@ -68,7 +68,7 @@
     },
     {
       "id": "RC07",
-      "version": "2026-06-24-31",
+      "version": "2026-07-07-31",
       "nombre": "VITÚ VIÍ",
       "color": "#1873A5",
       "activa": true,
@@ -76,7 +76,7 @@
     },
     {
       "id": "RC08",
-      "version": "2026-06-24-95",
+      "version": "2026-07-07-95",
       "nombre": "RUJA",
       "color": "#BB5817",
       "activa": true,
@@ -84,7 +84,7 @@
     },
     {
       "id": "RC09",
-      "version": "2026-06-24-99",
+      "version": "2026-07-08-99",
       "nombre": "KÍTSIAN JAN",
       "color": "#06AFA5",
       "activa": true,
@@ -92,7 +92,7 @@
     },
     {
       "id": "RC10",
-      "version": "2026-06-26-113",
+      "version": "2026-07-08-113",
       "nombre": "KAIMO",
       "color": "#17738D",
       "activa": true,
@@ -100,7 +100,7 @@
     },
     {
       "id": "RC11",
-      "version": "2026-06-26-85",
+      "version": "2026-07-08-85",
       "nombre": "MÁ",
       "color": "#006634",
       "activa": true,
@@ -108,7 +108,7 @@
     },
     {
       "id": "RC12",
-      "version": "2026-06-28-64",
+      "version": "2026-07-08-64",
       "nombre": "ÑUNDA",
       "color": "#F3632D",
       "activa": true,
@@ -116,7 +116,7 @@
     },
     {
       "id": "RC13",
-      "version": "2026-06-29-96",
+      "version": "2026-07-08-96",
       "nombre": "YUKU TAY",
       "color": "#682B69",
       "activa": true,
@@ -124,7 +124,7 @@
     },
     {
       "id": "RC14",
-      "version": "2026-07-06-111",
+      "version": "2026-07-08-111",
       "nombre": "LABA’ YUROO",
       "color": "#F44C63",
       "activa": true,
@@ -132,7 +132,7 @@
     },
     {
       "id": "RC15",
-      "version": "2026-07-06-138",
+      "version": "2026-07-08-138",
       "nombre": "YU NGTA’",
       "color": "#8E418D",
       "activa": true,
@@ -140,9 +140,33 @@
     },
     {
       "id": "RA02",
-      "version": "2026-07-06-108",
+      "version": "2026-07-07-108",
       "nombre": "MO’",
       "color": "#0C495B",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RA03",
+      "version": "2026-07-08-53",
+      "nombre": "LADXIDÓ",
+      "color": "#F8A71F",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RA04",
+      "version": "2026-07-08-71",
+      "nombre": "NAA",
+      "color": "#AA2584",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RA05",
+      "version": "2026-07-08-106",
+      "nombre": "GUIE’",
+      "color": "#EB691C",
       "activa": true,
       "temporal": false
     }
