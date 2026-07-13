@@ -1,6 +1,6 @@
 {
   "version": "2026-07-08",
-  "generatedAt": "2026-07-09T01:17:24Z",
+  "generatedAt": "2026-07-13T19:26:49Z",
   "rutas": [
     {
       "id": "RC01",
@@ -167,6 +167,30 @@
       "version": "2026-07-08-106",
       "nombre": "GUIE’",
       "color": "#EB691C",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RA06",
+      "version": "2026-07-08-82",
+      "nombre": "WAGUL",
+      "color": "#87509A",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RA07",
+      "version": "2026-07-08-60",
+      "nombre": "UXACHA",
+      "color": "#EF8538",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RA08",
+      "version": "2026-07-08-72",
+      "nombre": "KOO",
+      "color": "#016069",
       "activa": true,
       "temporal": false
     }
