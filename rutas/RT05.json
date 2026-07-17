@@ -7,7 +7,7 @@
   "destino": "PLAZA DEL VALLE",
   "destinoEN": "PLAZA DEL VALLE",
   "color": "#3A86FF",
-  "tipo": "citibus",
+  "tipo": "camiòn",
   "esGratuita": false,
   "notaEspecial": "Ruta capturada desde GeoJSON el 2026-06-24. Horario de servicio de lunes a domingo de 06:00 a 20:00. Horarios referenciales sujetos a validación en campo.",
   "paradas": [
