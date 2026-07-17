@@ -1,6 +1,6 @@
 {
-  "version": "2026-07-08",
-  "generatedAt": "2026-07-13T19:26:49Z",
+  "version": "2026-07-16",
+  "generatedAt": "2026-07-17T05:26:55Z",
   "rutas": [
     {
       "id": "RC01",
@@ -191,6 +191,38 @@
       "version": "2026-07-08-72",
       "nombre": "KOO",
       "color": "#016069",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RA10",
+      "version": "2026-07-16-39",
+      "nombre": "TZA’ TØK",
+      "color": "#51457D",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RA11",
+      "version": "2026-07-16-63",
+      "nombre": "TÜCHI",
+      "color": "#BC7112",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RA12",
+      "version": "2026-07-16-104",
+      "nombre": "NAJMÉ",
+      "color": "#009641",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RA13",
+      "version": "2026-07-16-59",
+      "nombre": "WAXIN",
+      "color": "#00833E",
       "activa": true,
       "temporal": false
     }
