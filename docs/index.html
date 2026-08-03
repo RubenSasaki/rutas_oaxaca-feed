@@ -562,6 +562,399 @@
       margin-bottom: 12px;
     }
 
+    /* ── INTERACCIONES DE PRODUCTO ── */
+    #inicio,
+    #features,
+    #download { scroll-margin-top: 96px; }
+
+    .nav {
+      position: fixed;
+      inset: 0 0 auto;
+      z-index: 100;
+      max-width: none;
+      margin: 0;
+      padding: 17px 24px;
+      transition: background-color 220ms ease, border-color 220ms ease, box-shadow 220ms ease, padding 220ms ease;
+    }
+
+    .nav-inner {
+      width: 100%;
+      max-width: 1120px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .nav-link {
+      color: rgba(255,255,255,0.86);
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 10px 14px;
+      border-radius: 999px;
+      transition: color 180ms ease, background-color 180ms ease, border-color 180ms ease;
+    }
+
+    .nav-link:hover,
+    .nav-link:focus-visible { background: rgba(255,255,255,0.11); }
+
+    .nav-download {
+      border: 1px solid rgba(245,230,200,0.30);
+      color: var(--cantera);
+    }
+
+    body.is-scrolled .nav {
+      padding-top: 11px;
+      padding-bottom: 11px;
+      background: rgba(248,246,252,0.88);
+      border-bottom: 1px solid rgba(230,224,240,0.88);
+      box-shadow: 0 10px 28px rgba(45,27,105,0.08);
+      -webkit-backdrop-filter: blur(16px);
+      backdrop-filter: blur(16px);
+    }
+
+    body.is-scrolled .nav-logo-text,
+    body.is-scrolled .nav-link { color: var(--anil); }
+
+    body.is-scrolled .nav-logo-icon {
+      color: var(--anil);
+      background: rgba(45,27,105,0.08);
+      border-color: rgba(45,27,105,0.12);
+    }
+
+    body.is-scrolled .nav-link:hover,
+    body.is-scrolled .nav-link:focus-visible { background: rgba(45,27,105,0.07); }
+
+    body.is-scrolled .nav-download { border-color: rgba(45,27,105,0.18); }
+
+    .hero {
+      min-height: 890px;
+      padding: 132px 24px 110px;
+    }
+
+    .hero-content {
+      width: 100%;
+      max-width: 1120px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(400px, 0.86fr);
+      align-items: center;
+      gap: clamp(40px, 6vw, 84px);
+      text-align: left;
+    }
+
+    .hero-copy { max-width: 620px; }
+    .hero-title { font-size: clamp(48px, 5.2vw, 72px); }
+    .hero-sub { margin-left: 0; margin-right: 0; }
+    .btns { justify-content: flex-start; }
+    .qr-section { margin-left: 0; margin-right: 0; }
+
+    .app-showcase {
+      position: relative;
+      min-height: 650px;
+      display: grid;
+      grid-template-rows: 1fr auto;
+      align-items: center;
+      isolation: isolate;
+    }
+
+    .showcase-orbit {
+      position: absolute;
+      z-index: -1;
+      width: 510px;
+      height: 510px;
+      left: 50%;
+      top: 43%;
+      border: 1px solid rgba(216,209,255,0.22);
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      box-shadow: inset 0 0 90px rgba(158,145,232,0.08), 0 0 120px rgba(88,65,185,0.18);
+    }
+
+    .showcase-orbit::before,
+    .showcase-orbit::after {
+      content: '';
+      position: absolute;
+      border-radius: 50%;
+      border: 1px dashed rgba(245,230,200,0.16);
+    }
+
+    .showcase-orbit::before { inset: 52px; }
+    .showcase-orbit::after { inset: 116px; }
+
+    .phone-stack {
+      position: relative;
+      height: 570px;
+      transform: perspective(1100px) rotateX(var(--showcase-rx, 0deg)) rotateY(var(--showcase-ry, 0deg));
+      transform-style: preserve-3d;
+      transition: transform 240ms ease-out;
+      will-change: transform;
+    }
+
+    .phone-screen {
+      position: absolute;
+      top: 2px;
+      left: 50%;
+      width: 286px;
+      aspect-ratio: 9 / 16;
+      margin: 0;
+      padding: 7px;
+      overflow: hidden;
+      background: #101018;
+      border: 1px solid rgba(255,255,255,0.34);
+      border-radius: 40px;
+      box-shadow: 0 32px 70px rgba(8,4,27,0.48), inset 0 0 0 2px rgba(255,255,255,0.06);
+      transform-origin: 50% 72%;
+      transition: transform 620ms cubic-bezier(.22,.78,.22,1), opacity 420ms ease, filter 420ms ease;
+      will-change: transform, opacity;
+    }
+
+    .phone-screen::before {
+      content: '';
+      position: absolute;
+      z-index: 2;
+      top: 14px;
+      left: 50%;
+      width: 62px;
+      height: 17px;
+      border-radius: 999px;
+      background: #111019;
+      transform: translateX(-50%);
+    }
+
+    .phone-screen img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      border-radius: 33px;
+    }
+
+    .phone-screen.is-active {
+      z-index: 3;
+      opacity: 1;
+      filter: saturate(1);
+      transform: translate3d(-50%, 0, 72px) scale(1);
+    }
+
+    .phone-screen.is-prev {
+      z-index: 1;
+      opacity: 0.44;
+      filter: saturate(0.72);
+      transform: translate3d(calc(-50% - 82px), 40px, -35px) rotate(-7deg) scale(0.82);
+    }
+
+    .phone-screen.is-next {
+      z-index: 2;
+      opacity: 0.66;
+      filter: saturate(0.82);
+      transform: translate3d(calc(-50% + 82px), 40px, -20px) rotate(7deg) scale(0.82);
+    }
+
+    .showcase-controls {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 6px;
+      padding: 6px;
+      border: 1px solid rgba(245,230,200,0.16);
+      border-radius: 18px;
+      background: rgba(13,7,40,0.30);
+      -webkit-backdrop-filter: blur(12px);
+      backdrop-filter: blur(12px);
+    }
+
+    .showcase-control {
+      min-width: 0;
+      padding: 11px 9px;
+      color: rgba(245,230,200,0.62);
+      background: transparent;
+      border: 0;
+      border-radius: 13px;
+      font: 600 10px/1.25 'Inter', sans-serif;
+      cursor: pointer;
+      text-align: left;
+      transition: color 180ms ease, background-color 180ms ease;
+    }
+
+    .showcase-control span {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--copal);
+      font: 700 10px/1 'Space Grotesk', sans-serif;
+    }
+
+    .showcase-control.is-active {
+      color: var(--blanco);
+      background: rgba(255,255,255,0.11);
+    }
+
+    .showcase-control:focus-visible,
+    .feature-card:focus-visible,
+    .nav-link:focus-visible,
+    .nav-logo:focus-visible,
+    .btn-download:focus-visible,
+    .qr-section a:focus-visible {
+      outline: 3px solid var(--copal);
+      outline-offset: 3px;
+    }
+
+    .feature-experience {
+      display: grid;
+      grid-template-columns: minmax(300px, 380px) minmax(0, 1fr);
+      align-items: start;
+      gap: clamp(42px, 6vw, 76px);
+    }
+
+    .feature-preview {
+      position: sticky;
+      top: 104px;
+      display: grid;
+      justify-items: center;
+      gap: 16px;
+      padding: 30px;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 50% 15%, rgba(158,145,232,0.24), transparent 45%),
+        linear-gradient(145deg, #EFECFA, #FAF9FD);
+      border: 1px solid var(--borde);
+      border-radius: 30px;
+      box-shadow: 0 22px 54px rgba(45,27,105,0.10);
+    }
+
+    .feature-preview::before {
+      content: '';
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      border: 1px dashed rgba(45,27,105,0.14);
+      border-radius: 50%;
+      top: 64px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .feature-device {
+      position: relative;
+      width: min(100%, 268px);
+      aspect-ratio: 9 / 16;
+      padding: 7px;
+      overflow: hidden;
+      background: #111019;
+      border: 1px solid rgba(45,27,105,0.24);
+      border-radius: 39px;
+      box-shadow: 0 24px 52px rgba(28,15,78,0.24);
+    }
+
+    .feature-device::before {
+      content: '';
+      position: absolute;
+      z-index: 2;
+      top: 14px;
+      left: 50%;
+      width: 58px;
+      height: 16px;
+      border-radius: 999px;
+      background: #111019;
+      transform: translateX(-50%);
+    }
+
+    .feature-device img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      border-radius: 32px;
+      view-transition-name: feature-screen;
+    }
+
+    .feature-preview-label {
+      position: relative;
+      z-index: 2;
+      min-height: 36px;
+      padding: 10px 14px;
+      color: var(--anil);
+      background: rgba(255,255,255,0.82);
+      border: 1px solid rgba(45,27,105,0.10);
+      border-radius: 999px;
+      font: 700 12px/1.2 'Inter', sans-serif;
+      text-align: center;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    .feature-card,
+    .feature-card:nth-child(4),
+    .feature-card:nth-child(5) {
+      width: 100%;
+      min-height: 0;
+      grid-column: auto;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      align-items: start;
+      gap: 16px;
+      padding: 20px;
+      color: inherit;
+      font: inherit;
+      text-align: left;
+      cursor: pointer;
+      appearance: none;
+      transition: border-color 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+    }
+
+    .feature-card.is-active {
+      border-color: rgba(88,65,185,0.42);
+      background: rgba(88,65,185,0.055);
+      box-shadow: 0 18px 42px rgba(45,27,105,0.10);
+    }
+
+    .feature-icon {
+      margin: 0;
+      flex-shrink: 0;
+    }
+
+    .feature-content { display: block; }
+
+    .feature-content strong {
+      display: block;
+      margin-bottom: 7px;
+      color: var(--texto);
+      font: 700 17px/1.25 'Space Grotesk', sans-serif;
+    }
+
+    .feature-content > span {
+      display: block;
+      color: var(--medio);
+      font-size: 14px;
+      line-height: 1.55;
+    }
+
+    ::view-transition-old(feature-screen) {
+      animation: screen-out 180ms ease both;
+    }
+
+    ::view-transition-new(feature-screen) {
+      animation: screen-in 360ms cubic-bezier(.22,.78,.22,1) both;
+    }
+
+    @keyframes screen-out {
+      to { opacity: 0; transform: translateY(-10px) scale(0.985); }
+    }
+
+    @keyframes screen-in {
+      from { opacity: 0; transform: translateY(16px) scale(0.975); }
+    }
+
     /* ── SCROLL-DRIVEN MOTION ── */
     @supports (animation-timeline: scroll()) {
       .hero-depth {
@@ -594,32 +987,64 @@
     }
 
     /* ── RESPONSIVE ── */
-    @media (max-width: 480px) {
-      .hero { min-height: 0; padding: 0 18px 72px; }
-      .nav { padding: 18px 0 46px; }
-      .nav-tag { font-size: 10px; }
+    @media (max-width: 840px) {
+      .hero { min-height: 0; padding: 118px 20px 84px; }
+      .hero-content { grid-template-columns: 1fr; gap: 50px; text-align: center; }
+      .hero-copy { max-width: 690px; margin: 0 auto; }
+      .hero-sub { margin-left: auto; margin-right: auto; }
+      .btns { justify-content: center; }
+      .qr-section { margin-left: auto; margin-right: auto; }
+      .app-showcase { width: min(100%, 520px); min-height: 620px; margin: 0 auto; }
+      .feature-experience { grid-template-columns: minmax(260px, 330px) minmax(0, 1fr); gap: 28px; }
+      .feature-preview { padding: 24px; }
+      .feature-device { width: min(100%, 234px); }
+      .feature-card { padding: 17px; }
+    }
+
+    @media (max-width: 620px) {
+      .nav { padding: 12px 16px; }
+      .nav-logo-icon { width: 38px; height: 38px; border-radius: 12px; }
+      .nav-logo-text { font-size: 18px; }
+      .nav-link:not(.nav-download) { display: none; }
+      .nav-download { padding: 9px 12px; font-size: 12px; }
+      .hero { padding: 112px 18px 76px; }
       .hero-title { font-size: clamp(40px, 13vw, 58px); }
       .btns { flex-direction: column; align-items: center; }
       .btn-download { width: 100%; max-width: 280px; justify-content: center; }
       .qr-section { max-width: 100%; }
+      .app-showcase { min-height: 540px; }
+      .showcase-orbit { width: 390px; height: 390px; top: 40%; }
+      .phone-stack { height: 455px; }
+      .phone-screen { width: 226px; border-radius: 33px; }
+      .phone-screen img { border-radius: 26px; }
+      .phone-screen.is-prev { transform: translate3d(calc(-50% - 54px), 31px, -35px) rotate(-6deg) scale(0.82); }
+      .phone-screen.is-next { transform: translate3d(calc(-50% + 54px), 31px, -20px) rotate(6deg) scale(0.82); }
+      .showcase-control { padding: 10px 7px; font-size: 9px; }
       .stats { margin: -28px 16px 0; padding: 10px 6px; }
       .stat { min-width: 96px; padding: 18px 6px; }
       .stat-num { font-size: 26px; }
       .section { padding: 72px 18px 54px; }
-      .features { grid-template-columns: 1fr; }
+      .section-title { margin-bottom: 32px; }
+      .feature-experience { display: block; }
+      .feature-preview { position: relative; top: auto; width: min(100%, 330px); margin: 0 auto 26px; }
+      .feature-device { width: 210px; }
+      .features {
+        grid-template-columns: none;
+        grid-auto-flow: column;
+        grid-auto-columns: minmax(286px, 88vw);
+        gap: 12px;
+        margin: 0 -18px;
+        padding: 2px 18px 18px;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        overscroll-behavior-inline: contain;
+        scrollbar-width: thin;
+      }
       .feature-card,
       .feature-card:nth-child(4),
-      .feature-card:nth-child(5) { grid-column: auto; min-height: 0; }
+      .feature-card:nth-child(5) { scroll-snap-align: center; }
       .event-banner { padding: 0 18px; margin-bottom: 54px; }
       .event-card { padding: 26px 22px; }
-    }
-
-    @media (min-width: 481px) and (max-width: 840px) {
-      .features { grid-template-columns: repeat(2, 1fr); }
-      .feature-card,
-      .feature-card:nth-child(4),
-      .feature-card:nth-child(5) { grid-column: auto; }
-      .feature-card:last-child { grid-column: 1 / -1; }
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -633,76 +1058,111 @@
       .hero-depth,
       .feature-card,
       .qr-section { animation: none !important; transform: none !important; }
+      .phone-stack { transform: none !important; }
+      .phone-screen:not(.is-active) { visibility: hidden; }
     }
   </style>
 </head>
 <body>
 
 <!-- ═══ HERO ═══ -->
-<section class="hero">
+<section class="hero" id="inicio">
   <div class="hero-depth" aria-hidden="true"></div>
-  <nav class="nav">
-    <div class="nav-logo" aria-label="Yuu Bus: Rutas Oaxaca">
-      <div class="nav-logo-icon"><span class="material-symbols-rounded" aria-hidden="true">directions_bus</span></div>
-      <span class="nav-logo-text">Yuu Bus</span>
+  <nav class="nav" aria-label="Navegación principal">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#inicio" aria-label="Yuu Bus: Rutas Oaxaca — inicio">
+        <span class="nav-logo-icon"><span class="material-symbols-rounded" aria-hidden="true">directions_bus</span></span>
+        <span class="nav-logo-text">Yuu Bus</span>
+      </a>
+      <div class="nav-actions">
+        <a class="nav-link" href="#features">Características</a>
+        <a class="nav-link nav-download" href="#download">Descargar</a>
+      </div>
     </div>
-    <span class="nav-tag">Rutas Oaxaca</span>
   </nav>
 
   <div class="hero-content">
-    <div class="hero-badge"><span class="material-symbols-rounded" aria-hidden="true">celebration</span> Disponible para Android</div>
+    <div class="hero-copy">
+      <div class="hero-badge"><span class="material-symbols-rounded" aria-hidden="true">celebration</span> Disponible para Android</div>
 
-    <h1 class="hero-title">
-      El transporte<br/>de <span>Oaxaca</span>,<br/>en tu mano.
-    </h1>
+      <h1 class="hero-title">
+        El transporte<br/>de <span>Oaxaca</span>,<br/>en tu mano.
+      </h1>
 
-    <p class="hero-sub">
-      Consulta rutas de Citibús, microbuses y colectivos en Oaxaca de Juárez.
-      Encuentra paradas cercanas, planea tu viaje y muévete con más claridad.
-    </p>
+      <p class="hero-sub">
+        Consulta rutas de Citibús, microbuses y colectivos en Oaxaca de Juárez.
+        Encuentra paradas cercanas, planea tu viaje y muévete con más claridad.
+      </p>
 
-    <div class="btns">
-      <a class="btn-download btn-android"
-         href="https://play.google.com/store/apps/details?id=mx.oaxaca.rutasoaxaca"
-         id="android-btn"
-         target="_blank"
-         rel="noopener noreferrer">
-        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <path d="M3.18 23c-.36 0-.68-.1-.93-.32A1.4 1.4 0 0 1 2 21.6V2.4C2 1.9 2.18 1.5 2.53 1.2L13.06 12 2.53 22.8c-.1.1-.22.17-.35.2H3.18z" fill="#EA4335"/>
-          <path d="M16.9 15.3l-3.04-3.04 1.9-1.9 3.38 1.9c.97.55.97 1.44 0 1.98l-2.24 1.06z" fill="#FBBC04"/>
-          <path d="M2.53 22.8C2.85 23.1 3.3 23.1 3.72 22.86l11.14-6.26-3.04-3.04L2.53 22.8z" fill="#34A853"/>
-          <path d="M2.53 1.2C2.85.9 3.3.9 3.72 1.14L14.86 7.4 11.82 10.44 2.53 1.2z" fill="#4285F4"/>
-        </svg>
-        <div class="btn-label">
-          <small>Descargar en</small>
-          <strong>Google Play</strong>
+      <div class="btns" id="download">
+        <a class="btn-download btn-android"
+           href="https://play.google.com/store/apps/details?id=mx.oaxaca.rutasoaxaca"
+           id="android-btn"
+           target="_blank"
+           rel="noopener noreferrer">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M3.18 23c-.36 0-.68-.1-.93-.32A1.4 1.4 0 0 1 2 21.6V2.4C2 1.9 2.18 1.5 2.53 1.2L13.06 12 2.53 22.8c-.1.1-.22.17-.35.2H3.18z" fill="#EA4335"/>
+            <path d="M16.9 15.3l-3.04-3.04 1.9-1.9 3.38 1.9c.97.55.97 1.44 0 1.98l-2.24 1.06z" fill="#FBBC04"/>
+            <path d="M2.53 22.8C2.85 23.1 3.3 23.1 3.72 22.86l11.14-6.26-3.04-3.04L2.53 22.8z" fill="#34A853"/>
+            <path d="M2.53 1.2C2.85.9 3.3.9 3.72 1.14L14.86 7.4 11.82 10.44 2.53 1.2z" fill="#4285F4"/>
+          </svg>
+          <span class="btn-label">
+            <small>Descargar en</small>
+            <strong>Google Play</strong>
+          </span>
+        </a>
+
+        <button class="btn-download btn-ios"
+           type="button"
+           disabled
+           aria-disabled="true">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="rgba(245,230,200,0.85)" aria-hidden="true">
+            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+          </svg>
+          <span class="btn-label">
+            <small>Próximamente en</small>
+            <strong>App Store</strong>
+          </span>
+        </button>
+      </div>
+
+      <div class="qr-section">
+        <a href="https://play.google.com/store/apps/details?id=mx.oaxaca.rutasoaxaca"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Abrir Yuu Bus: Rutas Oaxaca en Google Play">
+          <img class="qr-image" src="qr-code.png" alt="QR para descargar Yuu Bus: Rutas Oaxaca en Google Play" />
+        </a>
+        <div class="qr-label">
+          <strong>Escanea para descargar</strong>
+          <p>Apunta la cámara de tu teléfono y descarga Yuu Bus directo desde Google Play.</p>
         </div>
-      </a>
-
-      <button class="btn-download btn-ios"
-         type="button"
-         disabled
-         aria-disabled="true">
-        <svg class="btn-icon" viewBox="0 0 24 24" fill="rgba(245,230,200,0.85)" aria-hidden="true">
-          <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
-        </svg>
-        <div class="btn-label">
-          <small>Próximamente en</small>
-          <strong>App Store</strong>
-        </div>
-      </button>
+      </div>
     </div>
 
-    <div class="qr-section">
-      <a href="https://play.google.com/store/apps/details?id=mx.oaxaca.rutasoaxaca"
-         target="_blank"
-         rel="noopener noreferrer"
-         aria-label="Abrir Yuu Bus: Rutas Oaxaca en Google Play">
-        <img class="qr-image" src="qr-code.png" alt="QR para descargar Yuu Bus: Rutas Oaxaca en Google Play" />
-      </a>
-      <div class="qr-label">
-        <strong>Escanea para descargar</strong>
-        <p>Apunta la cámara de tu teléfono y descarga Yuu Bus directo desde Google Play.</p>
+    <div class="app-showcase" aria-label="Pantallas reales de Yuu Bus">
+      <div class="showcase-orbit" aria-hidden="true"></div>
+      <div class="phone-stack">
+        <figure class="phone-screen is-active" id="showcase-screen-0" data-screen="0" aria-hidden="false">
+          <img src="assets/screens/cerca-de-mi.webp" alt="Paradas cerca de ti en Yuu Bus" width="720" height="1280" fetchpriority="high" />
+        </figure>
+        <figure class="phone-screen is-next" id="showcase-screen-1" data-screen="1" aria-hidden="true">
+          <img src="assets/screens/opciones-viaje.webp" alt="Opciones para planear un viaje en Yuu Bus" width="720" height="1280" fetchpriority="high" />
+        </figure>
+        <figure class="phone-screen is-prev" id="showcase-screen-2" data-screen="2" aria-hidden="true">
+          <img src="assets/screens/seguir-ruta.webp" alt="Seguimiento de una ruta en el mapa de Yuu Bus" width="720" height="1280" fetchpriority="high" />
+        </figure>
+      </div>
+      <div class="showcase-controls" role="tablist" aria-label="Explorar Yuu Bus">
+        <button class="showcase-control is-active" type="button" role="tab" aria-selected="true" aria-controls="showcase-screen-0" data-showcase="0">
+          <span>01</span> Paradas cerca de ti
+        </button>
+        <button class="showcase-control" type="button" role="tab" aria-selected="false" aria-controls="showcase-screen-1" data-showcase="1">
+          <span>02</span> Planea tu viaje
+        </button>
+        <button class="showcase-control" type="button" role="tab" aria-selected="false" aria-controls="showcase-screen-2" data-showcase="2">
+          <span>03</span> Rutas
+        </button>
       </div>
     </div>
   </div>
@@ -725,35 +1185,39 @@
 </div>
 
 <!-- ═══ FEATURES ═══ -->
-<section class="section">
+<section class="section" id="features">
   <p class="section-tag">¿Qué es Yuu Bus?</p>
   <h2 class="section-title">Una app hecha por<br/>Oaxaca, para Oaxaca.</h2>
 
-  <div class="features">
-    <div class="feature-card">
-      <div class="feature-icon"><span class="material-symbols-rounded" aria-hidden="true">route</span></div>
-      <h3>Rutas con trabajo de campo</h3>
-      <p>Cada parada fue capturada a pie, verificando el recorrido real del camión.</p>
+  <div class="feature-experience">
+    <div class="feature-preview" id="feature-preview" aria-live="polite">
+      <div class="feature-device">
+        <img id="feature-image" src="assets/screens/seguir-ruta.webp" alt="Seguimiento de una ruta en el mapa de Yuu Bus" width="720" height="1280" />
+      </div>
+      <span class="feature-preview-label" id="feature-preview-label">Rutas con trabajo de campo</span>
     </div>
-    <div class="feature-card">
-      <div class="feature-icon"><span class="material-symbols-rounded" aria-hidden="true">multiple_stop</span></div>
-      <h3>Directa, transbordo o caminando</h3>
-      <p>"Planea tu viaje" compara todas las opciones para llegar a tu destino.</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon"><span class="material-symbols-rounded" aria-hidden="true">near_me</span></div>
-      <h3>Paradas cerca de ti</h3>
-      <p>Ve qué rutas pasan a tu alrededor en tiempo real, con su dirección y sentido.</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon"><span class="material-symbols-rounded" aria-hidden="true">theater_comedy</span></div>
-      <h3>Eventos y cultura</h3>
-      <p>Calendas, Guelaguetza, tianguis — con las rutas para llegar a cada uno.</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon"><span class="material-symbols-rounded" aria-hidden="true">signal_wifi_off</span></div>
-      <h3>Funciona sin internet</h3>
-      <p>Consulta rutas y paradas aunque no tengas señal. Los datos viven en tu teléfono.</p>
+
+    <div class="features" role="tablist" aria-label="Características de Yuu Bus">
+      <button class="feature-card is-active" type="button" role="tab" aria-selected="true" aria-controls="feature-preview" data-image="assets/screens/seguir-ruta.webp" data-alt="Seguimiento de una ruta en el mapa de Yuu Bus">
+        <span class="feature-icon"><span class="material-symbols-rounded" aria-hidden="true">route</span></span>
+        <span class="feature-content"><strong>Rutas con trabajo de campo</strong><span>Cada parada fue capturada a pie, verificando el recorrido real del camión.</span></span>
+      </button>
+      <button class="feature-card" type="button" role="tab" aria-selected="false" aria-controls="feature-preview" data-image="assets/screens/opciones-viaje.webp" data-alt="Opciones directas y con transbordo en Yuu Bus">
+        <span class="feature-icon"><span class="material-symbols-rounded" aria-hidden="true">multiple_stop</span></span>
+        <span class="feature-content"><strong>Directa, transbordo o caminando</strong><span>"Planea tu viaje" compara todas las opciones para llegar a tu destino.</span></span>
+      </button>
+      <button class="feature-card" type="button" role="tab" aria-selected="false" aria-controls="feature-preview" data-image="assets/screens/cerca-de-mi.webp" data-alt="Paradas cercanas y rutas en tiempo real en Yuu Bus">
+        <span class="feature-icon"><span class="material-symbols-rounded" aria-hidden="true">near_me</span></span>
+        <span class="feature-content"><strong>Paradas cerca de ti</strong><span>Ve qué rutas pasan a tu alrededor en tiempo real, con su dirección y sentido.</span></span>
+      </button>
+      <button class="feature-card" type="button" role="tab" aria-selected="false" aria-controls="feature-preview" data-image="assets/screens/eventos.webp" data-alt="Eventos y cultura de Oaxaca en Yuu Bus">
+        <span class="feature-icon"><span class="material-symbols-rounded" aria-hidden="true">theater_comedy</span></span>
+        <span class="feature-content"><strong>Eventos y cultura</strong><span>Calendas, Guelaguetza, tianguis — con las rutas para llegar a cada uno.</span></span>
+      </button>
+      <button class="feature-card" type="button" role="tab" aria-selected="false" aria-controls="feature-preview" data-image="assets/screens/inicio.webp" data-alt="Servicios disponibles en la pantalla de inicio de Yuu Bus">
+        <span class="feature-icon"><span class="material-symbols-rounded" aria-hidden="true">signal_wifi_off</span></span>
+        <span class="feature-content"><strong>Funciona sin internet</strong><span>Consulta rutas y paradas aunque no tengas señal. Los datos viven en tu teléfono.</span></span>
+      </button>
     </div>
   </div>
 </section>
@@ -781,28 +1245,7 @@
   </p>
 </footer>
 
-<script>
-  (() => {
-    const qr = document.querySelector('.qr-section');
-    const canTilt = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
-    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-    if (!qr || !canTilt || reduceMotion) return;
-
-    qr.addEventListener('pointermove', (event) => {
-      const bounds = qr.getBoundingClientRect();
-      const x = (event.clientX - bounds.left) / bounds.width - 0.5;
-      const y = (event.clientY - bounds.top) / bounds.height - 0.5;
-      qr.style.setProperty('--qr-rotate-x', `${(-y * 6).toFixed(2)}deg`);
-      qr.style.setProperty('--qr-rotate-y', `${(x * 7).toFixed(2)}deg`);
-    }, { passive: true });
-
-    qr.addEventListener('pointerleave', () => {
-      qr.style.removeProperty('--qr-rotate-x');
-      qr.style.removeProperty('--qr-rotate-y');
-    });
-  })();
-</script>
+<script src="landing.js" defer></script>
 
 </body>
 </html>
