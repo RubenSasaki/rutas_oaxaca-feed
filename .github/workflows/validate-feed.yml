@@ -1,0 +1,97 @@
+name: Validate transit feed
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate routes and events
+        run: |
+          python3 - <<'PY'
+          import json
+          from datetime import datetime
+          from pathlib import Path
+
+          root = Path('.')
+          index = json.loads((root / 'rutas/indice.json').read_text())
+          entries = index.get('rutas')
+          if not isinstance(entries, list) or not entries:
+              raise SystemExit('rutas/indice.json must contain a non-empty rutas list')
+
+          route_ids = [entry.get('id') for entry in entries]
+          if any(not isinstance(route_id, str) or not route_id for route_id in route_ids):
+              raise SystemExit('Every route index entry needs a non-empty id')
+          if len(route_ids) != len(set(route_ids)):
+              raise SystemExit('Duplicate route ids in rutas/indice.json')
+
+          for entry in entries:
+              route_id = entry['id']
+              if entry.get('temporal') is True:
+                  start = entry.get('visibleDesde')
+                  end = entry.get('visibleHasta')
+                  if not isinstance(start, str) or not isinstance(end, str):
+                      raise SystemExit(
+                          f'{route_id}: temporal routes require visibleDesde and visibleHasta'
+                      )
+                  if datetime.fromisoformat(end) < datetime.fromisoformat(start):
+                      raise SystemExit(f'{route_id}: visibleHasta precedes visibleDesde')
+
+              route_path = root / 'rutas' / f'{route_id}.json'
+              if not route_path.is_file():
+                  raise SystemExit(f'Missing {route_path}')
+              route = json.loads(route_path.read_text())
+              if route.get('id') != route_id:
+                  raise SystemExit(f'{route_path}: route id does not match the index')
+
+          indexed_paths = {f'{route_id}.json' for route_id in route_ids}
+          extra_paths = {
+              path.name for path in (root / 'rutas').glob('*.json')
+              if path.name != 'indice.json'
+          } - indexed_paths
+          if extra_paths:
+              raise SystemExit(f'Route JSON files absent from index: {sorted(extra_paths)}')
+
+          events_feed = json.loads((root / 'eventos.json').read_text())
+          datetime.fromisoformat(events_feed['updatedAt'])
+          events = events_feed.get('eventos')
+          if not isinstance(events, list):
+              raise SystemExit('eventos.json must contain an eventos list')
+          event_ids = [event.get('id') for event in events]
+          if len(event_ids) != len(set(event_ids)):
+              raise SystemExit('Duplicate event ids in eventos.json')
+
+          known_routes = set(route_ids)
+          for event in events:
+              references = list(event.get('rutas') or [])
+              special = event.get('transporteEspecial') or {}
+              references.extend(special.get('rutaIds') or [])
+              unknown = sorted(set(references) - known_routes)
+              if unknown:
+                  raise SystemExit(
+                      f"{event.get('id')}: unknown route references {unknown}"
+                  )
+              image_path = event.get('imagenPath')
+              if image_path is not None:
+                  image = Path(image_path)
+                  if image.is_absolute() or '..' in image.parts:
+                      raise SystemExit(f"{event.get('id')}: unsafe imagenPath")
+                  remote_image = root / 'eventos/imagenes' / image
+                  if not remote_image.is_file():
+                      raise SystemExit(
+                          f"{event.get('id')}: missing image {remote_image}"
+                      )
+
+          print(
+              f'Validated {len(route_ids)} routes and {len(events)} events; '
+              'all temporary routes have finite visibility windows.'
+          )
+          PY

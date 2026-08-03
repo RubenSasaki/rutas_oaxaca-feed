@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-13T12:00:00-06:00",
+  "updatedAt": "2026-07-18T00:47:00-06:00",
   "eventos": [
     {
       "id": "seleccion-diosa-centotl",
@@ -20,12 +20,21 @@
       "estado": "proximo",
       "gratuito": true,
       "rutas": [
-        "RC14",
-        "RA01"
+        "RC14"
       ],
       "color": "#0F4C81",
       "icono": "celebration",
-      "fechaInicio": "2026-06-26"
+      "fechaInicio": "2026-06-26",
+      "categoria": "guelaguetza_oficial",
+      "ubicacion": {
+        "nombre": "Plaza de la Danza",
+        "lat": 17.0636178,
+        "lng": -96.7297027
+      },
+      "fechas": [
+        "2026-06-26",
+        "2026-06-27"
+      ]
     },
     {
       "id": "inauguracion-julio-guelaguetza",
@@ -45,12 +54,20 @@
       "estado": "proximo",
       "gratuito": true,
       "rutas": [
-        "RC14",
-        "RA01"
+        "RC14"
       ],
       "color": "#C2185B",
       "icono": "festival",
-      "fechaInicio": "2026-07-01"
+      "fechaInicio": "2026-07-01",
+      "categoria": "guelaguetza_oficial",
+      "ubicacion": {
+        "nombre": "Plaza de la Danza",
+        "lat": 17.0636178,
+        "lng": -96.7297027
+      },
+      "fechas": [
+        "2026-07-01"
+      ]
     },
     {
       "id": "convites-guelaguetza",
@@ -70,12 +87,18 @@
       "estado": "proximo",
       "gratuito": true,
       "rutas": [
-        "RC14",
-        "RA01"
+        "RC14"
       ],
       "color": "#0F4C81",
       "icono": "parade",
-      "fechaInicio": "2026-07-01"
+      "fechaInicio": "2026-07-01",
+      "categoria": "calenda_convite",
+      "ubicacion": null,
+      "fechas": [
+        "2026-07-01",
+        "2026-07-10",
+        "2026-07-11"
+      ]
     },
     {
       "id": "actividades-artisticas-culturales-zocalo",
@@ -96,12 +119,21 @@
       "gratuito": true,
       "rutas": [
         "RC14",
-        "RA01",
         "RT01"
       ],
       "color": "#C2185B",
       "icono": "music",
-      "fechaInicio": "2026-07-02"
+      "fechaInicio": "2026-07-02",
+      "categoria": "musica_cultura",
+      "ubicacion": {
+        "nombre": "Zócalo / Plaza de la Constitución",
+        "lat": 17.0608998,
+        "lng": -96.7252465
+      },
+      "fechas": [
+        "2026-07-02"
+      ],
+      "fechaFin": "2026-07-31"
     },
     {
       "id": "desde-mis-raices-con-sus-sabores",
@@ -121,12 +153,21 @@
       "estado": "proximo",
       "gratuito": true,
       "rutas": [
-        "RC14",
-        "RA01"
+        "RC14"
       ],
       "color": "#C2185B",
       "icono": "food",
-      "fechaInicio": "2026-07-09"
+      "fechaInicio": "2026-07-09",
+      "categoria": "gastronomia",
+      "ubicacion": {
+        "nombre": "Plaza de la Danza",
+        "lat": 17.0636178,
+        "lng": -96.7297027
+      },
+      "fechas": [
+        "2026-07-09"
+      ],
+      "fechaFin": "2026-07-28"
     },
     {
       "id": "lxiv-vuelta-ciclista-cerro",
@@ -148,7 +189,13 @@
       "rutas": [],
       "color": "#C2185B",
       "icono": "bike",
-      "fechaInicio": "2026-07-13"
+      "fechaInicio": "2026-07-13",
+      "categoria": "deportes",
+      "ubicacion": null,
+      "fechas": [
+        "2026-07-13"
+      ],
+      "fechaFin": "2026-07-19"
     },
     {
       "id": "feria-mezcal",
@@ -157,8 +204,8 @@
       "prioridad": 7,
       "tituloES": "Feria del Mezcal 2026",
       "tituloEN": "Mezcal Fair 2026",
-      "fechaES": "17 al 29 de julio",
-      "fechaEN": "July 17 to 29",
+      "fechaES": "17 al 28 de julio",
+      "fechaEN": "July 17 to 28",
       "zonaES": "Centro Cultural y de Convenciones de Oaxaca",
       "zonaEN": "Oaxaca Cultural and Convention Center",
       "descripcionES": "Feria dedicada al mezcal oaxaqueño en el Centro Cultural y de Convenciones.",
@@ -170,9 +217,43 @@
       "rutas": [
         "RT01"
       ],
+      "imagenAsset": "assets/images/eventos/feria-mezcal.jpg",
+      "imagenPath": "2026/feria-mezcal-v1.jpg",
+      "imagenAltES": "Cartel de la Feria del Mezcal 2026 con transporte gratuito",
+      "imagenAltEN": "2026 Mezcal Fair poster with free transportation",
+      "imagenCredito": "Material informativo proporcionado para MonteCode",
+      "imagenModo": "poster",
+      "transporteEspecial": {
+        "gratuito": true,
+        "fechaES": "17 al 28 de julio",
+        "fechaEN": "July 17 to 28",
+        "horarioES": "11:00 a 22:00 hrs.",
+        "horarioEN": "11:00 AM to 10:00 PM",
+        "origenes": [
+          "El Llano",
+          "Tecnológico",
+          "Parque del Amor"
+        ],
+        "destino": "Centro Cultural y de Convenciones de Oaxaca",
+        "rutaIds": [
+          "GE21",
+          "GE22",
+          "GE23"
+        ]
+      },
       "color": "#0F4C81",
       "icono": "ticket",
-      "fechaInicio": "2026-07-17"
+      "fechaInicio": "2026-07-17",
+      "categoria": "gastronomia",
+      "ubicacion": {
+        "nombre": "Centro Cultural y de Convenciones de Oaxaca",
+        "lat": 17.0639095,
+        "lng": -96.7044051
+      },
+      "fechas": [
+        "2026-07-17"
+      ],
+      "fechaFin": "2026-07-28"
     },
     {
       "id": "expo-feria-artesanal",
@@ -196,7 +277,17 @@
       ],
       "color": "#C2185B",
       "icono": "market",
-      "fechaInicio": "2026-07-17"
+      "fechaInicio": "2026-07-17",
+      "categoria": "mercado_artesanal",
+      "ubicacion": {
+        "nombre": "Centro Cultural y de Convenciones de Oaxaca",
+        "lat": 17.0639095,
+        "lng": -96.7044051
+      },
+      "fechas": [
+        "2026-07-17"
+      ],
+      "fechaFin": "2026-07-28"
     },
     {
       "id": "calendas-delegaciones",
@@ -216,12 +307,26 @@
       "estado": "proximo",
       "gratuito": true,
       "rutas": [
-        "RC14",
-        "RA01"
+        "RC14"
       ],
       "color": "#0F4C81",
       "icono": "parade",
-      "fechaInicio": "2026-07-18"
+      "fechaInicio": "2026-07-18",
+      "categoria": "calenda_convite",
+      "ubicacion": {
+        "nombre": "Fuente de las 8 Regiones",
+        "lat": 17.0823921,
+        "lng": -96.718884
+      },
+      "ubicacionLlegada": {
+        "nombre": "Zócalo / Plaza de la Constitución",
+        "lat": 17.0608998,
+        "lng": -96.7252465
+      },
+      "fechas": [
+        "2026-07-18",
+        "2026-07-25"
+      ]
     },
     {
       "id": "torneo-pelota-mixteca",
@@ -245,7 +350,17 @@
       ],
       "color": "#C2185B",
       "icono": "sports",
-      "fechaInicio": "2026-07-19"
+      "fechaInicio": "2026-07-19",
+      "categoria": "deportes",
+      "ubicacion": {
+        "nombre": "UABJO, Cinco Señores",
+        "lat": 17.0503666,
+        "lng": -96.7124453
+      },
+      "fechas": [
+        "2026-07-19",
+        "2026-07-26"
+      ]
     },
     {
       "id": "donaji-la-leyenda",
@@ -266,12 +381,43 @@
       "gratuito": false,
       "rutas": [
         "RT01",
-        "RC14",
-        "RA01"
+        "RC14"
       ],
+      "imagenAsset": "assets/images/eventos/donaji-la-leyenda.jpg",
+      "imagenPath": "2026/donaji-la-leyenda-v1.jpg",
+      "imagenAltES": "Cartel de Donají, la Leyenda, en el Auditorio Guelaguetza",
+      "imagenAltEN": "Donají, the Legend poster at the Guelaguetza Auditorium",
+      "imagenCredito": "Material informativo proporcionado para MonteCode",
+      "imagenModo": "poster",
+      "transporteEspecial": {
+        "gratuito": true,
+        "fechaES": "19 y 26 de julio",
+        "fechaEN": "July 19 and 26",
+        "horarioES": "17:00 a 22:00 hrs.",
+        "horarioEN": "5:00 PM to 10:00 PM",
+        "origenes": [
+          "Tecnológico",
+          "Parque del Amor"
+        ],
+        "destino": "Auditorio Guelaguetza",
+        "rutaIds": [
+          "GE11",
+          "GE12"
+        ]
+      },
       "color": "#C2185B",
       "icono": "theater",
-      "fechaInicio": "2026-07-19"
+      "fechaInicio": "2026-07-19",
+      "categoria": "guelaguetza_oficial",
+      "ubicacion": {
+        "nombre": "Auditorio Guelaguetza (Cerro del Fortín)",
+        "lat": 17.0686803,
+        "lng": -96.73102
+      },
+      "fechas": [
+        "2026-07-19",
+        "2026-07-26"
+      ]
     },
     {
       "id": "lunes-del-cerro",
@@ -292,13 +438,41 @@
       "gratuito": false,
       "rutas": [
         "RT01",
-        "RC14",
-        "RA01"
+        "RC14"
       ],
+      "imagenAsset": "assets/images/eventos/lunes-del-cerro.jpg",
+      "imagenPath": "2026/lunes-del-cerro-v1.jpg",
+      "imagenAltES": "Cartel del Lunes del Cerro con una bailarina oaxaqueña",
+      "imagenAltEN": "Lunes del Cerro poster with an Oaxacan dancer",
+      "imagenCredito": "Material informativo proporcionado para MonteCode",
+      "imagenModo": "poster",
+      "transporteEspecial": {
+        "gratuito": true,
+        "fechaES": "20 y 27 de julio",
+        "fechaEN": "July 20 and 27",
+        "horarioES": "06:00 a 22:00 hrs.",
+        "horarioEN": "6:00 AM to 10:00 PM",
+        "origenes": [
+          "Tecnológico",
+          "Parque del Amor"
+        ],
+        "destino": "Auditorio Guelaguetza",
+        "rutaIds": []
+      },
       "color": "#0F4C81",
       "icono": "theater",
-      "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Guelaguetza_2010.jpg/640px-Guelaguetza_2010.jpg",
-      "fechaInicio": "2026-07-20"
+      "enlaceEnVivo": "https://guelaguetza.oaxaca.gob.mx/",
+      "fechaInicio": "2026-07-20",
+      "categoria": "guelaguetza_oficial",
+      "ubicacion": {
+        "nombre": "Auditorio Guelaguetza (Cerro del Fortín)",
+        "lat": 17.0686803,
+        "lng": -96.73102
+      },
+      "fechas": [
+        "2026-07-20",
+        "2026-07-27"
+      ]
     },
     {
       "id": "expresiones-artisticas-culturales-alameda",
@@ -318,12 +492,21 @@
       "estado": "proximo",
       "gratuito": true,
       "rutas": [
-        "RC14",
-        "RA01"
+        "RC14"
       ],
       "color": "#C2185B",
       "icono": "music",
-      "fechaInicio": "2026-07-22"
+      "fechaInicio": "2026-07-22",
+      "categoria": "musica_cultura",
+      "ubicacion": {
+        "nombre": "Alameda de León",
+        "lat": 17.0617246,
+        "lng": -96.72605
+      },
+      "fechas": [
+        "2026-07-22",
+        "2026-07-29"
+      ]
     },
     {
       "id": "festival-moles",
@@ -343,12 +526,21 @@
       "estado": "proximo",
       "gratuito": false,
       "rutas": [
-        "RC14",
-        "RA01"
+        "RC14"
       ],
       "color": "#C2185B",
       "icono": "food",
-      "fechaInicio": "2026-07-24"
+      "fechaInicio": "2026-07-24",
+      "categoria": "gastronomia",
+      "ubicacion": {
+        "nombre": "Centro Gastronómico de Oaxaca",
+        "lat": 17.0681566,
+        "lng": -96.7242594
+      },
+      "fechas": [
+        "2026-07-24",
+        "2026-07-25"
+      ]
     },
     {
       "id": "maraton-internacional-guelaguetza",
@@ -373,7 +565,16 @@
       ],
       "color": "#C2185B",
       "icono": "sports",
-      "fechaInicio": "2026-07-26"
+      "fechaInicio": "2026-07-26",
+      "categoria": "deportes",
+      "ubicacion": {
+        "nombre": "Auditorio Guelaguetza (Cerro del Fortín)",
+        "lat": 17.0686803,
+        "lng": -96.73102
+      },
+      "fechas": [
+        "2026-07-26"
+      ]
     },
     {
       "id": "feria-tejate-tamal",
@@ -393,12 +594,299 @@
       "estado": "proximo",
       "gratuito": true,
       "rutas": [
-        "RC14",
-        "RA01"
+        "RC14"
       ],
+      "imagenAsset": "assets/images/eventos/feria-tejate-tamal.jpg",
+      "imagenPath": "2026/feria-tejate-tamal-v1.jpg",
+      "imagenAltES": "Cartel de la Feria del Tejate y el Tamal en Plaza de la Danza",
+      "imagenAltEN": "Tejate and Tamal Fair poster at Plaza de la Danza",
+      "imagenCredito": "Material informativo proporcionado para MonteCode",
+      "imagenModo": "poster",
+      "transporteEspecial": {
+        "gratuito": true,
+        "fechaES": "29 y 30 de julio",
+        "fechaEN": "July 29 and 30",
+        "horarioES": "10:00 a 20:00 hrs.",
+        "horarioEN": "10:00 AM to 8:00 PM",
+        "origenes": [
+          "Tecnológico"
+        ],
+        "destino": "Plaza de la Danza",
+        "rutaIds": [
+          "GE31"
+        ]
+      },
       "color": "#C2185B",
       "icono": "food",
-      "fechaInicio": "2026-07-29"
+      "fechaInicio": "2026-07-29",
+      "categoria": "gastronomia",
+      "ubicacion": {
+        "nombre": "Plaza de la Danza",
+        "lat": 17.0636178,
+        "lng": -96.7297027
+      },
+      "fechas": [
+        "2026-07-29",
+        "2026-07-30"
+      ]
+    },
+    {
+      "id": "tianguis-gastronomico-ruta-guelaguetza",
+      "enabled": true,
+      "publicado": false,
+      "destacado": false,
+      "prioridad": 17,
+      "tituloES": "Tianguis Gastronómico",
+      "tituloEN": "Gastronomic Market",
+      "fechaES": "8 al 16 de julio",
+      "fechaEN": "July 8 to 16",
+      "zonaES": "Plaza de la Danza",
+      "zonaEN": "Plaza de la Danza",
+      "descripcionES": "Tianguis gastronómico anunciado dentro de las actividades de Guelaguetza.",
+      "descripcionEN": "Gastronomic market announced as part of the Guelaguetza activities.",
+      "notaES": "El cartel recibido confirma el transporte; falta reconciliar este evento con Desde Mis Raíces con sus Sabores.",
+      "notaEN": "The supplied poster confirms transport; this event still needs to be reconciled with From My Roots with Their Flavors.",
+      "estado": "pasado",
+      "rutas": [],
+      "color": "#C2185B",
+      "icono": "food",
+      "imagenModo": "poster",
+      "fechaInicio": "2026-07-08",
+      "fechaFin": "2026-07-16",
+      "categoria": "gastronomia",
+      "ubicacion": {
+        "nombre": "Plaza de la Danza",
+        "lat": 17.0636178,
+        "lng": -96.7297027
+      },
+      "transporteEspecial": {
+        "gratuito": true,
+        "fechaES": "8 al 16 de julio",
+        "fechaEN": "July 8 to 16",
+        "horarioES": "12:00 a 21:00 hrs.",
+        "horarioEN": "12:00 PM to 9:00 PM",
+        "origenes": [
+          "Yuroo Viguera",
+          "Parque del Amor"
+        ],
+        "destino": "Plaza de la Danza",
+        "rutaIds": []
+      }
+    },
+    {
+      "id": "feria-manzana-latuvi",
+      "enabled": true,
+      "publicado": false,
+      "destacado": false,
+      "prioridad": 18,
+      "tituloES": "Feria de la Manzana",
+      "tituloEN": "Apple Fair",
+      "fechaES": "18 y 19 de julio",
+      "fechaEN": "July 18 and 19",
+      "zonaES": "Santa Martha Latuvi",
+      "zonaEN": "Santa Martha Latuvi",
+      "descripcionES": "Feria comunitaria de la manzana en Santa Martha Latuvi.",
+      "descripcionEN": "Community apple fair in Santa Martha Latuvi.",
+      "notaES": "Falta validar en campo el punto exacto de llegada.",
+      "notaEN": "The exact arrival point still needs field validation.",
+      "estado": "proximo",
+      "rutas": [],
+      "color": "#9A3412",
+      "icono": "market",
+      "imagenModo": "poster",
+      "fechaInicio": "2026-07-18",
+      "categoria": "mercado_artesanal",
+      "fechas": [
+        "2026-07-18",
+        "2026-07-19"
+      ],
+      "transporteEspecial": {
+        "gratuito": true,
+        "fechaES": "18 y 19 de julio",
+        "fechaEN": "July 18 and 19",
+        "horarioES": "06:00 a 18:00 hrs.",
+        "horarioEN": "6:00 AM to 6:00 PM",
+        "origenes": [
+          "El Llano"
+        ],
+        "destino": "Santa Martha Latuvi",
+        "rutaIds": []
+      }
+    },
+    {
+      "id": "feria-tlayuda-san-antonio-cal",
+      "enabled": true,
+      "publicado": true,
+      "destacado": false,
+      "prioridad": 19,
+      "tituloES": "Feria de la Tlayuda",
+      "tituloEN": "Tlayuda Fair",
+      "fechaES": "19 y 25 de julio",
+      "fechaEN": "July 19 and 25",
+      "zonaES": "San Antonio de la Cal",
+      "zonaEN": "San Antonio de la Cal",
+      "descripcionES": "Feria gastronómica dedicada a la tlayuda.",
+      "descripcionEN": "Gastronomic fair dedicated to tlayudas.",
+      "notaES": "Horario: 10:00 a 20:00 hrs.",
+      "notaEN": "Time: 10:00 AM to 8:00 PM.",
+      "estado": "proximo",
+      "rutas": [],
+      "color": "#B45309",
+      "icono": "food",
+      "imagenAsset": "assets/images/eventos/feria-tlayuda.jpg",
+      "imagenPath": "2026/feria-tlayuda-v1.jpg",
+      "imagenAltES": "Cartel de la Feria de la Tlayuda en San Antonio de la Cal",
+      "imagenAltEN": "Tlayuda Fair poster in San Antonio de la Cal",
+      "imagenCredito": "Material informativo proporcionado para MonteCode",
+      "imagenModo": "poster",
+      "fechaInicio": "2026-07-19",
+      "categoria": "gastronomia",
+      "fechas": [
+        "2026-07-19",
+        "2026-07-25"
+      ],
+      "ubicacion": {
+        "nombre": "San Antonio de la Cal",
+        "lat": 17.024116,
+        "lng": -96.703103
+      },
+      "transporteEspecial": {
+        "gratuito": true,
+        "fechaES": "19 y 25 de julio",
+        "fechaEN": "July 19 and 25",
+        "horarioES": "10:00 a 20:00 hrs.",
+        "horarioEN": "10:00 AM to 8:00 PM",
+        "origenes": [
+          "El Llano"
+        ],
+        "destino": "San Antonio de la Cal",
+        "rutaIds": [
+          "GE41"
+        ]
+      }
+    },
+    {
+      "id": "fiesta-mezcal-santiago-matatlan",
+      "enabled": true,
+      "publicado": true,
+      "destacado": false,
+      "prioridad": 20,
+      "tituloES": "Fiesta del Mezcal en Matatlán",
+      "tituloEN": "Mezcal Festival in Matatlan",
+      "fechaES": "23 al 26 de julio",
+      "fechaEN": "July 23 to 26",
+      "zonaES": "Santiago Matatlán",
+      "zonaEN": "Santiago Matatlan",
+      "descripcionES": "Fiesta comunitaria dedicada al mezcal en Santiago Matatlán.",
+      "descripcionEN": "Community mezcal festival in Santiago Matatlan.",
+      "notaES": "Horario: 10:00 a 19:00 hrs.",
+      "notaEN": "Time: 10:00 AM to 7:00 PM.",
+      "estado": "proximo",
+      "rutas": [],
+      "color": "#166534",
+      "icono": "food",
+      "imagenAsset": "assets/images/eventos/fiesta-mezcal-matatlan.jpg",
+      "imagenPath": "2026/fiesta-mezcal-matatlan-v1.jpg",
+      "imagenAltES": "Cartel de la Fiesta del Mezcal en Santiago Matatlán",
+      "imagenAltEN": "Mezcal Festival poster in Santiago Matatlan",
+      "imagenCredito": "Material informativo proporcionado para MonteCode",
+      "imagenModo": "poster",
+      "fechaInicio": "2026-07-23",
+      "fechaFin": "2026-07-26",
+      "categoria": "gastronomia",
+      "transporteEspecial": {
+        "gratuito": true,
+        "fechaES": "23 al 26 de julio",
+        "fechaEN": "July 23 to 26",
+        "horarioES": "10:00 a 19:00 hrs.",
+        "horarioEN": "10:00 AM to 7:00 PM",
+        "origenes": [
+          "El Llano"
+        ],
+        "destino": "Santiago Matatlán",
+        "rutaIds": []
+      }
+    },
+    {
+      "id": "feria-nicuatole-yatareni",
+      "enabled": true,
+      "publicado": false,
+      "destacado": false,
+      "prioridad": 21,
+      "tituloES": "Feria del Nicuatole",
+      "tituloEN": "Nicuatole Fair",
+      "fechaES": "26 de julio",
+      "fechaEN": "July 26",
+      "zonaES": "San Agustín Yatareni",
+      "zonaEN": "San Agustin Yatareni",
+      "descripcionES": "Feria gastronómica dedicada al nicuatole.",
+      "descripcionEN": "Gastronomic fair dedicated to nicuatole.",
+      "notaES": "Falta validar en campo el punto exacto de llegada.",
+      "notaEN": "The exact arrival point still needs field validation.",
+      "estado": "proximo",
+      "rutas": [],
+      "color": "#BE185D",
+      "icono": "food",
+      "imagenModo": "poster",
+      "fechaInicio": "2026-07-26",
+      "categoria": "gastronomia",
+      "fechas": [
+        "2026-07-26"
+      ],
+      "transporteEspecial": {
+        "gratuito": true,
+        "fechaES": "26 de julio",
+        "fechaEN": "July 26",
+        "horarioES": "11:00 a 18:00 hrs.",
+        "horarioEN": "11:00 AM to 6:00 PM",
+        "origenes": [
+          "El Llano"
+        ],
+        "destino": "San Agustín Yatareni",
+        "rutaIds": []
+      }
+    },
+    {
+      "id": "expo-alebrijes-san-martin-tilcajete",
+      "enabled": true,
+      "publicado": true,
+      "destacado": false,
+      "prioridad": 22,
+      "tituloES": "Expo Venta de Alebrijes en Tilcajete",
+      "tituloEN": "Alebrije Expo and Sale in Tilcajete",
+      "fechaES": "29 al 31 de julio",
+      "fechaEN": "July 29 to 31",
+      "zonaES": "San Martín Tilcajete",
+      "zonaEN": "San Martin Tilcajete",
+      "descripcionES": "Expo venta comunitaria de alebrijes en San Martín Tilcajete.",
+      "descripcionEN": "Community alebrije expo and sale in San Martin Tilcajete.",
+      "notaES": "Horario: 10:00 a 18:00 hrs.",
+      "notaEN": "Time: 10:00 AM to 6:00 PM.",
+      "estado": "proximo",
+      "rutas": [],
+      "color": "#7E22CE",
+      "icono": "market",
+      "imagenAsset": "assets/images/eventos/expo-alebrijes-tilcajete.jpg",
+      "imagenPath": "2026/expo-alebrijes-tilcajete-v1.jpg",
+      "imagenAltES": "Cartel de la Expo Venta de Alebrijes en San Martín Tilcajete",
+      "imagenAltEN": "Alebrije Expo and Sale poster in San Martin Tilcajete",
+      "imagenCredito": "Material informativo proporcionado para MonteCode",
+      "imagenModo": "poster",
+      "fechaInicio": "2026-07-29",
+      "fechaFin": "2026-07-31",
+      "categoria": "mercado_artesanal",
+      "transporteEspecial": {
+        "gratuito": true,
+        "fechaES": "29 al 31 de julio",
+        "fechaEN": "July 29 to 31",
+        "horarioES": "10:00 a 18:00 hrs.",
+        "horarioEN": "10:00 AM to 6:00 PM",
+        "origenes": [
+          "El Llano"
+        ],
+        "destino": "San Martín Tilcajete",
+        "rutaIds": []
+      }
     }
   ]
 }

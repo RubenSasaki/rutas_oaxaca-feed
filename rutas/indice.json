@@ -1,6 +1,6 @@
 {
-  "version": "2026-07-17",
-  "generatedAt": "2026-07-17T23:27:03.073960Z",
+  "version": "2026-07-18",
+  "generatedAt": "2026-07-18T06:34:01Z",
   "rutas": [
     {
       "id": "RC01",
@@ -232,7 +232,9 @@
       "nombre": "LA LEYENDA DONAJÍ - TECNOLÓGICO / LLANO",
       "color": "",
       "activa": true,
-      "temporal": true
+      "temporal": true,
+      "visibleDesde": "2026-07-19T00:00:00-06:00",
+      "visibleHasta": "2026-07-27T23:59:59-06:00"
     },
     {
       "id": "GE12",
@@ -240,7 +242,9 @@
       "nombre": "LA LEYENDA DONAJÍ - PARQUE DEL AMOR",
       "color": "",
       "activa": true,
-      "temporal": true
+      "temporal": true,
+      "visibleDesde": "2026-07-19T00:00:00-06:00",
+      "visibleHasta": "2026-07-27T23:59:59-06:00"
     },
     {
       "id": "GE21",
@@ -248,7 +252,9 @@
       "nombre": "FERIA DEL MEZCAL - PARQUE EL LLANO",
       "color": "",
       "activa": true,
-      "temporal": true
+      "temporal": true,
+      "visibleDesde": "2026-07-17T00:00:00-06:00",
+      "visibleHasta": "2026-07-28T23:59:59-06:00"
     },
     {
       "id": "GE22",
@@ -256,7 +262,9 @@
       "nombre": "FERIA DEL MEZCAL - PARQUE DEL AMOR",
       "color": "",
       "activa": true,
-      "temporal": true
+      "temporal": true,
+      "visibleDesde": "2026-07-17T00:00:00-06:00",
+      "visibleHasta": "2026-07-28T23:59:59-06:00"
     },
     {
       "id": "GE23",
@@ -264,7 +272,9 @@
       "nombre": "FERIA DEL MEZCAL - TECNOLÓGICO",
       "color": "",
       "activa": true,
-      "temporal": true
+      "temporal": true,
+      "visibleDesde": "2026-07-17T00:00:00-06:00",
+      "visibleHasta": "2026-07-28T23:59:59-06:00"
     },
     {
       "id": "GE31",
@@ -272,7 +282,9 @@
       "nombre": "FERIA DEL TEJATE Y EL TAMAL",
       "color": "",
       "activa": true,
-      "temporal": true
+      "temporal": true,
+      "visibleDesde": "2026-07-29T00:00:00-06:00",
+      "visibleHasta": "2026-07-30T23:59:59-06:00"
     },
     {
       "id": "GE41",
@@ -280,7 +292,9 @@
       "nombre": "FERIA DE LA TLAYUDA",
       "color": "",
       "activa": true,
-      "temporal": true
+      "temporal": true,
+      "visibleDesde": "2026-07-19T00:00:00-06:00",
+      "visibleHasta": "2026-07-25T23:59:59-06:00"
     }
   ]
 }
