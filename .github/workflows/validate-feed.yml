@@ -1,0 +1,44 @@
+name: Validate transit feed
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: feed-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Test validator
+        run: python3 -m unittest discover -s tests -p 'test_*.py' -v
+
+      - name: Validate complete feed
+        run: python3 scripts/validate_feed.py --root .
+
+      - name: Validate changes against base
+        env:
+          PULL_REQUEST_BASE: ${{ github.event.pull_request.base.sha }}
+          PUSH_BASE: ${{ github.event.before }}
+        run: |
+          base="$PULL_REQUEST_BASE"
+          if [ -z "$base" ]; then base="$PUSH_BASE"; fi
+
+          if [ -z "$base" ] || [[ "$base" =~ ^0+$ ]]; then
+            echo "No comparison base is available; the complete feed was validated."
+            exit 0
+          fi
+
+          git cat-file -e "$base^{commit}"
+          python3 scripts/validate_feed.py --root . --base-ref "$base"
