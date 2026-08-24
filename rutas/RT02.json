@@ -7,7 +7,7 @@
   "destino": "CIUDAD ADMINISTRATIVA",
   "destinoEN": "CIUDAD ADMINISTRATIVA",
   "color": "#B48347",
-  "tipo": "citibus",
+  "tipo": "binnibus",
   "esGratuita": false,
   "notaEspecial": "Ruta capturada desde GeoJSON el 2026-08-22. Pasaje: $10.00 MXN en efectivo. Servicio de lunes a domingo de 06:00 a 22:00; horarios referenciales pendientes de validación operativa en campo.",
   "paradas": [
