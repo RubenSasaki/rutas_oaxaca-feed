@@ -231,7 +231,7 @@
       "version": "2026-07-17-8",
       "nombre": "LA LEYENDA DONAJÍ - TECNOLÓGICO / LLANO",
       "color": "",
-      "activa": true,
+      "activa": false,
       "temporal": true
     },
     {
@@ -239,7 +239,7 @@
       "version": "2026-07-17-7",
       "nombre": "LA LEYENDA DONAJÍ - PARQUE DEL AMOR",
       "color": "",
-      "activa": true,
+      "activa": false,
       "temporal": true
     },
     {
@@ -247,7 +247,7 @@
       "version": "2026-07-17-2",
       "nombre": "FERIA DEL MEZCAL - PARQUE EL LLANO",
       "color": "",
-      "activa": true,
+      "activa": false,
       "temporal": true
     },
     {
@@ -255,7 +255,7 @@
       "version": "2026-07-17-10",
       "nombre": "FERIA DEL MEZCAL - PARQUE DEL AMOR",
       "color": "",
-      "activa": true,
+      "activa": false,
       "temporal": true
     },
     {
@@ -263,7 +263,7 @@
       "version": "2026-07-17-12",
       "nombre": "FERIA DEL MEZCAL - TECNOLÓGICO",
       "color": "",
-      "activa": true,
+      "activa": false,
       "temporal": true
     },
     {
@@ -271,7 +271,7 @@
       "version": "2026-07-17-8",
       "nombre": "FERIA DEL TEJATE Y EL TAMAL",
       "color": "",
-      "activa": true,
+      "activa": false,
       "temporal": true
     },
     {
@@ -279,7 +279,7 @@
       "version": "2026-07-17-2",
       "nombre": "FERIA DE LA TLAYUDA",
       "color": "",
-      "activa": true,
+      "activa": false,
       "temporal": true
     },
     {
