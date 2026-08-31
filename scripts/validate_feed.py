@@ -223,9 +223,16 @@ def validate_index(index: Any, label: str, report: Report) -> list[dict[str, Any
             if start is not None and end is not None and end < start:
                 report.error(f"{entry_label}: visibleHasta precede visibleDesde")
         elif entry.get("temporal") is True:
-            report.warning(
-                f"{route_id}: ruta temporal heredada sin ventana visibleDesde/visibleHasta"
-            )
+            if entry.get("activa") is True:
+                report.error(
+                    f"{route_id}: una ruta temporal activa requiere "
+                    "visibleDesde/visibleHasta"
+                )
+            else:
+                report.warning(
+                    f"{route_id}: ruta temporal heredada sin ventana "
+                    "visibleDesde/visibleHasta"
+                )
     return valid_entries
 
 
@@ -577,7 +584,7 @@ def compare_with_base(current: FeedSnapshot, base: FeedSnapshot, root: Path, rep
     }
     for route_id in sorted(changed_entries):
         entry = current_entries[route_id]
-        if entry.get("temporal") is True and (
+        if entry.get("temporal") is True and entry.get("activa") is True and (
             entry.get("visibleDesde") is None or entry.get("visibleHasta") is None
         ):
             report.error(f"{route_id}: una ruta temporal modificada requiere ventana de visibilidad")
