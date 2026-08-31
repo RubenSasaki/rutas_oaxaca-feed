@@ -135,6 +135,95 @@ class FeedValidatorTest(unittest.TestCase):
         self.assertEqual([], report.errors)
         self.assertTrue(any("ruta inexistente RA01" in warning for warning in report.warnings))
 
+    def test_active_temporary_route_requires_visibility_window(self):
+        entry = _entry()
+        entry["temporal"] = True
+        self.write_feed(entry=entry)
+        report = Report()
+        load_snapshot(self.root, report)
+        self.assertTrue(
+            any(
+                "ruta temporal activa requiere visibleDesde/visibleHasta" in error
+                for error in report.errors
+            )
+        )
+
+    def test_inactive_historical_temporary_route_without_window_is_warning(self):
+        entry = _entry()
+        entry["activa"] = False
+        entry["temporal"] = True
+        self.write_feed(entry=entry)
+        report = Report()
+        load_snapshot(self.root, report)
+        self.assertEqual([], report.errors)
+        self.assertTrue(
+            any("ruta temporal heredada sin ventana" in warning for warning in report.warnings)
+        )
+
+    def test_active_to_inactive_legacy_temporary_route_is_allowed(self):
+        entry = _entry()
+        entry["activa"] = False
+        entry["temporal"] = True
+        self.write_feed(entry=entry)
+        current_report = Report()
+        current = load_snapshot(self.root, current_report)
+        self.assertIsNotNone(current)
+        self.assertEqual([], current_report.errors)
+
+        base_index = json.loads(json.dumps(current.index))
+        base_index["version"] = "2026-08-20"
+        base_index["generatedAt"] = "2026-08-20T12:00:00-06:00"
+        base_index["rutas"][0]["activa"] = True
+        base = FeedSnapshot(
+            index=base_index,
+            routes=json.loads(json.dumps(current.routes)),
+            route_raw=dict(current.route_raw),
+            events=json.loads(json.dumps(current.events)),
+            events_raw=current.events_raw,
+        )
+
+        report = Report()
+        compare_with_base(current, base, self.root, report)
+        self.assertEqual([], report.errors)
+
+    def test_inactive_to_active_legacy_temporary_route_is_rejected(self):
+        entry = _entry()
+        entry["temporal"] = True
+        self.write_feed(entry=entry)
+        current_report = Report()
+        current = load_snapshot(self.root, current_report)
+        self.assertIsNotNone(current)
+
+        base_index = json.loads(json.dumps(current.index))
+        base_index["version"] = "2026-08-20"
+        base_index["generatedAt"] = "2026-08-20T12:00:00-06:00"
+        base_index["rutas"][0]["activa"] = False
+        base = FeedSnapshot(
+            index=base_index,
+            routes=json.loads(json.dumps(current.routes)),
+            route_raw=dict(current.route_raw),
+            events=json.loads(json.dumps(current.events)),
+            events_raw=current.events_raw,
+        )
+
+        report = Report()
+        compare_with_base(current, base, self.root, report)
+        self.assertTrue(
+            any(
+                "ruta temporal modificada requiere ventana de visibilidad" in error
+                for error in report.errors
+            )
+        )
+
+    def test_new_temporary_route_without_window_remains_rejected(self):
+        entry = _entry()
+        entry["temporal"] = True
+        report = Report()
+        validate_new_route(_route(), entry, "RA99", report)
+        self.assertTrue(
+            any("ruta temporal requiere ventana de visibilidad" in error for error in report.errors)
+        )
+
     def test_new_route_requires_canonical_stop_sequence(self):
         route = _route()
         route["paradas"][0]["id"] = "RA99_IDA_02"
