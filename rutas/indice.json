@@ -1,6 +1,6 @@
 {
-  "version": "2026-08-29",
-  "generatedAt": "2026-08-29T14:09:55Z",
+  "version": "2026-09-15-ra19",
+  "generatedAt": "2026-09-15T21:06:46.008608Z",
   "rutas": [
     {
       "id": "RC01",
@@ -287,6 +287,14 @@
       "version": "2026-08-22-62",
       "nombre": "YII GAP",
       "color": "#B48347",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RA19",
+      "version": "20260913T193802Z-metadata-01-54",
+      "nombre": "RA19 NANDÁ",
+      "color": "#40b9c3",
       "activa": true,
       "temporal": false
     }
