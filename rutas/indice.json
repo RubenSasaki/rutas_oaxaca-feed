@@ -1,6 +1,6 @@
 {
-  "version": "2026-09-15-ra19",
-  "generatedAt": "2026-09-15T21:06:46.008608Z",
+  "version": "2026-09-28-ra18",
+  "generatedAt": "2026-09-28T22:25:38.181319Z",
   "rutas": [
     {
       "id": "RC01",
@@ -295,6 +295,14 @@
       "version": "20260913T193802Z-metadata-01-54",
       "nombre": "RA19 NANDÁ",
       "color": "#40b9c3",
+      "activa": true,
+      "temporal": false
+    },
+    {
+      "id": "RA18",
+      "version": "20260928-human-approved-83",
+      "nombre": "RA18 Nave’e",
+      "color": "#59b038",
       "activa": true,
       "temporal": false
     }
