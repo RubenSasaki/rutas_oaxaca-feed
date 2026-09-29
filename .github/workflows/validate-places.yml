@@ -1,0 +1,24 @@
+name: Validate Places
+on:
+  pull_request:
+    paths: ['places/**', 'scripts/places/**', '.github/workflows/validate-places.yml']
+  push:
+    branches: [main]
+    paths: ['places/**', 'scripts/places/**', '.github/workflows/validate-places.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate-places:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dart-lang/setup-dart@v1
+        with:
+          sdk: '3.11.0'
+      - name: Validate using YuuBus Places V1 contract
+        run: dart scripts/places/validate.dart places/lugares.geojson
+      - name: Record publication evidence
+        run: |
+          sha256sum places/lugares.geojson
+          wc -c places/lugares.geojson
