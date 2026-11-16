@@ -9,6 +9,7 @@ IDs, or requires stop IDs to be globally unique across routes.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import math
 import re
@@ -39,7 +40,7 @@ SCHEDULE_KEYS = {
     "paradaId", "horariosLV", "horariosSab", "horariosDom", "servicioGratuito",
 }
 INDEX_ENTRY_REQUIRED = {"id", "version", "nombre", "color", "activa", "temporal"}
-INDEX_ENTRY_ALLOWED = INDEX_ENTRY_REQUIRED | {"visibleDesde", "visibleHasta"}
+INDEX_ENTRY_ALLOWED = INDEX_ENTRY_REQUIRED | {"visibleDesde", "visibleHasta", "sha256"}
 
 
 class DuplicateKeyError(ValueError):
@@ -92,12 +93,17 @@ def parse_json(raw: str, label: str, report: Report) -> Any | None:
         return None
 
 
-def read_json(path: Path, report: Report) -> tuple[Any | None, str]:
+def read_json(path: Path, report: Report, *, expected_sha256: str | None = None) -> tuple[Any | None, str]:
     try:
-        raw = path.read_text(encoding="utf-8")
-    except OSError as error:
+        data = path.read_bytes()
+        text = data.decode("utf-8")
+    except (OSError, UnicodeDecodeError) as error:
         report.error(f"{path}: no se pudo leer ({error})")
         return None, ""
+    if expected_sha256 is not None and hashlib.sha256(data).hexdigest() != expected_sha256:
+        report.error(f"{path}: sha256 no coincide con los bytes del documento")
+    # Keep the existing snapshot comparison with git show (universal newlines).
+    raw = text.replace("\r\n", "\n").replace("\r", "\n")
     return parse_json(raw, str(path), report), raw
 
 
@@ -211,6 +217,10 @@ def validate_index(index: Any, label: str, report: Report) -> list[dict[str, Any
         for key in ("version", "nombre", "color"):
             if not isinstance(entry.get(key), str):
                 report.error(f"{entry_label}.{key}: debe ser texto")
+        if "sha256" in entry and (
+            not isinstance(entry["sha256"], str) or not re.fullmatch(r"[0-9a-f]{64}", entry["sha256"])
+        ):
+            report.error(f"{entry_label}.sha256: requiere 64 dígitos hexadecimales minúsculos")
         for key in ("activa", "temporal"):
             if not isinstance(entry.get(key), bool):
                 report.error(f"{entry_label}.{key}: debe ser booleano")
@@ -482,12 +492,14 @@ def load_snapshot(root: Path, report: Report) -> FeedSnapshot | None:
     route_raw: dict[str, str] = {}
     ids = {entry["id"] for entry in entries if isinstance(entry.get("id"), str)}
     for route_id in sorted(ids):
-        route, raw = read_json(root / "rutas" / f"{route_id}.json", report)
+        entry = next(item for item in entries if item.get("id") == route_id)
+        route, raw = read_json(
+            root / "rutas" / f"{route_id}.json", report, expected_sha256=entry.get("sha256")
+        )
         if isinstance(route, dict):
             routes[route_id] = route
             route_raw[route_id] = raw
             validate_route(route, route_id, f"rutas/{route_id}.json", report)
-            entry = next(item for item in entries if item.get("id") == route_id)
             if route.get("nombre") != entry.get("nombre"):
                 report.error(f"{route_id}: nombre no coincide entre índice y ruta")
             if route.get("color") != entry.get("color"):
@@ -562,7 +574,10 @@ def compare_with_base(current: FeedSnapshot, base: FeedSnapshot, root: Path, rep
         if current.route_raw[route_id] != base.route_raw[route_id]
     }
     for route_id in sorted(changed_routes):
-        if current_entries[route_id].get("version") == base_entries[route_id].get("version"):
+        # The mobile client trims versions before deciding whether to reuse its cache.
+        current_version = str(current_entries[route_id].get("version", "")).strip()
+        base_version = str(base_entries[route_id].get("version", "")).strip()
+        if current_version == base_version:
             report.error(f"{route_id}: cambió su JSON sin bumpear version en rutas/indice.json")
         if route_id != "RT01" and not current.routes[route_id].get("trayectosPorSegmento"):
             report.error(f"{route_id}: una ruta modificada debe conservar segmentos ida/regreso")

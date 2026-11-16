@@ -1,3 +1,4 @@
+import hashlib
 import json
 import tempfile
 import unittest
@@ -99,6 +100,69 @@ class FeedValidatorTest(unittest.TestCase):
         self.assertIsNotNone(snapshot)
         self.assertEqual([], report.errors)
         self.assertEqual([], report.warnings)
+
+    def test_optional_hash_checks_final_utf8_bytes_including_line_endings(self):
+        route = _route()
+        route["origen"] = "San Sebastián"
+        raw = (json.dumps(route, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
+        raw = raw.replace(b"\n", b"\r\n")
+        entry = _entry()
+        entry["sha256"] = hashlib.sha256(raw).hexdigest()
+        self.write_feed(route=route, entry=entry)
+        route_file = self.root / "rutas/RA99.json"
+        route_file.write_bytes(raw)
+        report = Report()
+        load_snapshot(self.root, report)
+        self.assertEqual([], report.errors)
+
+        for other_bytes in (raw[:-2], raw.replace(b"\r\n", b"\n")):
+            route_file.write_bytes(other_bytes)
+            report = Report()
+            load_snapshot(self.root, report)
+            self.assertTrue(any("sha256 no coincide" in error for error in report.errors))
+
+    def test_present_hash_must_be_canonical_sha256(self):
+        for value in (None, 123, "", "a" * 63, "a" * 65, "G" * 64, "F" * 64, "a" * 64 + "\n"):
+            with self.subTest(value=value):
+                self.write_feed(entry={**_entry(), "sha256": value})
+                report = Report()
+                load_snapshot(self.root, report)
+                self.assertTrue(any(".sha256" in error for error in report.errors))
+
+    def test_changed_geometry_needs_a_new_editorial_version_even_with_a_new_hash(self):
+        self.write_feed()
+        report = Report()
+        base = load_snapshot(self.root, report)
+        self.assertEqual([], report.errors)
+        route = _route()
+        route["trayectosPorSegmento"]["ida"][1] = [17.0609, -96.719]
+        route["trayecto"] = route["trayectosPorSegmento"]["ida"] + route["trayectosPorSegmento"]["regreso"]
+        self.write_feed(route=route)
+        index_file = self.root / "rutas/indice.json"
+        index = json.loads(index_file.read_text())
+        index.update(version="2026-08-22", generatedAt="2026-08-22T12:00:00-06:00")
+        entry = index["rutas"][0]
+        entry["sha256"] = hashlib.sha256((self.root / "rutas/RA99.json").read_bytes()).hexdigest()
+        for version, accepted in (("2026-08-21-2", False), (" 2026-08-21-2 ", False), ("2026-08-22-2", True)):
+            with self.subTest(version=version):
+                entry["version"] = version
+                index_file.write_text(json.dumps(index))
+                report = Report()
+                current = load_snapshot(self.root, report)
+                compare_with_base(current, base, self.root, report)
+                self.assertEqual(
+                    [] if accepted else ["RA99: cambió su JSON sin bumpear version en rutas/indice.json"],
+                    report.errors,
+                )
+
+    def test_repository_catalog_retains_its_index_rows_and_routes(self):
+        repo = Path(__file__).resolve().parents[1]
+        original_index = json.loads((repo / "rutas/indice.json").read_bytes())
+        report = Report()
+        snapshot = load_snapshot(repo, report)
+        self.assertEqual([], report.errors)
+        self.assertEqual(original_index, snapshot.index)
+        self.assertEqual({entry["id"] for entry in original_index["rutas"]}, set(snapshot.routes))
 
     def test_duplicate_json_keys_are_rejected(self):
         report = Report()
