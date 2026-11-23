@@ -150,10 +150,10 @@ class FeedValidatorTest(unittest.TestCase):
                 report = Report()
                 current = load_snapshot(self.root, report)
                 compare_with_base(current, base, self.root, report)
-                self.assertEqual(
-                    [] if accepted else ["RA99: cambió su JSON sin bumpear version en rutas/indice.json"],
-                    report.errors,
-                )
+                expected = [] if accepted else ["RA99: cambió su JSON sin bumpear version en rutas/indice.json"]
+                if version != version.strip():
+                    expected.insert(0, "reemplazo RA99: version debe terminar en -2")
+                self.assertEqual(expected, report.errors)
 
     def test_repository_catalog_retains_its_index_rows_and_routes(self):
         repo = Path(__file__).resolve().parents[1]
