@@ -255,10 +255,13 @@ def validate_route(route: Any, route_id: str, label: str, report: Report) -> Non
     if route.get("id") != route_id:
         report.error(f"{label}.id: no coincide con el índice ({route_id})")
 
-    required_text = ("nombre", "nombreEN", "origen", "origenEN", "destino", "destinoEN", "color", "tipo")
+    required_text = ("nombre", "origen", "destino", "color", "tipo")
     for key in required_text:
-        if not isinstance(route.get(key), str):
-            report.error(f"{label}.{key}: debe ser texto")
+        if not isinstance(route.get(key), str) or (key in {"nombre", "origen", "destino"} and not route[key].strip()):
+            report.error(f"{label}.{key}: debe ser texto no vacío")
+    for key in ("nombreEN", "origenEN", "destinoEN"):
+        if route.get(key) is not None and (not isinstance(route[key], str) or not route[key].strip()):
+            report.error(f"{label}.{key}: debe ser null o texto no vacío")
     if not isinstance(route.get("esGratuita"), bool):
         report.error(f"{label}.esGratuita: debe ser booleano")
 
@@ -281,9 +284,11 @@ def validate_route(route: Any, route_id: str, label: str, report: Report) -> Non
             report.error(f"{stop_label}.id: duplicado dentro de {route_id}: {stop_id}")
         else:
             stop_ids.add(stop_id)
-        for key in ("nombre", "nombreEN"):
+        for key in ("nombre",):
             if not isinstance(stop.get(key), str) or not stop[key].strip():
                 report.error(f"{stop_label}.{key}: debe ser texto no vacío")
+        if stop.get("nombreEN") is not None and (not isinstance(stop["nombreEN"], str) or not stop["nombreEN"].strip()):
+            report.error(f"{stop_label}.nombreEN: debe ser null o texto no vacío")
         valid_coordinate([stop.get("lat"), stop.get("lng")], stop_label, report)
         references = stop.get("rutasQueParanAqui")
         if not isinstance(references, list) or any(not isinstance(value, str) for value in references):
@@ -365,10 +370,11 @@ def validate_route(route: Any, route_id: str, label: str, report: Report) -> Non
 
 
 def validate_new_route(
-    route: dict[str, Any], entry: dict[str, Any], route_id: str, report: Report
+    route: dict[str, Any], entry: dict[str, Any], route_id: str, report: Report,
+    *, replacement: bool = False,
 ) -> None:
-    label = f"ruta nueva {route_id}"
-    if entry.get("activa") is not True:
+    label = f"{'reemplazo' if replacement else 'ruta nueva'} {route_id}"
+    if not replacement and entry.get("activa") is not True:
         report.error(f"{label}: debe publicarse activa")
     if not isinstance(entry.get("color"), str) or not HEX_COLOR.fullmatch(entry["color"]):
         report.error(f"{label}: color del índice debe usar #RRGGBB")
@@ -384,12 +390,40 @@ def validate_new_route(
             "revisa el orden de captura"
         )
 
+    for key in ("nombre", "nombreEN", "origen", "origenEN", "destino", "destinoEN"):
+        value = route.get(key)
+        if value is not None and isinstance(value, str) and value != value.strip():
+            report.error(f"{label}.{key}: espacios externos no permitidos")
+    if isinstance(segments, dict):
+        valid_segments = []
+        for direction in ("ida", "regreso"):
+            points = segments.get(direction)
+            if not isinstance(points, list) or len(points) < 2:
+                report.error(f"{label}: segmento {direction} requiere al menos dos puntos")
+                continue
+            check = Report()
+            if all(valid_coordinate(point, direction, check) for point in points):
+                valid_segments.append(points)
+                for a, b in zip(points, points[1:]):
+                    if distance_meters(a, b) > 2000:
+                        report.error(f"{label}: salto consecutivo superior a 2000 m en {direction}")
+        if len(valid_segments) == 2 and distance_meters(valid_segments[0][-1], valid_segments[1][0]) > 250:
+            report.error(f"{label}: frontera IDA→REG superior a 250 m")
+    if replacement and route.get("horarios") != []:
+        report.error(f"{label}: Fase 1 requiere horarios vacíos; conservar histórico fuera del catálogo nuevo")
+
     directions: set[str] = set()
     numbers: dict[str, list[int]] = {"IDA": [], "REG": []}
     saw_inbound = False
     for stop in route.get("paradas") or []:
         if not isinstance(stop, dict):
             continue
+        if stop.get("rutasQueParanAqui") != [route_id]:
+            report.error(f"{label}: asociaciones compartidas requieren revisión; sólo se admite la ruta propia")
+        for key in ("id", "nombre", "nombreEN"):
+            value = stop.get(key)
+            if isinstance(value, str) and value != value.strip():
+                report.error(f"{label}: {key} de parada contiene espacios externos")
         match = NEW_STOP_ID.fullmatch(str(stop.get("id", "")))
         if match is None or match.group("route") != route_id:
             report.error(
@@ -574,6 +608,7 @@ def compare_with_base(current: FeedSnapshot, base: FeedSnapshot, root: Path, rep
         if current.route_raw[route_id] != base.route_raw[route_id]
     }
     for route_id in sorted(changed_routes):
+        validate_new_route(current.routes[route_id], current_entries[route_id], route_id, report, replacement=True)
         # The mobile client trims versions before deciding whether to reuse its cache.
         current_version = str(current_entries[route_id].get("version", "")).strip()
         base_version = str(base_entries[route_id].get("version", "")).strip()
