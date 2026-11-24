@@ -1,6 +1,6 @@
 {
-  "version": "2026-09-28-ra18",
-  "generatedAt": "2026-09-28T22:25:38.181319Z",
+  "version": "qa-20261123-v1",
+  "generatedAt": "2026-11-23T16:13:49.894884+00:00",
   "rutas": [
     {
       "id": "RC01",
@@ -28,11 +28,12 @@
     },
     {
       "id": "RT01",
-      "version": "2026-06-15-72",
-      "nombre": "KAYAAL",
+      "version": "qa-20261123-v1-70",
+      "nombre": "[QA] RT01 — Yuroo Viguera ↔ Yuroo Xoxocotlán",
       "color": "#E63950",
       "activa": true,
-      "temporal": false
+      "temporal": false,
+      "sha256": "c35c1c24c6ea58ff7126e9fa86b9ee8ff26daac71815a8b1a5aaacca81c4640d"
     },
     {
       "id": "RT05",
@@ -52,11 +53,12 @@
     },
     {
       "id": "RC05",
-      "version": "2026-07-07-64",
-      "nombre": "XUUJX",
+      "version": "qa-20261123-v1-78",
+      "nombre": "[QA] RC05 — Base San Pablo Etla ↔ Morelos",
       "color": "#287B71",
       "activa": true,
-      "temporal": false
+      "temporal": false,
+      "sha256": "66a81be03d9448ede78f8f510f87988cc30bf22ab49f2aef714ec2fb5dbfec26"
     },
     {
       "id": "RC06",
